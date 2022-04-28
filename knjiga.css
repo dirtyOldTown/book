@@ -20,8 +20,7 @@ header h1 {
 }
 header h1:last-of-type {
   margin-left: 4%;
-    
- }
+}
 .naslov {
     padding-right: 70px;
 }
@@ -47,7 +46,6 @@ section {
 }
 .image img {
     margin-top: 20px;
-   
 }
 /* .image img {
     margin-bottom: 0;
@@ -61,12 +59,13 @@ nav {
 article {
     display: flex;
     justify-content: space-around;
+   background-color: #dee2e6;
     
 }
 article img {
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 1px solid grey;
+    border: 1px solid #adb5bd;
 }
 nav ul {
     list-style-type: none;
