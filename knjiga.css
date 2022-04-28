@@ -2,84 +2,77 @@
     box-sizing: border-box;
 }
 body {
-  background-color: #EDDCD2;
+    margin: 0;
+    border-left: 40px solid grey;
+    border-right: 40px solid grey;
+    border-bottom: 40px solid grey;
 }
-.prvi-odeljak {
-  display: flex;
-  align-items: stretch;
-  border:7px solid #CB997E;
-  background-color: #CB997E;;
+header {
+  background-color:  grey;
+  padding: 5px;
+  color: white;
 }
-.prvi-odeljak img {
-  border: 4px solid #b56576;
-  flex: 2;
-  height: auto
+header h1 {
+   margin-left: 10%; 
+   margin-bottom: 2px;
+   font-family: Helvetica, sans-serif;
+   font-weight:300;
 }
-
-.text {
-  padding: 15px;
-  font-family: "Helvetica Neue UltraLight";
-  font-weight: bold;
-  font-size: 1.7em;
-  flex: 3;
-  margin: 5px;
-  background-color: #ffe8d6;
-  color: black;
-  border: 2px dotted whitesmokegrey;
+.naslov {
+    padding-right: 70px;
+}
+section {
+   margin-top: -20px;
+   display: flex;
+   justify-content: space-between;
  
 }
-.text h2 {
-  color: black;
-  
+.biografija {
+    width: 300px;
+    height: 300px;
 }
-.text p {
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-weight: normal;
- font-size: 0.9em;
+.biografija h2 {
+   padding: 20px 20px 0;
+   font-family: 'Optima bold';
+   margin: 30px 40px 0;
+   font-size: 1.7em;
 }
-  .invert {
-    filter: sepia(57%);;
-  } 
-
-
-.page {
-    width: 100%;
-    height:590px;
-    outline-width: 30px;
-    outline-style: outset;
-    outline-color: #6C757D ;
-    border-left: 40px solid #DDBEA9;
-    border-top: 40px solid #CB997E;
-    
+.biografija p {
+  font-family: 'Optima';
+  margin-left: 60px;
 }
-#mojaknjiga {
-  flex: 1;
-  background-color:transparent;
-  text-align: center;
+.image {
+  margin-top: 20px;
 }
-#mojaknjiga img{
-  border: 1px solid #89c2d9;
-  margin-top: 10px;
+.image img {
+    margin-right: 0;
 }
-#mojaknjiga h2 {
- padding: 10px 10px 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #89c2d9;
-  text-shadow: 2px 2px 4px #000000;
-  margin-top: 5px;
-  font-style: italic;
+nav {
+    max-width:100%;
+    margin-top:20px;
+    padding: 5px;
+    background-color: #ced4da;
+   
 }
-
-#mojaknjiga p a {
- margin: 0;
- color: wheat;
+article {
+    display: flex;
+    justify-content: space-around;
 }
-/* 
-#ADB5BD 
-#CED4DA 
-#DEE2E6
-#E9ECEF
-#343A40
-#6C757D
-#495057
-*/
+article img {
+    margin-top: 15px;
+    margin-bottom: 15px;;
+}
+nav ul {
+    list-style-type: none;
+   
+}
+nav ul li {
+    display: inline-block
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Optima";
+    font-size: 1.5em;
+    margin-left: 30px;
+}
