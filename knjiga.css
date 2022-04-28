@@ -1,76 +1,61 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    margin: 0;
-    border-left: 40px solid grey;
-    border-right: 40px solid grey;
-    border-bottom: 40px solid grey;
+  margin: 0;
+  border-left: 40px solid grey;
+  border-right: 40px solid grey;
+  border-bottom: 40px solid grey;
 }
+/* Zaglavlje */
 header {
   background-color:  grey;
   padding: 5px;
   color: white;
 }
-header h1 {
-  margin-left: 0;
-   margin-bottom: 2px;
-   font-family: Helvetica, sans-serif;
-   font-weight:300;
+.zaglavlje-text {
+  margin-left: 4.5%;
+  margin-bottom: 2px;
+  font-family: Helvetica, sans-serif;
+  font-weight:300;
+  padding-right: 10px;
 }
-header h1:last-of-type {
-  margin-left: 4%;
-}
-.naslov {
-    padding-right: 70px;
-}
+/* Section */
 section {
-    margin-top: -20px;
-   display: flex;
-   justify-content: space-between;
-   margin-bottom: -4px;
- 
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -4px;
 }
+/* Section - biografija/text */
 .biografija {
-    width: 300px;
+  width: 300px;
 } 
 .biografija h2 {
-   padding: 20px 20px 0;
-   font-family: 'Optima bold';
-   margin: 30px 40px 0;
-   font-size: 1.7em;
+  padding: 20px 20px 0;
+  font-family: 'Optima bold';
+  margin: 30px 40px 0;
+  font-size: 1.7em;
 }
 .biografija p {
   font-family: 'Optima';
   margin-left: 60px;
 }
-.image img {
+/* Section-portret */
+.portret img {
   margin-top: 20px;
 }
-/* .image img {
-    margin-bottom: 0;
-} */
+/* Navigation Bar (books, paintings, amazon, instagram, facebook */
 nav {
   max-width:100%;
   padding: 2px;
   background-color: #adb5bd;
 }
-article {
-  display: flex;
-  justify-content: space-around;
-  background-color: #dee2e6;
-    
-}
-article img {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border: 1px solid #adb5bd;
-}
 nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content:flex-start;
-    padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
 }
 li a {
   text-decoration: none;
@@ -81,6 +66,19 @@ li a {
   background-color: #ced4da;
   padding:12px 20px;
   border-radius: 5px;
-  margin-right: 45px;
-  margin-left: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  
+  }
+/* Artikli - okvir */
+article {
+  display: flex;
+  justify-content: space-around;
+  background-color: #dee2e6;
+}
+/* Artikli - slike */
+article img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #adb5bd;
 }
