@@ -13,24 +13,28 @@ header {
   color: white;
 }
 header h1 {
-   margin-left: 10%; 
+  margin-left: 0;
    margin-bottom: 2px;
    font-family: Helvetica, sans-serif;
    font-weight:300;
 }
+header h1:last-of-type {
+  margin-left: 4%;
+    
+ }
 .naslov {
     padding-right: 70px;
 }
 section {
-   margin-top: -20px;
+    margin-top: -20px;
    display: flex;
    justify-content: space-between;
+   margin-bottom: -4px;
  
 }
 .biografija {
     width: 300px;
-    height: 300px;
-}
+} 
 .biografija h2 {
    padding: 20px 20px 0;
    font-family: 'Optima bold';
@@ -41,38 +45,42 @@ section {
   font-family: 'Optima';
   margin-left: 60px;
 }
-.image {
-  margin-top: 20px;
-}
 .image img {
-    margin-right: 0;
+    margin-top: 20px;
+   
 }
+/* .image img {
+    margin-bottom: 0;
+} */
 nav {
     max-width:100%;
-    margin-top:20px;
-    padding: 5px;
-    background-color: #ced4da;
    
+    padding: 2px;
+    background-color: #adb5bd;
 }
 article {
     display: flex;
     justify-content: space-around;
+    
 }
 article img {
     margin-top: 15px;
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
+    border: 1px solid grey;
 }
 nav ul {
     list-style-type: none;
-   
-}
-nav ul li {
-    display: inline-block
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
 }
 li a {
     text-decoration: none;
     color: black;
     font-family: "Optima";
     font-size: 1.5em;
-    margin-left: 30px;
+    border: 1px solid #adb5bd;
+    background-color: #ced4da;
+    padding:12px 30px;
+    border-radius: 5px;
 }
