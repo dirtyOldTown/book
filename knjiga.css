@@ -24,7 +24,6 @@ header h1 {
   font-weight:300;
   padding-right: 10px;
 }
-
 /* Section */
 section {
   margin-top: -20px;
@@ -62,7 +61,26 @@ nav ul {
   display: flex;
   justify-content: flex-start;
   margin: 14px;
+  position: relative;
+  
 }
+
+#facebook {
+  background-color: #219ebc;
+  position:absolute;
+  right: -16px;
+  top: -16px;
+  padding: 14px 45px;
+  color: white;
+ }
+ #instagram {
+  background-color: #219ebc;
+  position:absolute;
+  right: 172px;
+  top: -16px;
+  padding: 14px 45px;
+  color: white;
+ }
 li a {
   text-decoration: none;
   color: black;
@@ -70,11 +88,11 @@ li a {
   font-size: 1.5em;
   border: 1px solid #adb5bd;
   background-color: #ced4da;
-  padding:12px 20px;
+  padding:10px 20px;
   border-radius: 5px;
-  margin-left: 3px;
-  
-  }
+  margin-left: 5px;
+}
+
 /* Artikli - okvir */
 article {
   display: flex;
