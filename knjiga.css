@@ -6,17 +6,16 @@ body {
 }
 .mima-arbid {
   max-width: 100%;
-  height: 450px;
+  height: 380px;
   display: flex;
   justify-content: space-around;
   background-image: url('slike/glavna.jpg');
-  background-position: 0 87%;
-  background-size:cover;
- 
+  background-position: left 87%;
+  background-size: cover;
 }
 .mima-arbid header {
   flex: 3;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-top:-20px;
   position: relative;
   height: 80%;
@@ -34,6 +33,7 @@ body {
   font-size:3.5em;
   margin-bottom: 0%;
   font-weight: lighter;
+ 
 }
 .mima-arbid p {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -64,7 +64,7 @@ body {
 }
 .biografija {
   display: flex;
-  background-color:#f8ebb8;
+  background-color:#f8eec9;
   text-align: center;
   
 }
@@ -79,6 +79,7 @@ body {
    position: absolute;
    z-index: 1;
    letter-spacing: 1px;
+   
 }
 .biografija span {
   font-size: 1.3em;
@@ -89,8 +90,11 @@ body {
   top: -80px;
   font-size: 9.5em;
   z-index: -1;
-  color: rgba(256, 256, 256, 0.45);
+  color: rgba(256, 256, 256, 0.95);
   left: 19%;
   letter-spacing: 3px;
+}
+article {
+  margin:0
 }
 
