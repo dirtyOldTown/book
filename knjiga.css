@@ -24,13 +24,13 @@ body {
 #simbol {
   position: absolute;
   top: -35px;
-  left: 175px;
-  font-size: 4em;
+  left: 160px;
+  font-size: 3.7em;
   
 }
 .mima-arbid h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size:4.8em;
+  font-size:4.5em;
   margin-bottom: 0%;
   font-weight: lighter;
 }
@@ -49,14 +49,14 @@ body {
   padding: 0;
   display: flex;
   margin-top: 2%;
-  margin-right: 8%;
+  margin-right: 12%;
   font-size: 1.1em;
   flex: 1
 }
 .navigation-bar li a {
   text-decoration: none;
   color:beige;
- 
+  
 }
 .navigation-bar li {
   padding: 10px 25px;
@@ -68,7 +68,7 @@ body {
 
 }
 .biografija img {
-  margin:25px 50px;
+  margin:25px 60px;
 }
 .biografija-text {
    font-size: 1.2em;
@@ -89,7 +89,7 @@ body {
   font-size: 9.5em;
   z-index: -1;
   color: rgba(256, 256, 256, 0.35);
-  left: 17%;
+  left: 19%;
   letter-spacing: 3px;
 }
 
