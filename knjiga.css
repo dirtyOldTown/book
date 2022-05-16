@@ -9,7 +9,7 @@ body {
   height: 380px;
   display: flex;
   justify-content: space-around;
-  background-image: url('slike/glavna.jpg');
+  background-image: url('slike/glavnaproba.jpg');
   background-position: left 87%;
   background-size: cover;
 }
@@ -94,7 +94,5 @@ body {
   left: 19%;
   letter-spacing: 3px;
 }
-article {
-  margin:0
-}
+
 
