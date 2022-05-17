@@ -9,8 +9,8 @@ body {
   height: 380px;
   display: flex;
   justify-content: space-around;
-  background-image: url('slike/glavnaproba.jpg');
-  background-position: left 87%;
+  background-image: url('slike/glavna.jpg');
+  background-position: 0 86%;
   background-size: cover;
 }
 .mima-arbid header {
@@ -66,7 +66,7 @@ body {
   display: flex;
   background-color:#f8eec9;
   text-align: center;
-  
+  position: relative;
 }
 .biografija img {
   margin:30px 60px;
@@ -75,6 +75,7 @@ body {
    font-size: 1.2em;
    margin-top: 5px;
    left: 30%;
+   right: 10%;
    line-height: 17px;
    position: absolute;
    z-index: 1;
@@ -91,8 +92,74 @@ body {
   font-size: 9.5em;
   z-index: -1;
   color: rgba(256, 256, 256, 0.95);
-  left: 19%;
+  left: 22%;
   letter-spacing: 3px;
 }
+.mima-art {
+  margin-top: 40px;
+ 
+}
+.mima-art img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+ 
+}
+#palm {
+  margin-left: 25%;
+}
+@media screen and (min-width: 978px) and (max-width: 1200px) {
+  .mima-arbid header {
+   margin-left: 15%;
+ }
+ .navigation-bar li {
+  padding: 10px 23px;
+}
+.navigation-bar {
+  margin-right: 10%;
+}
+.biografija p {
+  left: 17%;
+}
+}
+@media screen and (min-width: 787px) and (max-width:977px) {
+ 
+ .navigation-bar li {
+  padding: 10px 14px;
+}
+.mima-arbid h1 {
+  
+  font-size:2.7em;
+}
+.navigation-bar {
+  margin-right: 5%;
+  font-size: 1em;
 
+}
+.mima-arbid header {
+  margin-left: 12%;
+  margin-top:-5px;
+}
+.biografija img {
+  width: 210px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top:45px;
+}
+.biografija-text {
+  font-size: 0.9.em;
+  margin-top: 5px;
+  left: 170px;
+  right: 5%;
+  position: absolute;
+  z-index: 1;
+  letter-spacing: 0;
+  
+}
+.biografija p {
+  left: 18%;
+}
 
+}
