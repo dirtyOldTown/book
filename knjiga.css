@@ -3,8 +3,8 @@
 }
 body {
   margin:0;
- 
 }
+/* Gornja sekcija - glavna slika(background) */
 .mima-arbid {
   max-width: 100%;
   height: 100vh;
@@ -13,9 +13,8 @@ body {
   background-image: url('slike/pozadina-naslovna.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-
- 
 }
+/* Gornja sekcija (Mima Arbid, Artist & writer */
 .mima-arbid header {
   flex: 3;
   margin-left: 15.7%;
@@ -24,7 +23,7 @@ body {
   height: 80%;
   color:beige;
 }
-
+/* Gornja sekcija (Mima Arbid) */
 .mima-arbid h1 {
   font-family: "Sacramento";
   font-size:4.8em;
@@ -32,6 +31,7 @@ body {
   font-weight: lighter;
  
 }
+/* Gornja sekcija (Artist & writer) */
 .mima-arbid p {
   font-family: "Montserrat";
   font-size:1.6em;
@@ -39,8 +39,7 @@ body {
   margin-top: -30px;
   margin-left: 108px;
 }
-
-
+/* Navigation bar (about, books, arts, contact*/
 .navigation-bar {
   list-style-type: none;
   margin: 0;
@@ -51,32 +50,35 @@ body {
   font-size: 1.em;
   flex: 1
 }
+.navigation-bar li {
+  padding: 10px 25px;
+}
 .navigation-bar li a {
   font-family: "Montserrat";
   text-decoration: none;
   color:white;
 }
-.navigation-bar li {
-  padding: 10px 25px;
-}
+/*Druga sekcija (slika sa šeširom, text) */
 .biografija {
-  
   display: flex;
-  background-color:#f8eec9;
+  background-color:#FEFFD1;
   text-align: center;
- align-items: center;
+  align-items: center;
   height: 450px;
   justify-content: space-between;
 }
+/* Druga sekcija (slika sa šeširom) */
 .biografija img {
   margin-top: 20px;
   margin-left: 4%;
- width: 30%;
-height: auto;
+  width: 30%;
+  height: auto;
  
 }
+/* Druga sekcija (text) */
 .biografija-text {
   width: 70%;
+  height:auto;
   font-size: 110%;
    line-height: 22px;
    margin-top: 0;
@@ -87,18 +89,17 @@ height: auto;
    */
    z-index: 1;
    font-family: "Marion";
- 
-   
 }
+/* Druga sekcija (Wingdings 2, simbol */
 .biografija span {
   font-size: 1.3em;
   opacity: 0.5;
   font-family: "Wingdings 2";
   color: grey;
 }
+/* Druga sekcija (Mima-text) */
 .biografija p {
   position: absolute;
- 
   top: -100px;
   font-size: 14em;
   z-index: -1;
@@ -107,42 +108,78 @@ height: auto;
   font-family: "Sacramento";
   letter-spacing: 3px;
 }
+/* Treća sekcija - četkice (slika) i palme (slika i text) */
+.art-blok1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 35px;
+  font-weight: bold;
+}
+.palme {
+  margin-left: 5%;
+}
+.palme img {
+  width: 78%;
+  height: auto;
+}
+#četkice {
+  width: 22%;
+  height: auto;
+}
+/*Četvrta sekcija (2 slike - palme) */
+.art-blok2 {
+  display:flex;
+  margin-top: 65px;
+  background-color: #f2f2f2;
+  width: 100%;
+  font-weight: bold;
+}
+.palme2 {
+  margin-top: 70px;
+  flex: 1;
+  margin-left: 10%;
+}
+.palme3 {
+  margin-top: 70px;
+  flex: 1.68;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+.palme2 img {
+  width: 100%;
+  height: auto;
+}
+.palme3 img {
+  width: 100%;
+  height: auto;
+}
+/* About Mima Arbid (text) */
+.about {
+  background-color: #f2f2f2;
+  width: 100%;
+  color: #3d6877;
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Marion";
+  font-size: 2.4vw;
+  font-style: italic;
+  padding-top: 40px;
+}
 
-
-
-@media screen and (min-width: 787px) and (max-width:977px) {
-  
-  .navigation-bar li {
-    padding: 10px 14px;
-  }
-  .mima-arbid h1 {
-    font-size:2.7em;
-  }
-  .navigation-bar {
-    margin-right: 5%;
-    font-size: 1em;
-  }
-  .mima-arbid header {
-    margin-left: 12%;
-    margin-top:-5px;
-  }
-  
-  .biografija img {
-    width: 210px;
-    height: 150px;
-    margin-left: 3%;
-    margin-top:45px;
-  }
-  .biografija-text {
-    font-size: 0.9.em;
-    margin-top: 5px;
-    left: 22%;
-    right: 3%;
-    position: absolute;
-    z-index: 1;
-    letter-spacing: 0;
-  }
-  .biografija p {
-    left: 18%;
-  }
+/* Slika (planina) */
+.planina {
+  background-color: #3d6877;
+  margin-top: -32px;
+  color: white;
+}
+.planina img {
+  width: 85%;
+  height: auto;
+  margin-top: 7%;
+  margin-left: 7.5%;
+}
+.planina p {
+  margin-left: 7.5%;
+  padding-bottom: 5%;
 }
