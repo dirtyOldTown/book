@@ -26,7 +26,7 @@ body {
 /* Gornja sekcija (Mima Arbid) */
 .mima-arbid h1 {
   font-family: "Sacramento";
-  font-size:4.8em;
+  font-size: 5em;
   margin-bottom: 0%;
   font-weight: lighter;
  
@@ -37,7 +37,7 @@ body {
   font-size:1.6em;
   color:white;
   margin-top: -30px;
-  margin-left: 108px;
+  margin-left: 110px;
 }
 /* Navigation bar (about, books, arts, contact*/
 .navigation-bar {
@@ -115,6 +115,7 @@ body {
   justify-content: center;
   margin-top: 35px;
   font-weight: bold;
+  font-size: 1.3vw;
 }
 .palme {
   margin-left: 5%;
@@ -134,6 +135,7 @@ body {
   background-color: #f2f2f2;
   width: 100%;
   font-weight: bold;
+  font-size: 1.3vw;
 }
 .palme2 {
   margin-top: 70px;
@@ -162,11 +164,10 @@ body {
   margin-top: 0px;
   text-align: center;
   font-family: "Marion";
-  font-size: 2.4vw;
+  font-size: 2.2vw;
   font-style: italic;
   padding-top: 40px;
 }
-
 /* Slika (planina) */
 .planina {
   background-color: #3d6877;
@@ -177,9 +178,76 @@ body {
   width: 85%;
   height: auto;
   margin-top: 7%;
-  margin-left: 7.5%;
+  margin-left: 8.5%;
 }
 .planina p {
-  margin-left: 7.5%;
-  padding-bottom: 5%;
+  margin-left: 8.5%;
+  padding-bottom: 2%;
+  font-size: 1.3vw;
+}
+.about2 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: "Marion";
+  font-size: 2.2vw;
+  font-style: italic;
+}
+/* Mima - personal */
+.mima-personal {
+  float: left;
+  align-items: flex-end;
+  margin-top: 50px;
+  position: relative;
+  margin-left: 100px;
+}
+.mima-personal img {
+  width: 26%;
+  height: auto;
+}
+.mima-personal img:last-of-type {
+  margin-left: 1.8%;
+  margin-bottom: -50px;
+}
+.mima-text {
+  margin-top: 40px;
+  position: absolute;
+  left: 40%;
+  font-family: "Marion";
+  font-size: 1.3vw;
+  color: #3d6877;
+  line-height: 24px;
+}
+#mima {
+  font-family: "Sacramento";
+  font-size: 2.5vw;
+  text-align-last: right;
+  margin-top: 0;
+  color: #3d6877;
+}
+footer {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  background-color: #222059;
+  color: white;
+}
+#just-mima {
+  font-family: "Sacramento";
+  font-size: 3.7vw;
+}
+#pismo, #facebook {
+  font-family: "Wingdings";
+  font-size: 3.7vw;
+}
+.contact {
+margin-left: -170px;
+margin-bottom: 0;
+}
+.contact p:first-of-type {
+  margin-bottom: -10px;
 }
