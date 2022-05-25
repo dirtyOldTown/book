@@ -245,7 +245,7 @@ footer {
   font-size: 3.7vw;
 }
 .contact {
-margin-left: -14%;
+margin-left: -12%;
 margin-bottom: 0;
 }
 .contact p:first-of-type {
@@ -256,6 +256,8 @@ margin-bottom: 0;
   color: white;
   text-decoration: none;
   font-size: 1.3vw;
+  padding: 4px;
+  border-radius: 2px;
 }
 #facebook {
   font-family: "Arial";
@@ -265,4 +267,17 @@ margin-bottom: 0;
 #facebook a {
   color: white;
   text-decoration: none;
+  padding: 4px;
+}
+#top {
+  margin-right: -10%;
+}
+#top a {
+  color:#222059;
+  padding: 8px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  background-color: #90e0ef;
+  font-style: italic;
 }
