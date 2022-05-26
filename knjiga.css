@@ -71,13 +71,13 @@ body {
 /* Druga sekcija (slika sa šeširom) */
 .biografija img {
   margin-left: 4%;
-  width: 30%;
+  width: 32%;
   height: auto;
 }
 /* Druga sekcija (text) */
 .biografija-text {
   width: 70%;
-  font-size: 120%;
+  font-size: 110%;
   line-height: 22px;
   z-index: 1;
   font-family: "Marion";
@@ -281,7 +281,9 @@ footer {
   background-color: #90e0ef;
   font-style: italic;
 }
+
 /* Responsive */
+
 @media screen and (max-width: 1023px) {
   .biografija {
     flex-direction: column-reverse;
@@ -293,7 +295,8 @@ footer {
    position: relative;
    top: 10px;
    left: 0;
-   font-size: 1.7vw;
+   right:0;
+   font-size:1.8vw;
   }
   .biografija img {
      width: 270px;
@@ -309,4 +312,35 @@ footer {
     font-size: 1.3vw;
     line-height: 18px;
   }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .biografija img {
+    width: 30%;
+   }
+  .biografija-text {
+    font-size: 120%;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .biografija img {
+   width: 32%;
+  }
+  .biografija-text {
+    line-height: 28px;
+    font-size: 140%;
+  }
+}
+@media screen and (min-width: 1900px){
+  .biografija-text {
+    font-size: 170%;
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .biografija-text {
+    font-size:1.8vw;
+   }
 }
