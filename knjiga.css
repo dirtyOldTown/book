@@ -70,7 +70,6 @@ body {
 }
 /* Druga sekcija (slika sa šeširom) */
 .biografija img {
-  margin-top: -2%;
   margin-left: 4%;
   width: 30%;
   height: auto;
@@ -78,24 +77,17 @@ body {
 /* Druga sekcija (text) */
 .biografija-text {
   width: 70%;
-  height:auto;
-  font-size: 1.2vw;
-  line-height: 21px;
-  margin-top: 0;
-   /* left: 35%;
-   right: 10%;
-   line-height: 17px;
-   position: absolute;
-   */
+  font-size: 120%;
+  line-height: 22px;
   z-index: 1;
   font-family: "Marion";
 }
 /* Druga sekcija (Wingdings 2, simbol */
 .biografija span {
-  font-size: 1.3em;
   opacity: 0.5;
   font-family: "Wingdings 2";
   color: grey;
+  margin-top: -2%;
 }
 /* Druga sekcija (Mima-text) */
 .biografija p {
@@ -115,7 +107,7 @@ body {
   justify-content: center;
   margin-top: 35px;
   font-weight: bold;
-  font-size: 1.3vw;
+  font-size: 1em;
 }
 .palme {
   margin-left: 5%;
@@ -125,17 +117,19 @@ body {
   height: auto;
 }
 #četkice {
+  position: relative;
   width: 22%;
   height: auto;
+ 
 }
 /*Četvrta sekcija (2 slike - palme) */
 .art-blok2 {
   display:flex;
-  margin-top: 65px;
   background-color: #f2f2f2;
   width: 100%;
   font-weight: bold;
-  font-size: 1.3vw;
+  font-size: 1em;
+  margin-top: 0;
 }
 .palme2 {
   margin-top: 70px;
@@ -166,13 +160,13 @@ body {
   font-size: 1.7vw;
   font-style: italic;
   padding-top: 40px;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
   font-family: "Marion";
 }
 /* Slika (planina) */
 .planina {
   background-color: #3d6877;
-  margin-top: -32px;
+  margin-top: -62px;
   color: white;
   padding-bottom: 30px;
 }
@@ -185,7 +179,7 @@ body {
 .planina p {
   margin-left: 8.5%;
   padding-bottom: 2%;
-  font-size: 1.3vw;
+  font-size: 1.em;
 }
 .about2 {
   color: white;
@@ -234,25 +228,29 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  height: 120px;
+  height: 10vw;
   background-color: #222059;
   color: white;
 }
 #just-mima {
   font-family: "Sacramento";
-  font-size: 3.7vw;
+  font-size: 5vw;
 }
 #pismo {
   font-family: "Wingdings";
-  font-size: 3.7vw;
+  font-size: 5vw;
 }
 .contact {
-margin-left: -12%;
-margin-bottom: 0;
+ display: block;
+ margin-left: -9.8%;
+ margin-top: 10px;
+ font-size: 2vw;
+ margin-bottom: -0.9%;
 }
 .contact p:first-of-type {
+  margin-left: 3px;
+  margin-bottom: -15%;
   font-size: 1vw;
-  margin-bottom: -10px;
 }
 .contact p:last-of-type a {
   color: white;
@@ -272,7 +270,7 @@ margin-bottom: 0;
   padding: 4px;
 }
 #top {
-  margin-right: -10%;
+  margin-right: -7%;
 }
 #top a {
   color:#222059;
@@ -282,4 +280,33 @@ margin-bottom: 0;
   font-size: 1.5vw;
   background-color: #90e0ef;
   font-style: italic;
+}
+/* Responsive */
+@media screen and (max-width: 1023px) {
+  .biografija {
+    flex-direction: column-reverse;
+    position: relative;
+    height:auto;
+    padding-bottom: 50px;
+  }
+ .biografija-text {
+   position: relative;
+   top: 10px;
+   left: 0;
+   font-size: 1.7vw;
+  }
+  .biografija img {
+     width: 270px;
+     height: 202px;
+     position: relative;
+     top: 4px;
+  }
+  .navigation-bar li a {
+    padding: 0 10px;
+    font-size: 1vw;
+  }
+  .mima-text {
+    font-size: 1.3vw;
+    line-height: 18px;
+  }
 }
