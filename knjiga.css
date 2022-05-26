@@ -196,10 +196,10 @@ body {
   align-items: flex-end;
   margin-top: 50px;
   position: relative;
-  margin-left: 100px;
+  margin-left: 90px;
 }
 .mima-personal img {
-  width: 26%;
+  width: 28%;
   height: auto;
 }
 .mima-personal img:last-of-type {
@@ -296,7 +296,7 @@ footer {
    top: 10px;
    left: 0;
    right:0;
-   font-size:1.8vw;
+   font-size:1.7vw;
   }
   .biografija img {
      width: 270px;
@@ -310,7 +310,16 @@ footer {
   }
   .mima-text {
     font-size: 1.3vw;
-    line-height: 18px;
+    line-height: 17px;
+  }
+  .mima-personal img {
+    width: 28%;
+  }
+  .mima-personal img:last-of-type {
+    margin-bottom: -35px;
+  }
+  .art-blok1, .art-blok2, .planina {
+    font-size: 0.9em;
   }
 }
 
@@ -339,8 +348,15 @@ footer {
     line-height: 34px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .biografija-text {
-    font-size:1.8vw;
+    font-size:1.9vw;
    }
+   .art-blok1, .art-blok2, .planina {
+     font-size: 0.8em;
+   }
+  .about, .about2 {
+    font-size: 2vw;
+  }
 }
