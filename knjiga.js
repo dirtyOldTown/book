@@ -4,7 +4,7 @@ const facebook = document.querySelector("#facebook a");
 
 // Funkcije za promenu boje
 function plavaBoja(x) {
-  x.setAttribute("style", "color: blue; background-color: white; padding: 4px")
+  x.setAttribute("style", "color: #90e0ef; padding: 4px")
 }
 function belaBoja(x) {
     x.setAttribute("style", "color: white; background-color: transparent; padding: 4px")
@@ -25,4 +25,20 @@ email.addEventListener("mouseout", () => {
 facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
 });
+
+// Animacija za navigation-bar
+const navBar = document.querySelectorAll(".navigation-bar li a");
+for (let i = 0; i < navBar.length; i++) {
+  navBar[i].addEventListener("mousemove", () => {
+   navBar[i].setAttribute("style", "color: yellow")
+  })
+}
+
+for (let i = 0; i < navBar.length; i++) {
+  navBar[i].addEventListener("mouseout", () => {
+   navBar[i].setAttribute("style", "color: white")
+  })
+}
+
+
 
