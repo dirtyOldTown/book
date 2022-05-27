@@ -170,7 +170,7 @@ body {
 .mima-personal {
   float: left;
   align-items: flex-end;
-  margin-top: 50px;
+  margin-top: 5%;
   position: static;
   margin-left: 5%;
 }
@@ -182,10 +182,9 @@ body {
   margin-left: 1.8%;
   width:24%;
   height: auto;
-  margin-bottom: 0%;
 }
 .mima-text {
-  margin-top: 40px;
+  margin-top: 3.2%;
   position: absolute;
   left: 39%;
   font-size: 1.3vw;
@@ -200,9 +199,10 @@ body {
   margin-top: 0;
   color: #3d6877;
 }
+/* Footer */
 footer {
   position: relative;
-  margin-top: 33%;
+  top:10%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -210,6 +210,7 @@ footer {
   height: 10vw;
   background-color: #222059;
   color: white;
+
 }
 #just-mima {
   font-family: "Sacramento";
@@ -221,7 +222,7 @@ footer {
 }
 .contact {
  display: block;
- margin-left: -8.7%;
+ margin-left: -10.5%;
  margin-top: 10px;
  font-size: 1.7vw;
  margin-bottom: 0.2%;
@@ -249,17 +250,24 @@ footer {
   padding: 4px;
 }
 #top {
-  margin-right: -7%;
+  position: relative;
+ left: 85%;
+  top:40%;
+  opacity: 0.9;
 }
 #top a {
   color:#222059;
-  padding: 8px;
-  border-radius: 3px;
+  padding: 7px 28px;
+  border-radius: 5px;
   text-decoration: none;
   font-size: 1.3vw;
-  background-color: #90e0ef;
-  font-family: monospace;
+  background-color: transparent;
+  color: grey;
+  border: 2px solid grey;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
 }
+
 
 /* Responsive */
 
@@ -298,6 +306,9 @@ footer {
   .art-blok1, .art-blok2, .planina {
     font-size: 0.9em;
   }
+  #facebook {
+    font-size: 2.5em;
+  }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -318,6 +329,24 @@ footer {
     line-height: 28px;
     font-size: 140%;
   }
+  .palme2, .palme3, .planina p, .art-blok1 {
+   font-size: 1.4em;
+  }
+  .mima-text {
+    font-size: 1.3vw;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .biografija img {
+   width: 32%;
+  }
+  .biografija-text {
+    line-height: 30px;
+    font-size: 160%;
+  }
+  .palme2, .palme3, .planina p, .art-blok1 {
+   font-size: 1.5em;
+  }
   .mima-text {
     font-size: 1.3vw;
   }
@@ -327,6 +356,21 @@ footer {
     font-size: 170%;
     line-height: 34px;
   }
+  .palme2, .palme3, .planina p, .art-blok1 {
+    font-size: 1.7em;
+   }
+  .mima-text {
+    font-size: 1.3vw;
+  }
+}
+@media screen and (min-width: 2200px) {
+  .biografija-text {
+    font-size: 190%;
+    line-height: 37px;
+  }
+  .palme2, .palme3, .planina p, .art-blok1 {
+    font-size: 1.9em;
+   }
   .mima-text {
     font-size: 1.3vw;
   }
@@ -337,12 +381,14 @@ footer {
   }
   .mima-text {
     font-size: 1.3vw;
-    line-height: 18px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  .mima-text {
+    font-size: 1.3vw;
+  }
   .biografija-text {
-    font-size: 2.1vw;
+    font-size: 2vw;
   }
   .art-blok1, .art-blok2, .planina {
      font-size: 0.8em;
@@ -351,8 +397,31 @@ footer {
     font-size: 2.2vw;
   }
   footer {
-    max-width:100%;
-    margin-top: 37%;
-    height: auto;
+    height: 14vw;
   }
+  #facebook {
+    font-size: 2em;
+  }
+  .contact {
+    font-size: 1em;
+    
+  }
+  .contact p:first-of-type {
+    margin-bottom: -7%;
+    font-size: 0.8em;
+  }
+  .contact p:last-of-type a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  #pismo {
+    padding: 15px;
+    font-size: 3.2em;
+    margin-right: 2%;
+  }
+  #just-mima {
+    font-size: 2.2em;
+  }
+
 }
