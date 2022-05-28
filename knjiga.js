@@ -92,4 +92,4 @@ biografija.classList.add("biografija-text");
 }
 
 promena(mediaHandler);
-mediaHandler.addListener(promena)
+mediaHandler.addEventListener("change",promena);
