@@ -55,7 +55,7 @@ if (x.matches) {
   find herself and her place in the world after a tragic event in her life. A 
   chance encounter with an elderly American couple and a misunderstanding 
   on their part changes her life forever.
-  <hr>
+  <hr style="border: 3px double grey;">
   She is catapulted into a new world searching for her destiny. Will she ever 
   find it? It's a relatable story inspired by true events. An easy and fast read. 
   You can find it on Amazon in paperback or kindle. And all the art
@@ -65,7 +65,7 @@ if (x.matches) {
   `;
   biografija.classList.remove("biografija-text");
   biografija.classList.add("mobilni");
-  slika.setAttribute("style", "margin-top: 40px");
+  slika.setAttribute("style", "margin-top: 20px");
 } else {
   biografija.innerHTML = `
   <pre>
@@ -93,3 +93,29 @@ biografija.classList.add("biografija-text");
 
 promena(mediaHandler);
 mediaHandler.addEventListener("change",promena);
+
+// Promene za mobilni
+const četkice = document.getElementById("četkice");
+const artBlok1 = document.getElementById("art");
+const brisanjeSlike = window.matchMedia("(max-width: 500px)");
+const palme = document.querySelector(".palme");
+const palmice = document.querySelector(".palme img");
+const text = document.querySelector(".palme p");
+
+function promena2(x) {
+  if (x.matches) {
+    artBlok1.removeChild(četkice);
+    artBlok1.style.backgroundColor = "#343a40";
+    artBlok1.style.color = "#f2f2f2";
+    palmice.style.marginLeft = "8%";
+    palmice.style.marginTop = "44px";
+    text.style.marginLeft = "8%";
+  } else {
+   artBlok1.insertBefore(četkice, palme);
+   artBlok1.style.backgroundColor = "transparent";
+   artBlok1.style.color = "black";
+  }
+
+}
+promena2(brisanjeSlike);
+brisanjeSlike.addEventListener("change", promena2)
