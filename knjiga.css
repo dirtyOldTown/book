@@ -9,7 +9,7 @@ body {
   height: 46vw;
   display: flex;
   justify-content: space-around;
-  background-image: url('slike/pozadina2.png');
+  background-image: url('slike/pozadina.png');
   background-size: 100% 100%;
 
 }
@@ -228,7 +228,7 @@ body {
 /* Footer */
 footer {
   position: relative;
-  top: 14%;
+  top: 70px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -276,7 +276,9 @@ footer {
   padding: 4px;
 }
 #top {
-  margin-right: 0%;
+  position: absolute;
+  right: 1px;
+  top: -48px;
   opacity: 0.9;
 }
 #top a {
