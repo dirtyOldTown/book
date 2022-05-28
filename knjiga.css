@@ -11,7 +11,6 @@ body {
   justify-content: space-around;
   background-image: url('slike/pozadina.png');
   background-size: 100% 100%;
-
 }
 
 /* Navigation bar (about, books, arts, contact*/
@@ -46,7 +45,7 @@ body {
 /* Druga sekcija (slika sa šeširom) */
 .biografija img {
   margin-left: 4%;
-  width: 32%;
+  width: 30%;
   height: auto;
 }
 /* Druga sekcija (text) */
