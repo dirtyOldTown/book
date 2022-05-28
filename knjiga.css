@@ -6,11 +6,10 @@ body {
 }
 /* Gornja sekcija - glavna slika(background) */
 .mima-arbid {
-  width: 100%;
   height: 46vw;
   display: flex;
   justify-content: space-around;
-  background-image: url('slike/pozadina-naslovna sa mima.png');
+  background-image: url('slike/pozadina2.png');
   background-size: 100% 100%;
 
 }
@@ -175,22 +174,49 @@ body {
   margin-left: 5%;
 }
 .mima-personal img {
-  width: 28%;
+  width: 24%;
   height: auto;
 }
 .mima-personal img:last-of-type {
-  margin-left: 1.8%;
-  width:24%;
+  margin-left: 1.5%;
+  width:20%;
   height: auto;
+  margin-bottom: -3%;
 }
 .mima-text {
   margin-top: 3.2%;
   position: absolute;
-  left: 39%;
-  font-size: 1.3vw;
+  left: 32%;
+  font-size: 1.6vw;
   font-weight: bold;
   color: #3d6877;
-  line-height: 130%;
+  line-height: 126%;
+}
+.mima-personal {
+  float: left;
+  align-items: flex-end;
+  margin-top: 5%;
+  position: static;
+  margin-left: 5%;
+}
+.mima-personal img {
+  width: 24%;
+  height: auto;
+}
+.mima-personal img:last-of-type {
+  margin-left: 1.5%;
+  width:20%;
+  height: auto;
+  margin-bottom: -3.2%;
+}
+.mima-text {
+  margin-top: 3.2%;
+  position: absolute;
+  left: 32%;
+  font-size: 1.6vw;
+  font-weight: bold;
+  color: #3d6877;
+  line-height: 126%;
 }
 #mima {
   font-family: "Sacramento";
@@ -202,9 +228,9 @@ body {
 /* Footer */
 footer {
   position: relative;
-  top:10%;
+  top: 14%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 10vw;
@@ -250,9 +276,7 @@ footer {
   padding: 4px;
 }
 #top {
-  position: relative;
- left: 85%;
-  top:40%;
+  margin-right: 0%;
   opacity: 0.9;
 }
 #top a {
@@ -295,13 +319,6 @@ footer {
   .navigation-bar li a {
     padding: 0 10px;
     font-size: 1vw;
-  }
-  .mima-text {
-    font-size: 1.3vw;
-    line-height:130%;
-  }
-  .mima-personal img {
-    width: 28%;
   }
   .art-blok1, .art-blok2, .planina {
     font-size: 0.9em;
@@ -381,6 +398,32 @@ footer {
   }
   .mima-text {
     font-size: 1.3vw;
+  }
+  .mima-personal {
+    float: left;
+    align-items: flex-end;
+    margin-top: 5%;
+    position: static;
+    margin-left: 5%;
+  }
+  .mima-personal img {
+    width: 24%;
+    height: auto;
+  }
+  .mima-personal img:last-of-type {
+    margin-left: 1.5%;
+    width:20%;
+    height: auto;
+    margin-bottom: -3%;
+  }
+  .mima-text {
+    margin-top: 3.2%;
+    position: absolute;
+    left: 32%;
+    font-size: 1.6vw;
+    font-weight: bold;
+    color: #3d6877;
+    line-height: 126%;
   }
 }
 @media screen and (max-width: 767px) {
