@@ -87,6 +87,6 @@ if (mediaHandler.matches) {
   slika.setAttribute("style", "top: 4px")
 }
 }
-mediaHandler.addEventListener("change", () => {
+mediaHandler.onchange = () => {
   promena();
-})
+}
