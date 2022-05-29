@@ -68,6 +68,7 @@ body {
   font-family: "Wingdings 2";
   color: grey;
   margin-top: -2%;
+  font-size: larger;
 }
 /* Druga sekcija (Mima-text) */
 .biografija p {
@@ -133,11 +134,12 @@ body {
 /* About Mima Arbid (text) */
 .about {
   background-color: #f2f2f2;
-  width: 100%;
+}
+.about pre {
+  width:98%;
   color: #3d6877;
   margin-top: 0px;
   text-align: center;
-  font-size: 1.7vw;
   font-style: italic;
   padding-top: 40px;
   padding-bottom: 60px;
@@ -161,12 +163,11 @@ body {
   padding-bottom: 2%;
   font-size: 1.em;
 }
-.about2 {
+.about2 pre {
   color: white;
   font-family: "Marion";
-  width: 100%;
+  width: 97%;
   text-align: center;
-  font-size: 1.8vw;
   font-style: italic;
   margin-top: 30px;
 }
@@ -226,7 +227,7 @@ body {
 #mima {
   font-family: "Sacramento";
   font-size: 2.5vw;
-  text-align-last: right;
+  text-align: right;
   margin-top: 0;
   color: #3d6877;
 }
@@ -244,7 +245,7 @@ footer {
 
 }
 #just-mima {
-  font-family: "Sacramento";
+  font-family:"Sacramento";
   font-size: 5vw;
 }
 #pismo {
@@ -282,25 +283,26 @@ footer {
 }
 #top {
   position: absolute;
-  right: 1px;
-  top: -48px;
-  opacity: 0.9;
+  right: 3px;
+  top: -47px;
+  opacity: 0.7;
 }
 #top a {
   color:#222059;
   padding: 7px 28px;
   border-radius: 5px;
   text-decoration: none;
-  font-size: 1.3vw;
+  font-size: 1.4vw;
   background-color: transparent;
-  color: grey;
-  border: 2px solid grey;
+  color: black;
+  border: 1px solid #adb5bd;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
 }
 
 
 /* Responsive */
+  
 @media screen and (max-width: 1023px) {
   .biografija {
     flex-direction: column-reverse;
@@ -333,28 +335,19 @@ footer {
     font-size: 2.5em;
   }
 }
-@media screen and (max-width: 500px) {
-  .mobilni {
-    font-size: 0.9em;
-  }
-  #just-mima {
-    font-family: "Sacramento", "Sophia";
-    font-size: 1.7em;
-  }
 
-}
 @media screen and (max-width: 767px) {
   .mima-text {
     font-size: 1.3vw;
   }
   .biografija-text {
-    font-size: 2vw;
+    font-size: 2.2vw;
   }
   .art-blok1, .art-blok2, .planina {
      font-size: 0.8em;
    }
-  .about, .about2 {
-    font-size: 2.2vw;
+  .about pre, .about2 pre {
+    font-size: 2.7vw;
   }
   footer {
     height: 14vw;
@@ -403,9 +396,6 @@ footer {
     font-size: 1.4em;
   }
 }
-
-
-
 
 @media screen and (min-width: 1024px) and (max-width: 1399px) {
   .biografija img {
@@ -489,7 +479,7 @@ footer {
     font-size: 2.5em;
   }
 }
-@media screen and (min-width: 769px)  and (max-width: 900px) {
+@media screen and (min-width: 768px)  and (max-width: 900px) {
   .biografija-text {
     font-size: 1.8vw;
   }

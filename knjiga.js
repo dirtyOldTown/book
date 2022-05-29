@@ -95,27 +95,60 @@ promena(mediaHandler);
 mediaHandler.addEventListener("change",promena);
 
 // Promene za mobilni
+const brisanjeSlike = window.matchMedia("(max-width: 500px)");
 const četkice = document.getElementById("četkice");
 const artBlok1 = document.getElementById("art");
-const brisanjeSlike = window.matchMedia("(max-width: 500px)");
 const palme = document.querySelector(".palme");
 const palmice = document.querySelector(".palme img");
 const text = document.querySelector(".palme p");
+const aboutMima = document.querySelector(".about");
+const aboutMima2 = document.querySelector(".about2");
 
 function promena2(x) {
   if (x.matches) {
+    // Brisanje slike "četkice" i bojenje pozadine tamno sivom bojom
     artBlok1.removeChild(četkice);
     artBlok1.style.backgroundColor = "#343a40";
     artBlok1.style.color = "#f2f2f2";
     palmice.style.marginLeft = "8%";
     palmice.style.marginTop = "44px";
     text.style.marginLeft = "8%";
+    aboutMima.innerHTML = `
+    <pre style="font-size: 3.4vw">
+    <q>This is a place for a qoute about paintings moved from former as 
+    a young adult after completing her degree in English and Literature 
+    from the University of Belgrade.</q>
+  </pre>
+    `
+    aboutMima2.innerHTML = `
+    <pre style="font-size: 3.4vw">
+    <q>This is a place for a qoute about paintings moved from former as 
+    a young adult after completing her degree in English and Literature 
+    from the University of Belgrade.</q>
+  </pre>
+    `
   } else {
    artBlok1.insertBefore(četkice, palme);
    artBlok1.style.backgroundColor = "transparent";
    artBlok1.style.color = "black";
+   aboutMima.innerHTML = `
+   <pre>
+    <q>This is a place for a qoute about paintings moved from former as a young adult
+    after completing her degree in English and Literature from the
+    University of Belgrade.</q>
+  </pre>
+   `
+   aboutMima2.innerHTML = `
+   <pre>
+    <q>This is a place for a qoute about paintings moved from former as a young adult
+    after completing her degree in English and Literature from the
+    University of Belgrade.</q>
+  </pre>
+   `
+
   }
+  // Unošenje blok-elementa iznad slike sa natpisom - Mima's arts
 
 }
 promena2(brisanjeSlike);
-brisanjeSlike.addEventListener("change", promena2)
+brisanjeSlike.addEventListener("change", promena2);
