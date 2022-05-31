@@ -1,76 +1,78 @@
 * {
   box-sizing: border-box;
 }
+/* 
+OSNOVNO PODEŠAVANJE [ Laptop ] (min-width: 1024px) 
+___________________________________________________
+*/
 body {
   margin:0;
 }
-/* Gornja sekcija - glavna slika(background) */
+/* 
+PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar) 
+----------------------------------------------------------
+*/
 .mima-arbid {
   height: 46vw;
   display: flex;
-  justify-content: space-around;
   background-image: url('slike/pozadina.png');
+  background-attachment: local;
   background-size: 100% 100%;
 }
-
-/* Navigation bar (about, books, arts, contact*/
 .navigation-bar {
+  display: flex;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
+  margin-top: 3.5%;
+  margin-left: 60.5%;
   padding: 0;
-  display: flex;
-  margin-top: 3.7%;
-  margin-left: 58%;
   font-size: 2vw;
-  justify-content: flex-end;
 }
 .navigation-bar li a {
-  padding: 0 22px;
-  font-family: "Montserrat";
-  text-decoration: none;
   color:white;
+  font-family: "Montserrat";
+  font-size: 1.1vw;
+  padding: 0 18px;
+  text-decoration: none;
   letter-spacing: 2.4px;
-  font-size: 1vw;
 }
-/*Druga sekcija (slika sa šeširom, text) */
+/* 
+DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-text) 
+----------------------------------------------------------------------------------
+*/
 .biografija {
-  width: 100%;
-  display: flex;
-  background-color:#FEFFD1;
+  max-width: 100%;
+  height: 32.5vw;
+  background-color: #FEFBEA;
   text-align: center;
-  align-items: center;
-  height:35vw;
-  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
 }
-/* Druga sekcija (slika sa šeširom) */
 .biografija img {
-  margin-left: 4%;
-  width: 30%;
+  width:32.4%;
+  margin-top: 4%;
+  padding-bottom: -3%;
+  margin-left: 5.2%; 
   height: auto;
 }
-/* Druga sekcija (text) */
 .biografija-text {
-  width: 70%;
-  font-size: 110%;
-  line-height: 22px;
+  width: 67.6%;
+  margin-left: -5%;
+  margin-top: 0.2%;
+  font-size: 1.32vw;
+  line-height: 2.06vw;
   z-index: 1;
   font-family: "Marion";
+  font-weight: 600;
+  color: #16191E;
 }
-.mobilni {
-  font-size: 1em; 
-  padding: 25px 2px;
-  text-align: justify;
-  width: 90%;
-}
-/* Druga sekcija (Wingdings 2, simbol */
 .biografija span {
   opacity: 0.5;
   font-family: "Wingdings 2";
   color: grey;
-  margin-top: -2%;
-  font-size: larger;
+  font-size: 1.3em;
 }
-/* Druga sekcija (Mima-text) */
 .biografija p {
   position: absolute;
   top: -100px;
@@ -81,14 +83,26 @@ body {
   font-family: "Sacramento";
   letter-spacing: 3px;
 }
-/* Treća sekcija - četkice (slika) i palme (slika i text) */
+/* 
+TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme) 
+----------------------------------------------------------------------
+*/
+.naslov {
+  background-color: #E0D8B0;
+  text-align: center;
+  padding: 3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #413F42;
+  border-top: 2px outset #999B84;
+  border-bottom: 1px solid  #999B84;
+}
 .art-blok1 {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-top: 35px;
   font-weight: bold;
   font-size: 1em;
+  padding-top: 10px;
 }
 .palme {
   margin-left: 5%;
@@ -101,9 +115,11 @@ body {
   position: relative;
   width: 22%;
   height: auto;
- 
 }
-/*Četvrta sekcija (2 slike - palme) */
+/*
+ČETVRTA SEKCIJA: [ Art-Blok 2 ] (2 slike: palme) 
+--------------------------------------------------
+*/
 .art-blok2 {
   display:flex;
   background-color: #f2f2f2;
@@ -131,37 +147,44 @@ body {
   width: 100%;
   height: auto;
 }
-/* About Mima Arbid (text) */
+/* ASIDE */
 .about {
   background-color: #f2f2f2;
+  padding-bottom: 60px;
+  margin-left: 0;
 }
 .about pre {
-  width:98%;
+  width: 97%;
   color: #3d6877;
   margin-top: 0px;
   text-align: center;
   font-style: italic;
   padding-top: 40px;
-  padding-bottom: 60px;
   font-family: "Marion";
 }
-/* Slika (planina) */
+/* 
+PETA SEKCIJA: [ Art-Blok 3 ] (Slika: planine i reka) 
+------------------------------------------------------
+*/
 .planina {
   background-color: #3d6877;
   margin-top: -62px;
   color: white;
-  padding-bottom: 30px;
 }
 .planina img {
   width: 85%;
   height: auto;
   margin-top: 7%;
-  margin-left: 8.5%;
+  margin-left: 7.8%;
 }
 .planina p {
-  margin-left: 8.5%;
+  margin-left: 7.8%;
   padding-bottom: 2%;
   font-size: 1.em;
+}
+.about2 {
+  padding-bottom: 15px;
+  margin-left: -3px;
 }
 .about2 pre {
   color: white;
@@ -169,9 +192,12 @@ body {
   width: 97%;
   text-align: center;
   font-style: italic;
-  margin-top: 30px;
+  margin-top: 25px;
 }
-/* Mima - personal */
+/* 
+ŠESTA SEKCIJA: [ Mima-lično ] 
+-------------------------------
+*/
 .mima-personal {
   float: left;
   align-items: flex-end;
@@ -231,7 +257,10 @@ body {
   margin-top: 0;
   color: #3d6877;
 }
-/* Footer */
+/* 
+FOOTER 
+-------------------
+*/
 footer {
   position: relative;
   top: 70px;
@@ -242,7 +271,6 @@ footer {
   height: 10vw;
   background-color: #222059;
   color: white;
-
 }
 #just-mima {
   font-family:"Sacramento";
@@ -299,220 +327,150 @@ footer {
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
 }
+/* 
+MOBILNI 
+-----------------------
+*/
+.mobilni {
+  font-size: 1em; 
+  padding: 25px 2px;
+  text-align: justify;
+  width: 90%;
+}
 
 
-/* Responsive */
+/* RESPONSIVE [ Laptop Large ] (min-width: 1200px) */
+
+@media screen and (min-width: 1200px) {
   
+/* Prva Sekcija */
+  .navigation-bar {
+    margin: 0;
+    margin-top: 3.7%;
+    margin-left: 62%;
+    padding: 0;
+  }
+  .navigation-bar li a {
+    font-size: 1vw;
+    padding: 0 22px;
+    letter-spacing: 2.4px;
+  }
+}
+
+/* RESPONSIVE [ Laptop Extra Large] (min-width 1400px) */
+
+@media screen and (min-width: 1400px) {
+  
+  /*Prva Sekcija */
+    .navigation-bar {
+      margin: 0;
+      margin-top: 3.7%;
+      margin-left: 64%;
+      padding: 0;
+    }
+    .navigation-bar li a {
+      font-size: 1vw;
+      padding: 0 22px;
+      letter-spacing: 2.4px;
+    }
+  }
+ 
+  /* RESPONSIVE [ Very Large Screen ] (min-width: 2260px) */
+
+@media screen and (min-width: 1900px) {
+  
+  /* Prva Sekcija */
+    .navigation-bar {
+      margin-top: 3.7%;
+      margin-left: 67%;
+    }
+    .navigation-bar li a {
+      font-size: 1vw;
+      padding: 0 27px;
+      letter-spacing: 2.4px;
+    }
+  }
+
+/* RESPONSIVE [ Prelazak sa flex-row na FLEX-COLUMN u drugoj sekciji ] (max-width 1023) */
+
+/* Druga Sekcija */
 @media screen and (max-width: 1023px) {
   .biografija {
     flex-direction: column-reverse;
-    position: relative;
-    height:auto;
-    padding-bottom: 50px;
+    align-items: center;
+    height: 65vw;
   }
- .biografija-text {
-   width: 100%;
-   position: relative;
-   top: 10px;
-   left: -3%;
-   right:0;
-   font-size:1.5vw;
+  .biografija-text {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 8%;
+    font-size: 1.1em;
+    line-height: 2.3vw;
+    font-weight: 600;
+    color: #16191E;
   }
   .biografija img {
-     width: 270px;
-     height: 202px;
-     position: relative;
-     top: 4px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* RESPONSIVE [ PRELAZNA FAZA iPad -> laptop ] (min-width: 900px) and (max-width: 1023px) */
+
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+  /* Prva Sekcija */
+  .navigation-bar {
+    margin-top: 3.4%;
+    margin-left: 62%;
+    font-size: 2.1vw;
   }
   .navigation-bar li a {
-    padding: 0 10px;
-    font-size: 1vw;
+    font-size: 1.2vw;
+    padding: 0 12px;
+    letter-spacing: 2.4px;
   }
-  .art-blok1, .art-blok2, .planina {
-    font-size: 0.9em;
-  }
-  #facebook {
-    font-size: 2.5em;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .mima-text {
-    font-size: 1.3vw;
+  /* Druga sekcija */
+  .biografija {
+    height: 65vw;
   }
   .biografija-text {
-    font-size: 2.2vw;
-  }
-  .art-blok1, .art-blok2, .planina {
-     font-size: 0.8em;
-   }
-  .about pre, .about2 pre {
-    font-size: 2.7vw;
-  }
-  footer {
-    height: 14vw;
-  }
-  #facebook {
-    font-size: 2em;
-  }
-  .contact {
-    font-size: 1em;
-    
-  }
-  .contact p:first-of-type {
-    margin-bottom: -7%;
-    font-size: 0.8em;
-  }
-  .contact p:last-of-type a {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-  }
-  #pismo {
-    padding: 15px;
-    font-size: 3.7em;
-    margin-right: 2%;
-  }
-  #just-mima {
-    font-size: 2.2em;
-  }
-}
-@media screen and (min-width: 901px) and (max-width: 1023px) {
-  .about, .about2 {
-    font-size: 1.2em;
-  }
-}
-
- 
-  @media screen and (min-width: 1200px) and (max-width: 1399px) {
-  .biografija img {
-    width: 30%;
-   }
-  .biografija-text {
-    font-size: 120%;
-    line-height: 24px;
-  }
-  .about, .about2 {
-    font-size: 1.4em;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1399px) {
-  .biografija img {
-    width: 30%;
-   }
-  .biografija-text {
-    font-size: 120%;
-    line-height: 24px;
-  }
-  .about, .about2 {
-    font-size: 1.4em;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .biografija img {
-   width: 32%;
-  }
-  .biografija-text {
-    line-height: 28px;
-    font-size: 140%;
-  }
-  .palme2, .palme3, .planina p, .art-blok1 {
-   font-size: 1.4em;
-  }
-  .mima-text {
-    font-size: 1.3vw;
-  }
-  .about, .about2 {
-    font-size: 1.5em;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .biografija img {
-   width: 32%;
-  }
-  .biografija-text {
-    line-height: 30px;
-    font-size: 160%;
-  }
-  .palme2, .palme3, .planina p, .art-blok1 {
-   font-size: 1.5em;
-  }
-  .mima-text {
-    font-size: 1.3vw;
-  }
-  .about, .about2 {
-    font-size: 1.7em;
-  }
-}
-@media screen and (min-width: 1900px) {
-  .biografija-text {
-    font-size: 170%;
-    line-height: 34px;
-  }
-  .about, .about2 {
-    font-size: 1.3vw;
-  }
-  .palme2, .palme3, .planina p, .art-blok1 {
-    font-size: 1.8em;
-   }
-  .mima-text {
-    font-size: 1.3vw;
-  }
-  .about, .about2 {
-    font-size: 1.9em;
-  }
-}
-@media screen and (min-width: 2200px) {
-  .biografija-text {
-    font-size: 190%;
-    line-height: 37px;
-  }
-  .palme2, .palme3, .planina p, .art-blok1 {
-    font-size: 2.1em;
-   }
-  .mima-text {
-    font-size: 1.3vw;
-  }
-  .about, .about2 {
-    font-size: 2.5em;
-  }
-}
-@media screen and (min-width: 768px)  and (max-width: 900px) {
-  .biografija-text {
-    font-size: 1.8vw;
-  }
-  .about, .about2 {
+    top: 1%;
     font-size: 1.1em;
+    line-height: 2.2vw;
+    align-items: center;
   }
-  .mima-text {
-    font-size: 1.3vw;
-  }
-  .mima-personal {
-    float: left;
-    align-items: flex-end;
-    margin-top: 5%;
-    position: static;
-    margin-left: 5%;
-  }
-  .mima-personal img {
-    width: 24%;
-    height: auto;
-  }
-  .mima-personal img:last-of-type {
-    margin-left: 1.5%;
-    width:20%;
-    height: auto;
-    margin-bottom: -3%;
-  }
-  .mima-text {
-    margin-top: 3.2%;
-    position: absolute;
-    left: 32%;
-    font-size: 1.6vw;
-    font-weight: bold;
-    color: #3d6877;
-    line-height: 126%;
+  .biografija img {
+   margin-top: 0%;
   }
 }
+/* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 899px) */
+@media screen and (min-width: 768px) and (max-width: 899px) {
+  
+  /* Prva Sekcija */
+  .navigation-bar {
+    margin-top: 3.4%;
+    margin-left: 58%;
+    font-size: 2.3vw;
+  }
+  .navigation-bar li a {
+    font-size: 1.35vw;
+    padding: 0 12px;
+    letter-spacing: 2.4px;
+  }
+  /* Druga sekcija */
+  .biografija {
+    height: 68vw;
+  }
+  .biografija-text {
+    top: 10%;
+    font-size: 1.1em;
+    line-height: 2.4vw;
+    align-items: center;
+  }
+  .biografija img {
+    margin-top: 5%;
+  }
+}
+  
+/* RESPONSIVE [ Prelazna faza sa mobinog na iPad ]*/
