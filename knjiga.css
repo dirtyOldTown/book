@@ -42,7 +42,6 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
 ----------------------------------------------------------------------------------
 */
 .biografija {
-  max-width: 100%;
   height: 32.5vw;
   background-color: #FEFBEA;
   text-align: center;
@@ -50,20 +49,20 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
   align-items: flex-start;
 }
 .biografija img {
-  width:32.4%;
+  width: 33%;
   margin-top: 4%;
   padding-bottom: -3%;
-  margin-left: 5.2%; 
+  margin-left: 4.2%; 
   height: auto;
 }
-.biografija-text {
-  width: 67.6%;
-  margin-left: -2%;
-  margin-top: 0.2%;
-  font-size: 1.32vw;
-  line-height: 2.06vw;
-  font-family: "Marion";
-  color: #16191E;
+.biografija-text pre {
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 3%;
+  font-size: 1.61vw;
+  line-height: 2.07vw;
+  font-family: "Marion Regular";
+  color: black;
 }
 .biografija span {
   opacity: 0.5;
@@ -71,7 +70,7 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
   color: grey;
   font-size: 1.3em;
 }
-.biografija p {
+/* .biografija p {
   position: absolute;
   top: -100px;
   font-size: 14em;
@@ -81,6 +80,7 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
   font-family: "Sacramento";
   letter-spacing: 3px;
 }
+*/
 /* 
 TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme) 
 ----------------------------------------------------------------------
@@ -205,15 +205,14 @@ PETA SEKCIJA: [ Art-Blok 3 ] (Slika: planine i reka)
   height: auto;
   margin-bottom: -3%;
 }
-.mima-text {
+.mima-text pre {
   margin-top: 3.2%;
   position: absolute;
   left: 32%;
   font-size: 1.6vw;
-  font-weight: bold;
   color: #3d6877;
   line-height: 126%;
-  font-family: "Marion Regular";
+  font-family: "Marion";
 }
 .mima-personal {
   float: left;
