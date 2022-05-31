@@ -58,13 +58,11 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
 }
 .biografija-text {
   width: 67.6%;
-  margin-left: -5%;
+  margin-left: -2%;
   margin-top: 0.2%;
   font-size: 1.32vw;
   line-height: 2.06vw;
-  z-index: 1;
   font-family: "Marion";
-  font-weight: 500;
   color: #16191E;
 }
 .biografija span {
@@ -215,6 +213,7 @@ PETA SEKCIJA: [ Art-Blok 3 ] (Slika: planine i reka)
   font-weight: bold;
   color: #3d6877;
   line-height: 126%;
+  font-family: "Marion Regular";
 }
 .mima-personal {
   float: left;
