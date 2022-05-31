@@ -102,7 +102,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   justify-content: center;
   font-weight: bold;
   font-size: 1em;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 .palme {
   margin-left: 5%;
@@ -110,6 +110,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
 .palme img {
   width: 78%;
   height: auto;
+  margin-top: 50px;
 }
 #četkice {
   position: relative;

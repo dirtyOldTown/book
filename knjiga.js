@@ -115,7 +115,7 @@ function promena2(x) {
     artBlok1.removeChild(četkice);
     artBlok1.style.backgroundColor = "#343a40";
     artBlok1.style.color = "#f2f2f2";
-    artBlok1.style.marginTop = "20px";
+    artBlok1.style.marginTop = "10px";
     artBlok1.style.paddingBottom = "20px";
     mima.style.marginLeft = "-1px";
     palmice.style.marginLeft = "8%";
@@ -140,7 +140,6 @@ function promena2(x) {
   } else {
    artBlok1.insertBefore(četkice, palme);
    artBlok1.style.backgroundColor = "transparent";
-   artBlok1.style.marginTop = "30px"
    artBlok1.style.color = "black";
    artBlok1.style.paddingBottom = "0px";
    palme2Parent.append(palme2);
