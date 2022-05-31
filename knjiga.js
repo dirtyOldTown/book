@@ -1,4 +1,8 @@
+// PROMENE ZA LAPTOP + MOBILNI
+//-----------------------------
+
 // Animacija za email i facebook
+
 const email = document.querySelector(".contact p:last-of-type a");
 const facebook = document.querySelector("#facebook a");
 
@@ -26,7 +30,8 @@ facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
 });
 
-// Animacija za navigation-bar
+// Animacija za navigation bar
+
 const navBar = document.querySelectorAll(".navigation-bar li a");
 
 for (let i = 0; i < navBar.length; i++) {
@@ -40,6 +45,10 @@ for (let i = 0; i < navBar.length; i++) {
    navBar[i].setAttribute("style", "color: white")
   })
 }
+
+// PROMENE ZA MOBILNI
+//----------------------
+
 // Sređivanje druge sekcije (biografija-text)
 const mediaHandler = window.matchMedia("screen and (max-width: 599px)" );
 
@@ -90,77 +99,6 @@ biografija.classList.add("biografija-text");
   slika.setAttribute("style", "top: 4px");
 }
 }
-
 promena(mediaHandler);
 mediaHandler.addEventListener("change",promena);
 
-// Promene za mobilni
-const brisanjeSlike = window.matchMedia("(max-width: 500px)");
-
-const četkice = document.getElementById("četkice");
-const artBlok1 = document.querySelector(".art-blok1");
-const palme = document.querySelector(".palme");
-const palmice = document.querySelector(".palme img");
-const text = document.querySelector(".palme p");
-const aboutMima = document.querySelector(".about");
-const aboutMima2 = document.querySelector(".about2");
-const mima = document.querySelector(".about pre");
-const palme2Parent = document.querySelector(".palme2");
-const palme2 = document.querySelector(".palme2 p");
-const palme3Parent = document.querySelector(".palme3");
-const palme3 = document.querySelector(".palme3 p");
-function promena2(x) {
-  if (x.matches) {
-    // Brisanje slike "četkice" i bojenje pozadine tamno sivom bojom i ostalo
-    artBlok1.removeChild(četkice);
-    artBlok1.style.backgroundColor = "#343a40";
-    artBlok1.style.color = "#f2f2f2";
-    artBlok1.style.marginTop = "10px";
-    artBlok1.style.paddingBottom = "20px";
-    mima.style.marginLeft = "-1px";
-    palmice.style.marginLeft = "8%";
-    palmice.style.marginTop = "50px";
-    text.style.marginLeft = "8%";
-    palme2.parentElement.removeChild(palme2);
-    palme3.parentElement.removeChild(palme3);
-    aboutMima.innerHTML = `
-    <pre style="font-size: 3.4vw">
-  <q>This is a place for a qoute about paintings moved from former as 
-  a young adult after completing her degree in English and Literature 
-  from the University of Belgrade.</q>
-    </pre>
-    `
-    aboutMima2.innerHTML = `
-    <pre style="font-size: 3.4vw">
-    <q>This is a place for a qoute about paintings moved from former as 
-    a young adult after completing her degree in English and Literature 
-    from the University of Belgrade.</q>
-  </pre>
-    `
-  } else {
-   artBlok1.insertBefore(četkice, palme);
-   artBlok1.style.backgroundColor = "transparent";
-   artBlok1.style.color = "black";
-   artBlok1.style.paddingBottom = "0px";
-   palme2Parent.append(palme2);
-   palme3Parent.append(palme3);
-   aboutMima.innerHTML = `
-    <pre>
-  <q>This is a place for a qoute about paintings moved from former as a young adult
-  after completing her degree in English and Literature from the
-  University of Belgrade.</q>
-    </pre>
-   `
-   aboutMima2.innerHTML = `
-    <pre>
-  <q>This is a place for a qoute about paintings moved from former as a young adult
-  after completing her degree in English and Literature from the
-  University of Belgrade.</q>
-    </pre>
-   `
-}
-
-}
-
-promena2(brisanjeSlike);
-brisanjeSlike.addEventListener("change", promena2);

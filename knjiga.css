@@ -64,7 +64,7 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
   line-height: 2.06vw;
   z-index: 1;
   font-family: "Marion";
-  font-weight: 600;
+  font-weight: 500;
   color: #16191E;
 }
 .biografija span {
@@ -87,15 +87,6 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
 TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme) 
 ----------------------------------------------------------------------
 */
-.naslov {
-  background-color: #E0D8B0;
-  text-align: center;
-  padding: 3px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #413F42;
-  border-top: 2px outset #999B84;
-  border-bottom: 1px solid  #999B84;
-}
 .art-blok1 {
   display: flex;
   align-items: flex-end;
@@ -392,7 +383,7 @@ MOBILNI
     }
   }
 
-/* RESPONSIVE [ Prelazak sa flex-row na FLEX-COLUMN u drugoj sekciji ] (max-width 1023) */
+/* RESPONSIVE [ Prelazak sa Flex-Fow na Flex-Column u drugoj sekciji ] (max-width 1023) */
 
 /* Druga Sekcija */
 @media screen and (max-width: 1023px) {
@@ -417,7 +408,7 @@ MOBILNI
     margin-right: auto;
   }
 }
-/* RESPONSIVE [ PRELAZNA FAZA iPad -> laptop ] (min-width: 900px) and (max-width: 1023px) */
+/* RESPONSIVE [ PRELAZNA FAZA iPad -> Laptop ] (min-width: 900px) and (max-width: 1023px) */
 
 @media screen and (min-width: 900px) and (max-width: 1023px) {
   /* Prva Sekcija */
