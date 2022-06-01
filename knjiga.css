@@ -55,8 +55,8 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
 }
 .biografija-text {
   background-image: url('slike/mima-prazno.png');
-  background-size: 105% 100%;
-  background-position: 70% 0;
+  background-size: 112% 100%;
+  background-position: 40% 0;;
 }
 .biografija-text pre {
   width: 100%;
@@ -217,11 +217,9 @@ PETA SEKCIJA: [ Art-Blok 3 ] (Slika: planine i reka)
 -------------------------------
 */
 .mima-personal {
-  float: left;
-  align-items: flex-end;
-  margin-top: 5%;
+  display: flex;
+  align-items: center;
   position: static;
-  margin-left: 5%;
 }
 .mima-personal img {
   width: 24%;
