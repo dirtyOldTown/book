@@ -118,6 +118,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   position: relative;
   width: 23%;
   height: auto;
+ margin-bottom: -1%;
 }
 /*
 ČETVRTA SEKCIJA: [ Art-Blok 2 ] (2 slike: palme) 
@@ -128,7 +129,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   background-color: #f2f2f2;
   width: 100%;
   font-size: 1.42vw;
-  margin-top: 0;
+  margin-top: 1%;
 }
 .palme2 {
   margin-top: 70px;
