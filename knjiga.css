@@ -23,8 +23,7 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
   justify-content: flex-end;
   list-style-type: none;
   margin-top: 4%;
-  margin-left: 60.5%;
-  padding: 0;
+  margin-left: 58%;
   font-size: 1.5vw;
 }
 .navigation-bar li a {
@@ -348,16 +347,16 @@ MOBILNI
 
 @media screen and (min-width: 1200px) {
   
-/* Prva Sekcija */
-  .navigation-bar {
-    margin-top: 4.2%;
-    margin-left: 62%;
+  /* Prva Sekcija */
+    .navigation-bar {
+      margin-top: 4.2%;
+      margin-left: 59%;
+    }
+    .navigation-bar li a {
+      padding: 0 22px;
+      letter-spacing: 2.4px;
+    }
   }
-  .navigation-bar li a {
-    padding: 0 20px;
-    letter-spacing: 2.4px;
-  }
-}
 
 /* RESPONSIVE [ Laptop Extra Large] (min-width 1400px) */
 
@@ -365,13 +364,11 @@ MOBILNI
   
   /*Prva Sekcija */
     .navigation-bar {
-      margin: 0;
-      margin-top: 3.7%;
-      margin-left: 64%;
-      padding: 0;
+      margin-top: 4%;
+      margin-left: 60%;
     }
     .navigation-bar li a {
-      padding: 0 18px;
+      padding: 0 22px;
       letter-spacing: 2.4px;
     }
   }
@@ -383,10 +380,10 @@ MOBILNI
   /* Prva Sekcija */
     .navigation-bar {
       margin-top: 3.7%;
-      margin-left: 67%;
+      margin-left: 62%;
     }
     .navigation-bar li a {
-      padding: 0 27px;
+      padding: 0 38px;
       letter-spacing: 2.4px;
     }
   }
@@ -449,12 +446,12 @@ MOBILNI
   /* Prva Sekcija */
   .navigation-bar {
     margin-top: 3.4%;
-    margin-left: 58%;
+    margin-left: 57%;
     font-size: 2.3vw;
   }
   .navigation-bar li a {
     font-size: 1.35vw;
-    padding: 0 12px;
+    padding: 0 10px;
     letter-spacing: 2.4px;
   }
   /* Druga sekcija */
