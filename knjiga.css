@@ -32,7 +32,7 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
   font-size: 1.1vw;
   padding: 0 16px;
   text-decoration: none;
-  letter-spacing: 2.5px;
+  letter-spacing: 2.3px;
 }
 /* 
 DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-text) 
@@ -103,7 +103,6 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-weight: bold;
   font-size: 1.42vw;
   margin-top: -1%;
 }
@@ -117,7 +116,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
 }
 #četkice {
   position: relative;
-  width: 22%;
+  width: 23%;
   height: auto;
 }
 /*
@@ -128,7 +127,6 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   display:flex;
   background-color: #f2f2f2;
   width: 100%;
-  font-weight: bold;
   font-size: 1.42vw;
   margin-top: 0;
 }
@@ -184,7 +182,7 @@ PETA SEKCIJA: [ Art-Blok 3 ] (Slika: planine i reka)
 .planina p {
   margin-left: 7.8%;
   padding-bottom: 2%;
-  font-size: 1.6vw;
+  font-size: 1.42vw;
 }
 .about2 {
   padding-bottom: 15px;
@@ -342,38 +340,11 @@ MOBILNI
   width: 90%;
 }
 
-
-
-@media screen and (max-width: 1023) {
-  /* Prva Sekcija */
-  .navigation-bar {
-    margin-top: 4%;
-    margin-left: 58%;
-  }
-  .navigation-bar li a {
-    padding: 0 20px;
-    letter-spacing: 2.4px;
-  }
-  /* Druga sekcija */
-  .biografija {
-    height: 65vw;
-  }
-  .biografija-text {
-    top: 1%;
-    font-size: 1.1em;
-    line-height: 2.2vw;
-    align-items: center;
-  }
-  .biografija img {
-   margin-top: 0%;
-  }
-}
 /* RESPONSIVE [ Laptop Large ] (min-width: 1200px) */
 @media screen and (min-width: 1200px) {
   
   /* Prva Sekcija */
     .navigation-bar {
-      margin-top: 4.2%;
       margin-left: 58%;
     }
     .navigation-bar li a {
@@ -385,10 +356,9 @@ MOBILNI
 /* RESPONSIVE [ Laptop Extra Large] (min-width 1400px) */
 
 @media screen and (min-width: 1400px) {
-  
+
   /*Prva Sekcija */
     .navigation-bar {
-      margin-top: 4%;
       margin-left: 60%;
     }
     .navigation-bar li a {
@@ -403,7 +373,6 @@ MOBILNI
   
   /* Prva Sekcija */
     .navigation-bar {
-      margin-top: 4.1%;
       margin-left: 62%;
     }
     .navigation-bar li a {
@@ -417,14 +386,6 @@ MOBILNI
 /* Druga Sekcija */
 @media screen and (max-width: 1023px) {
     /* Prva Sekcija */
-    .navigation-bar {
-      margin-top: 4%;
-      margin-left: 57%;
-    }
-    .navigation-bar li a {
-      padding: 0 18px;
-      letter-spacing: 2.4px;
-    }
   .biografija {
     flex-direction: column-reverse;
     align-items: center;
@@ -474,4 +435,4 @@ MOBILNI
   }
 }
   
-/* RESPONSIVE [ Prelazna faza sa mobinog na iPad ]*/
+
