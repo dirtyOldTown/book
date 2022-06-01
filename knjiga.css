@@ -42,7 +42,7 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
 ----------------------------------------------------------------------------------
 */
 .biografija {
-  height: 32.5vw;
+  height: 32.6vw;
   background-color: #FEFBEA;
   text-align: center;
   display: flex;
@@ -52,23 +52,47 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
   width: 33%;
   margin-top: 4%;
   padding-bottom: -3%;
-  margin-left: 4.2%; 
+  margin-left: 4.2%;
   height: auto;
 }
 .biografija-text pre {
   width: 100%;
   margin-left: 2%;
-  margin-top: 3%;
-  font-size: 1.61vw;
-  line-height: 2.07vw;
-  font-family: "Marion Regular";
+  margin-top: 6.4%;
+  font-size: 1.62vw;
+  font-weight: 600;
+  line-height: 2.08vw;
+  font-family: "Marion";
   color: black;
 }
-.biografija span {
+.biografija-text pre a {
+  color: black;
+  text-decoration: none;
+}
+.biografija-text pre a:hover {
+  color: #222059;
+  text-decoration: underline;
+}
+.biografija-text p {
   opacity: 0.5;
   font-family: "Wingdings 2";
   color: grey;
   font-size: 1.3em;
+}
+#a {
+  position:absolute;
+  font-size: 1.9vw;
+  text-align: center;
+  margin-left: 30.8%;
+  margin-top: 1.5%;
+}
+#b {
+  position: absolute;
+  margin-top: -3.4%;
+  font-size: 1.9vw;
+  margin-left: enter;
+  margin-left: 30.8%;
+  text-align: center;
 }
 /* .biografija p {
   position: absolute;
@@ -90,7 +114,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   align-items: flex-end;
   justify-content: center;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.42vw;
   margin-top: 10px;
 }
 .palme {
@@ -115,7 +139,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   background-color: #f2f2f2;
   width: 100%;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.42vw;
   margin-top: 0;
 }
 .palme2 {
@@ -144,13 +168,13 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   margin-left: 0;
 }
 .about pre {
-  width: 97%;
   color: #3d6877;
   margin-top: 0px;
   text-align: center;
   font-style: italic;
   padding-top: 40px;
   font-family: "Marion";
+  font-size: 1.52vw;
 }
 /* 
 PETA SEKCIJA: [ Art-Blok 3 ] (Slika: planine i reka) 
@@ -158,7 +182,7 @@ PETA SEKCIJA: [ Art-Blok 3 ] (Slika: planine i reka)
 */
 .planina {
   background-color: #3d6877;
-  margin-top: -62px;
+  margin-top: -45px;
   color: white;
 }
 .planina img {
@@ -170,19 +194,21 @@ PETA SEKCIJA: [ Art-Blok 3 ] (Slika: planine i reka)
 .planina p {
   margin-left: 7.8%;
   padding-bottom: 2%;
-  font-size: 1.em;
+  font-size: 1.6vw;
 }
 .about2 {
   padding-bottom: 15px;
-  margin-left: -3px;
 }
 .about2 pre {
   color: white;
+  font-size: 1.53vw;
+  font-weight: 500;
   font-family: "Marion";
   width: 97%;
   text-align: center;
   font-style: italic;
   margin-top: 25px;
+  padding-bottom: 20px;
 }
 /* 
 ŠESTA SEKCIJA: [ Mima-lično ] 
@@ -397,7 +423,6 @@ MOBILNI
     top: 8%;
     font-size: 1.1em;
     line-height: 2.3vw;
-    font-weight: 600;
     color: #16191E;
   }
   .biografija img {
