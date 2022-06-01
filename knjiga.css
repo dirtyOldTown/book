@@ -53,6 +53,11 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
   margin-left: 4.2%;
   height: auto;
 }
+.biografija-text {
+  background-image: url('slike/mima-prazno.png');
+  background-size: 105% 100%;
+  background-position: 70% 0;
+}
 .biografija-text pre {
   width: 100%;
   margin-left: 2%;
