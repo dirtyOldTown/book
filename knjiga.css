@@ -16,7 +16,7 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
   height: 46vw;
   display: flex;
   background-image: url('slike/pozadina.png');
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .navigation-bar {
   display: flex;
