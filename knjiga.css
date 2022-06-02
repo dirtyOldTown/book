@@ -342,66 +342,64 @@ MOBILNI
       padding: 0 22px;
       letter-spacing: 2.4px;
     }
-    /* Treća sekcija */
-  }
+}
 
 /* RESPONSIVE [ Laptop Extra Large] (min-width 1400px) */
-
 @media screen and (min-width: 1400px) {
 
   /*Prva Sekcija */
-    .navigation-bar {
-      margin-left: 60%;
-    }
-    .navigation-bar li a {
-      padding: 0 22px;
-      letter-spacing: 2.4px;
-    }
+  .navigation-bar {
+    margin-left: 60%;
   }
+  .navigation-bar li a {
+    padding: 0 22px;
+    letter-spacing: 2.4px;
+    }
+}
  
-  /* RESPONSIVE [ Very Large Screen ] (min-width: 1900px) */
+/* RESPONSIVE [ Very Large Screen ] (min-width: 1900px) */
 
 @media screen and (min-width: 1900px) {
   
   /* Prva Sekcija */
-    .navigation-bar {
-      margin-left: 62%;
-      font-size: 1.42vw;
-    }
-    .navigation-bar li a {
-      padding: 0 38px;
-      letter-spacing: 2.4px;
-    }
+  .navigation-bar {
+    margin-left: 62%;
+    font-size: 1.42vw;
   }
-  /* RESPONSIVE [ Prelazak sa Flex-Fow na Flex-Column u drugoj sekciji ] (max-width 1023) */
+  .navigation-bar li a {
+    padding: 0 38px;
+    letter-spacing: 2.4px;
+  }
+}
+/* RESPONSIVE [ Prelazak sa Flex-Fow na Flex-Column u drugoj sekciji ] (max-width 1023) */
 
 /* Druga Sekcija */
 @media screen and (max-width: 1023px) {
-.biografija {
-  flex-direction: column-reverse;
-  align-items: center;
-  height: 65vw;
-}
-.biografija-text {
-  position: relative;
-  width: 100%;
-  height: auto;
-  top: 8%;
-  font-size: 1.1em;
-  line-height: 2.3vw;
-  color: #16191E;
-}
-.biografija img {
-  padding-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* Treća sekcija*/
-.slika-palme {
-  text-align: center;
-  font-size: 1em;
-  margin-left: -4%;
-}
+  .biografija {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 65vw;
+  }
+  .biografija-text {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 8%;
+    font-size: 1.1em;
+    line-height: 2.3vw;
+    color: #16191E;
+  }
+  .biografija img {
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Treća sekcija*/
+  .slika-palme {
+    text-align: center;
+    font-size: 1em;
+    margin-left: -4%;
+  }
 }
 /* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 899px) */
 @media screen and (min-width: 768px) and (max-width: 899px) {
