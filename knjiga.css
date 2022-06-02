@@ -133,22 +133,22 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   font-size: 1.42vw;
   margin-top: 1%;
 }
-.palme2 {
+.slika-palme2 {
   margin-top: 70px;
   flex: 1;
   margin-left: 10%;
 }
-.palme3 {
+.slika-palme3 {
   margin-top: 70px;
   flex: 1.68;
   margin-left: 7%;
   margin-right: 5%;
 }
-.palme2 img {
+.slika-palme2 img {
   width: 100%;
   height: auto;
 }
-.palme3 img {
+.slika-palme3 img {
   width: 100%;
   height: auto;
 }
