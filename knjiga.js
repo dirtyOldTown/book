@@ -2,8 +2,9 @@
 //-----------------------------
 
 // Animacija za email i facebook
+//-------------------------------
 
-const email = document.querySelector(".contact p:last-of-type a");
+const email = document.querySelector(".kontakt-imejl p:last-of-type a");
 const facebook = document.querySelector("#facebook a");
 
 // Funkcije za promenu boje
@@ -31,6 +32,7 @@ facebook.addEventListener("mouseout", () => {
 });
 
 // Animacija za navigation bar
+//-------------------------------
 
 const navBar = document.querySelectorAll(".navigation-bar li a");
 
