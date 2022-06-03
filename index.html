@@ -10,11 +10,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="knjiga.js" async></script>
   <link rel="stylesheet" href="knjiga.css">
+  <link rel="preload" href="slike/pozadina.png" as="image" />
+
 </head>
 
 <body>
 
-<section id="MimaArbid" class="mimaarbid-naslovna">
+<section style="background-image: url('slike/pozadina.png');background-size: 100% 100%;" id="MimaArbid" class="mimaarbid-naslovna">
   <ul class="navigation-bar">
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#books">BOOKS</a></li>
@@ -106,7 +108,5 @@
   <p id="vrh-strane"><i><a href="#MimaArbid">Back to top..</a></i></p>
 </footer>
 
-<script src="instantclick.min.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init();</script>
 </body>
 </html>
