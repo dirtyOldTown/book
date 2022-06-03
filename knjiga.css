@@ -6,12 +6,15 @@
 body {
   margin:0;
 }
+/* Background Image*/
+
+
 /* 
 PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar) 
 ----------------------------------------------------------
 */
 .mimaarbid-naslovna {
-  background-image: url('slike/pozadina.png');
+  background-image: url('slike/pozadinatest.png');
   background-size: 100% 100%;
   height: 46vw;
   display: flex;
