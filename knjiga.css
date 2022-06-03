@@ -11,10 +11,10 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
 ----------------------------------------------------------
 */
 .mimaarbid-naslovna {
-  height: 46vw;
-  display: flex;
   background-image: url('slike/pozadina.png');
   background-size: 100% 100%;
+  height: 46vw;
+  display: flex;
 }
 .navigation-bar {
   display: flex;
