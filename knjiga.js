@@ -2,19 +2,16 @@
 //-----------------------------
 
 // Animacija za email i facebook
-//-------------------------------
 
 const email = document.querySelector(".kontakt-imejl p:last-of-type a");
 const facebook = document.querySelector("#facebook a");
-
 // Funkcije za promenu boje
 function plavaBoja(x) {
-  x.setAttribute("style", "color: #90e0ef; padding: 4px")
+  x.setAttribute("style", "color: #90e0ef")
 }
 function belaBoja(x) {
-    x.setAttribute("style", "color: white; background-color: transparent; padding: 4px")
+    x.setAttribute("style", "color: white; background-color: transparent")
   }
-
 // Promena boje u plavo
 email.addEventListener("mouseover", () => {
   plavaBoja(email)
@@ -22,7 +19,6 @@ email.addEventListener("mouseover", () => {
 facebook.addEventListener("mouseover", () => {
   plavaBoja(facebook)
 });
-
 // Promena boje u belo (vraćanje na startne vrednosti)
 email.addEventListener("mouseout", () => {
   belaBoja(email)
@@ -31,9 +27,7 @@ facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
 });
 
-// Animacija za navigation bar
-//-------------------------------
-
+// Animacija za navigation 
 const navBar = document.querySelectorAll(".navigation-bar li a");
 
 for (let i = 0; i < navBar.length; i++) {

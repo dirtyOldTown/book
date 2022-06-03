@@ -1,10 +1,8 @@
 * {
   box-sizing: border-box;
 }
-/* 
-OSNOVNO PODEŠAVANJE [ Laptop ] (min-width: 1024px) 
-___________________________________________________
-*/
+/* OSNOVNO PODEŠAVANJE [ Laptop ] (min-width: 1024px) */
+
 body {
   margin:0;
 }
@@ -80,20 +78,22 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
   color: grey;
   font-size: 1.3em;
 }
-#a {
+#wingdings-a {
   position:absolute;
   font-size: 1.9vw;
   text-align: center;
   margin-left: 30.8%;
   margin-top: 1.5%;
+  font-family: "Wingdings 2";
 }
-#b {
+#wingdings-b {
   position: absolute;
   margin-top: -3.4%;
   font-size: 1.9vw;
   margin-left: enter;
   margin-left: 30.8%;
   text-align: center;
+  font-family: "Wingdings 2";
 }
 /* 
 TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme) 
@@ -153,12 +153,12 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   height: auto;
 }
 /* ASIDE */
-.about {
+.umetnički-blok2-text {
   background-color: #f2f2f2;
   padding-bottom: 60px;
   margin-left: 0;
 }
-.about pre {
+.umetnički-blok2-text pre {
   color: #3d6877;
   margin-top: 0px;
   text-align: center;
@@ -422,12 +422,11 @@ MOBILNI
     top: 10%;
     height: 75vw;
   }
-    .biografija-text {
-      background-size: 95% 120%;
-      background-position: 0 -60%;
-      background-repeat: no-repeat;
-    }
-  
+  .biografija-text {
+    background-size: 95% 120%;
+    background-position: 0 -60%;
+    background-repeat: no-repeat;
+  }
   .biografija-text pre{
     position: relative;
     width: 95%;
@@ -439,20 +438,22 @@ MOBILNI
   .biografija img {
     margin-top: 14%;
   }
-  #a {
+  #wingdings-a {
     position:absolute;
     font-size: 1.3em;
     text-align: center;
     margin-left: 49.5%;
-    margin-top: 11%;
+    margin-top: 11.2%;
+    font-family: "Wingdings 2";
   }
-  #b {
+  #wingdings-b {
     position: absolute;
     margin-top: 2.3%;
     font-size: 1.3em;
     margin-left: enter;
     margin-left: 49%;
     text-align: center;
+    font-family: "Wingdings 2";
   }
 }
 /* RESPONSIVE [ PRELAZNA FAZA iPad -> Laptop ] (min-width: 900px) and (max-width: 1023px) */
@@ -471,7 +472,7 @@ MOBILNI
   .biografija-text pre{
     position: relative;
     width: 95%;
-    top: 10%;
+    top: 7%;
     font-size: 2.1vw;
     line-height: 2.9vw;
     align-items: center;
@@ -479,16 +480,16 @@ MOBILNI
   .biografija img {
     margin-top: 12%;
   }
-  #a {
+  #wingdings-a {
     position:absolute;
     font-size: 1.3em;
     text-align: center;
     margin-left: 49.5%;
-    margin-top: 8%;
+    margin-top: 7%;
   }
-  #b {
+  #wingdings-b {
     position: absolute;
-    margin-top: 0%;
+    margin-top: -1%;
     font-size: 1.3em;
     margin-left: enter;
     margin-left: 49%;
