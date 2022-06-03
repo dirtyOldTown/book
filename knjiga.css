@@ -22,15 +22,14 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
   list-style-type: none;
   margin-top: 4%;
   margin-left: 58%;
-  font-size: 1.5vw;
 }
 .navigation-bar li a {
   color:white;
   font-family: "Montserrat";
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   padding: 0 16px;
   text-decoration: none;
-  letter-spacing: 2.3px;
+  letter-spacing: 2.4px;
 }
 /* 
 DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-text) 
@@ -296,7 +295,7 @@ footer {
 #facebook {
   font-family: "Arial";
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 3.2vw;
 }
 #facebook a {
   color: white;
@@ -322,7 +321,7 @@ footer {
 }
 /* 
 MOBILNI 
------------------------
+------------------------------------
 */
 .mobilni {
   font-size: 1em; 
@@ -331,68 +330,100 @@ MOBILNI
   width: 90%;
 }
 
-/* RESPONSIVE [ Laptop Large ] (min-width: 1200px) */
+/* RESPONSIVE 
+---------------------------------------
+*/
+
+/* Laptop Large (min-width: 1200px) */
 @media screen and (min-width: 1200px) {
   
-  /* Prva Sekcija */
-    .navigation-bar {
-      margin-left: 58%;
-    }
-    .navigation-bar li a {
-      padding: 0 22px;
-      letter-spacing: 2.4px;
-    }
-}
+/* PRVA SEKCIJA: [ Početna ] */
+  .navigation-bar {
+    margin-left: 59%;
+    margin-top: 4.1%;
+  }
+  .navigation-bar li a {
+    padding: 0 20px;
+  }
+} 
 
-/* RESPONSIVE [ Laptop Extra Large] (min-width 1400px) */
+/* Laptop Extra Large (min-width 1400px) */
 @media screen and (min-width: 1400px) {
 
-  /*Prva Sekcija */
+/* PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
     margin-left: 60%;
   }
   .navigation-bar li a {
     padding: 0 22px;
-    letter-spacing: 2.4px;
-    }
+  }
 }
  
-/* RESPONSIVE [ Very Large Screen ] (min-width: 1900px) */
-
+/* Very Large Screen (min-width: 1900px) */
 @media screen and (min-width: 1900px) {
   
-  /* Prva Sekcija */
+/* PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
-    margin-left: 62%;
-    font-size: 1.42vw;
+    margin-left: 61%;
   }
   .navigation-bar li a {
-    padding: 0 38px;
-    letter-spacing: 2.4px;
+    padding: 0 30px;
   }
 }
-/* RESPONSIVE [ Prelazak sa Flex-Fow na Flex-Column u drugoj sekciji ] (max-width 1023) */
-
-/* Druga Sekcija */
+/* Prelazak sa Flex-Fow na Flex-Column u drugoj sekciji (max-width 1023) */
 @media screen and (max-width: 1023px) {
+
+  /* PRVA SEKCIJA: [ Početna ] */
+  .navigation-bar {
+    margin-left: 57%;
+  }
+  .navigation-bar li a {
+    padding: 0 14px;
+    }
+  /* DRUGA SEKCIJA: [ Biografija ] */
   .biografija {
+    position: relative;
     flex-direction: column-reverse;
     align-items: center;
-    height: 65vw;
+    height: 97vw;
   }
   .biografija-text {
-    position: relative;
-    width: 100%;
-    height: auto;
-    top: 8%;
-    font-size: 1.1em;
+    background-image: url('slike/mima-prazno.png');
+    background-size: 95% 100%;
+    position: absolute;
+    top: -2%;
     line-height: 2.3vw;
-    color: #16191E;
+  }
+  .biografija-text pre{
+    position: relative;
+    width: 95%;
+    top: -35%;
+    font-size: 2.1vw;
+    line-height: 2.6vw;
+    align-items: center;
   }
   .biografija img {
-    padding-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    top: -12%;
+    width: 60%;
+    height: auto;
+  }
+  #wingdings-a {
+    position:absolute;
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: 48%;
+    margin-top: 3.5%;
+    font-family: "Wingdings 2";
+  }
+  #wingdings-b {
+    position: absolute;
+    margin-top: -5%;
+    font-size: 1.3em;
+    margin-left: enter;
+    margin-left: 49%;
+    text-align: center;
+    font-family: "Wingdings 2";
   }
   /* Treća sekcija*/
   .slika-palme {
@@ -401,99 +432,26 @@ MOBILNI
     margin-left: -4%;
   }
 }
-/* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 899px) */
-@media screen and (min-width: 768px) and (max-width: 899px) {
-  
-  /* Prva Sekcija */
-  .mimaarbid-naslovna {
-    height: 46vw;
-  }
+/* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 870px) */
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  /*PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
-    margin-left: 56%;
+    margin-top: 3.8%;
+    margin-left: 54%;
   }
   .navigation-bar li a {
-    padding: 0 10px;
-    letter-spacing: 2.4px;
+    padding: 0 12px;
     font-size: 1.3vw;
-  }
-  /* Druga sekcija */
-  .biografija {
-    position: relative;
-    top: 10%;
-    height: 75vw;
-  }
-  .biografija-text {
-    background-size: 95% 120%;
-    background-position: 0 -60%;
-    background-repeat: no-repeat;
-  }
+    }
+  /* DRUGA SEKCIJA: [ Biografija ] */
   .biografija-text pre{
-    position: relative;
-    width: 95%;
-    top: 14.7%;
     font-size: 2.3vw;
-    line-height: 3vw;
-    align-items: center;
+    line-height: 2.7vw;
+    top: -33%;
   }
   .biografija img {
-    margin-top: 14%;
-  }
-  #wingdings-a {
-    position:absolute;
-    font-size: 1.3em;
-    text-align: center;
-    margin-left: 49.5%;
-    margin-top: 11.2%;
-    font-family: "Wingdings 2";
-  }
-  #wingdings-b {
-    position: absolute;
-    margin-top: 2.3%;
-    font-size: 1.3em;
-    margin-left: enter;
-    margin-left: 49%;
-    text-align: center;
-    font-family: "Wingdings 2";
-  }
+    top: -11%;
+ }
 }
-/* RESPONSIVE [ PRELAZNA FAZA iPad -> Laptop ] (min-width: 900px) and (max-width: 1023px) */
 
-@media screen and (min-width: 900px) and (max-width: 1023px){
-  /* Druga sekcija */
-  .biografija {
-    position: relative;
-    height: 75vw;
-  }
-  .biografija-text {
-    background-size: 95% 120%;
-    background-position: 0 -40%;
-    background-repeat: no-repeat;
-  }
-  .biografija-text pre{
-    position: relative;
-    width: 95%;
-    top: 7%;
-    font-size: 2.1vw;
-    line-height: 2.9vw;
-    align-items: center;
-  }
-  .biografija img {
-    margin-top: 12%;
-  }
-  #wingdings-a {
-    position:absolute;
-    font-size: 1.3em;
-    text-align: center;
-    margin-left: 49.5%;
-    margin-top: 7%;
-  }
-  #wingdings-b {
-    position: absolute;
-    margin-top: -1%;
-    font-size: 1.3em;
-    margin-left: enter;
-    margin-left: 49%;
-    text-align: center;
-  }
-}
 
