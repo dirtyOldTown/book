@@ -13,7 +13,7 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
 .mimaarbid-naslovna {
   background-image: url('slike/pozadina.png'); 
   background-size: contain; 
-  height: 49.5vw;
+  height: 49.8vw;
   display: flex;
 }
 .navigation-bar {
@@ -479,8 +479,8 @@ MOBILNI
 @media screen and (max-width: 600px) {
   .mimaarbid-naslovna {
     background-image: url('slike/mobilni.png'); 
-    background-size: 100% 100%; 
-    height:90vw;
+    background-size: contain; 
+    height:94.9vw;
   }
   .navigation-bar {
     margin-top: 4%;
