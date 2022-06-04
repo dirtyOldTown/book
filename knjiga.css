@@ -9,9 +9,10 @@ body {
 
 /* 
 PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar) 
-----------------------------------------------------------
-*/
+---------------------------------------------------------- */
 .mimaarbid-naslovna {
+  background-image: url('slike/pozadina.png'); 
+  background-size: 100% 100%; 
   height: 46vw;
   display: flex;
 }
@@ -32,11 +33,10 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
 }
 /* 
 DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-text) 
-----------------------------------------------------------------------------------
-*/
+---------------------------------------------------------------------------------- */
 .biografija {
   height: 32.6vw;
-  background-color: #FEFBEA;
+  background-color: #F7F3D6;
   text-align: center;
   display: flex;
   align-items: flex-start;
@@ -95,8 +95,7 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
 }
 /* 
 TREĆA SEKCIJA: [ Umetnički-Blok ] (Dve slike: slikarske četkice i palme) 
-----------------------------------------------------------------------
-*/
+---------------------------------------------------------------------- */
 .umetnički-blok {
   display: flex;
   align-items: flex-end;
@@ -107,7 +106,6 @@ TREĆA SEKCIJA: [ Umetnički-Blok ] (Dve slike: slikarske četkice i palme)
   text-align: left;
   font-size: 1.6vw;
 }
-
 .slika-palme img {
   width: 78%;
   height: auto;
@@ -122,19 +120,19 @@ TREĆA SEKCIJA: [ Umetnički-Blok ] (Dve slike: slikarske četkice i palme)
 }
 /*
 ČETVRTA SEKCIJA: [ Umetnički-Blok 2 ] (2 slike: palme) 
---------------------------------------------------
-*/
+-------------------------------------------------------*/
 .umetnički-blok2 {
   display:flex;
   background-color: #f2f2f2;
   width: 100%;
-  font-size: 1.42vw;
   margin-top: 1%;
+  font-size: 1.6vw;
 }
 .slika-palme2 {
   margin-top: 70px;
   flex: 1;
   margin-left: 10%;
+  
 }
 .slika-palme3 {
   margin-top: 70px;
@@ -163,12 +161,11 @@ TREĆA SEKCIJA: [ Umetnički-Blok ] (Dve slike: slikarske četkice i palme)
   font-style: italic;
   padding-top: 40px;
   font-family: "Marion";
-  font-size: 1.52vw;
+  font-size: 1.7vw;
 }
 /* 
 PETA SEKCIJA: [ Umetnički-Blok 3 ] (Slika: planine i reka) 
-------------------------------------------------------
-*/
+------------------------------------------------------------*/
 .slika-planina {
   background-color: #3d6877;
   margin-top: -45px;
@@ -183,15 +180,14 @@ PETA SEKCIJA: [ Umetnički-Blok 3 ] (Slika: planine i reka)
 .slika-planina p {
   margin-left: 7.8%;
   padding-bottom: 2%;
-  font-size: 1.42vw;
+  font-size: 1.6vw;
 }
 .slika-planina-text {
   padding-bottom: 15px;
 }
 .slika-planina-text pre {
   color: white;
-  font-size: 1.53vw;
-  font-weight: 500;
+  font-size: 1.7vw;
   font-family: "Marion";
   width: 95%;
   text-align: center;
@@ -201,8 +197,7 @@ PETA SEKCIJA: [ Umetnički-Blok 3 ] (Slika: planine i reka)
 }
 /* 
 ŠESTA SEKCIJA: [ Mima-lično ] 
--------------------------------
-*/
+-------------------------------*/
 .mima-lično {
   float: left;
   align-items: flex-end;
@@ -224,7 +219,6 @@ PETA SEKCIJA: [ Umetnički-Blok 3 ] (Slika: planine i reka)
   margin-top: 3.2%;
   position: absolute;
   left: 34%;
-  font-size: 1.6vw;
   color: #3d6877;
   line-height: 126%;
 } 
@@ -247,8 +241,7 @@ PETA SEKCIJA: [ Umetnički-Blok 3 ] (Slika: planine i reka)
 }
 /* 
 FOOTER 
--------------------
-*/
+------------------------------*/
 footer {
   position: relative;
   top: 70px;
@@ -320,8 +313,7 @@ footer {
 }
 /* 
 MOBILNI 
-------------------------------------
-*/
+------------------------------------*/
 .mobilni {
   font-size: 1em; 
   padding: 25px 2px;
@@ -330,8 +322,7 @@ MOBILNI
 }
 
 /* RESPONSIVE 
----------------------------------------
-*/
+-------------------------------------- */
 
 /* Laptop Large (min-width: 1200px) */
 @media screen and (min-width: 1200px) {
@@ -424,14 +415,35 @@ MOBILNI
     text-align: center;
     font-family: "Wingdings 2";
   }
-  /* Treća sekcija*/
-  .slika-palme {
-    text-align: center;
-    font-size: 1em;
-    margin-left: -4%;
+  /* ČETVRTA SEKCIJA: [ Umetnički-Blok 2 ] */ 
+  .umetnički-blok2-text pre, .slika-planina-text pre  {
+    font-size: 1.15em;
+  }
+  /* ŠETA SEKCIJA */
+  .mima-text {
+    margin-top: 3%;
+    left: 28%;
+  }
+  .mima-text pre {
+    font-size: 1.84vw;
+    line-height: 120%;
+  }
+  .mima-lično img {
+    width: 22%;
+    height: auto;
+  }
+  .mima-lično img:last-of-type {
+    margin-left: 1%;
+    width:20%;
+    margin-bottom: -4.1%;
+  }
+  #mima-potpis {
+    font-size: 2.9vw;
+    top: 16vw;
+    left: 61vw;
   }
 }
-/* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 870px) */
+/* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 900px) */
 @media screen and (min-width: 768px) and (max-width: 900px) {
   /*PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
@@ -450,7 +462,27 @@ MOBILNI
   }
   .biografija img {
     top: -11%;
- }
+  }
+  /* TREĆA SEKCIJA: [ Umetnički-Blok ] */
+  .slika-palme, .umetnički-blok2, .slika-planina p  {
+    text-align: center;
+    font-size: 0.95em;
+  }
+}
+/* 
+ŠESTA SEKCIJA: [ Mima-lično ] 
+-------------------------------*/
+
+
+
+/* MOBILNI */
+@media screen and (max-width: 600px) {
+  .mimaarbid-naslovna {
+    background-image: url('slike/mobilni.png'); 
+    background-size: 100% 100%; 
+    height:85vw;
+    display: flex;
+  }
 }
 
 
