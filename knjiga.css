@@ -12,8 +12,6 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
 ----------------------------------------------------------
 */
 .mimaarbid-naslovna {
-  background-image: url('slike/pozadina.png'); 
-  background-size: 100% 100%; 
   height: 46vw;
   display: flex;
 }
@@ -96,7 +94,7 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
   font-family: "Wingdings 2";
 }
 /* 
-TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme) 
+TREĆA SEKCIJA: [ Umetnički-Blok ] (Dve slike: slikarske četkice i palme) 
 ----------------------------------------------------------------------
 */
 .umetnički-blok {
@@ -123,7 +121,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   margin-bottom: -1%;
 }
 /*
-ČETVRTA SEKCIJA: [ Art-Blok 2 ] (2 slike: palme) 
+ČETVRTA SEKCIJA: [ Umetnički-Blok 2 ] (2 slike: palme) 
 --------------------------------------------------
 */
 .umetnički-blok2 {
@@ -152,7 +150,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   width: 100%;
   height: auto;
 }
-/* ASIDE */
+/* ASIDE (Manji text u vezi slike-planina) */
 .umetnički-blok2-text {
   background-color: #f2f2f2;
   padding-bottom: 60px;
@@ -168,7 +166,7 @@ TREĆA SEKCIJA: [ Art-Blok 1 ] (Dve slike: slikarske četkice i palme)
   font-size: 1.52vw;
 }
 /* 
-PETA SEKCIJA: [ Art-Blok 3 ] (Slika: planine i reka) 
+PETA SEKCIJA: [ Umetnički-Blok 3 ] (Slika: planine i reka) 
 ------------------------------------------------------
 */
 .slika-planina {
