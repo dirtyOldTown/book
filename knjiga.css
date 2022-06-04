@@ -379,7 +379,7 @@ MOBILNI
   }
   .biografija-text {
     background-image: url('slike/mima-prazno.png');
-    background-size: 95% 100%;
+    background-size: 110% 100%;
     position: absolute;
     top: -2%;
     line-height: 2.3vw;
