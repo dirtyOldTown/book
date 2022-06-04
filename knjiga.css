@@ -25,7 +25,7 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
 }
 .navigation-bar li a {
   color:white;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2vw;
   padding: 0 16px;
   text-decoration: none;
@@ -59,7 +59,7 @@ DRUGA SEKCIJA: [ Biografija ] (Zatamnjena slika Mime sa šeširom, Biografija-te
   margin-top: 6.4%;
   font-size: 1.62vw;
   line-height: 2.08vw;
-  font-family: "Marion";
+  font-family: "Marion", serif;
   color: black;
 }
 .biografija-text pre a {
@@ -188,7 +188,7 @@ PETA SEKCIJA: [ Umetnički-Blok 3 ] (Slika: planine i reka)
 .slika-planina-text pre {
   color: white;
   font-size: 1.7vw;
-  font-family: "Marion";
+  font-family: "Marion", serif;
   width: 95%;
   text-align: center;
   font-style: italic;
@@ -228,7 +228,7 @@ PETA SEKCIJA: [ Umetnički-Blok 3 ] (Slika: planine i reka)
   font-size: 1.6vw;
   color: #3d6877;
   line-height: 126%;
-  font-family: "Marion";
+  font-family: "Marion", serif;
 }
 #mima-potpis {
   position: relative;
