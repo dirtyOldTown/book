@@ -27,15 +27,14 @@ facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
 });
 // Animacija za navigation-bar 
-
 const navBar = document.querySelectorAll(".navigation-bar li a");
-// Looping: moouseover (addEventListener)
+// For Loop: moouseover (addEventListener)
 for (let i = 0; i < navBar.length; i++) {
   navBar[i].addEventListener("mousemove", () => {
    navBar[i].setAttribute("style", "color: yellow")
   })
 }
-// Looping: moouseout (addEventListener)
+// For Loop: moouseout (addEventListener)
 for (let i = 0; i < navBar.length; i++) {
   navBar[i].addEventListener("mouseout", () => {
    navBar[i].setAttribute("style", "color: white")

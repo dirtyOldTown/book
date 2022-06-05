@@ -8,12 +8,6 @@ body {
 /* 
 PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar) 
 ---------------------------------------------------------- */
-.mimaarbid-naslovna {
-  background-image: url('slike/pozadina.png'); 
-  background-size: cover; 
-  height: 49.2vw;
-  display: flex;
-}
 .navigation-bar {
   display: flex;
   justify-content: flex-end;
@@ -497,23 +491,6 @@ MOBILNI
 /* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 900px) */
 
 /* MOBILNI */
-@media screen and (max-width: 767px) {
-  .mimaarbid-naslovna {
-    justify-content: space-around;
-    background-image: url('slike/mobilni.png'); 
-    background-size: cover; 
-    height:92.1vw;
-  }
-   .navigation-bar {
-    margin-top: 4.3%;
-    margin-left: -7%;
-  }
-  .navigation-bar li a {
-    font-size: 2.6vw;
-    padding: 0 17px;
-    letter-spacing: 2.3px;
-  }
-}
 
 @media screen and (max-width: 900px) {
   /* 
@@ -534,10 +511,10 @@ MOBILNI
 } 
 #mima-potpis {
   position: absolute;
-  font-size: 8vw;
+  font-size: 7.8vw;
   text-align: center;
-  margin-top: 22%;
-  left:68%;
+  margin-top: 123px;
+  left:69%;
 }
 .mima-text pre {
   position: absolute;
@@ -552,13 +529,13 @@ MOBILNI
   width: 40%;
   height: auto;
   margin-left: 5%;
-  margin-top: 4%;
+  margin-top: 0%;
 }
 .mima-lično img:last-of-type {
   position: relative;
   left: 44%;
-  top: 190px;
-  width: 42%;
+  top: 170px;
+  width: 43%;
 }
 
 }
