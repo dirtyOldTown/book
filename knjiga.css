@@ -1,12 +1,10 @@
+/* OSNOVNO PODEŠAVANJE */
 * {
   box-sizing: border-box;
 }
-/* OSNOVNO PODEŠAVANJE [ Laptop ] (min-width: 1024px) */
-
 body {
   margin:0;
 }
-
 /* 
 PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar) 
 ---------------------------------------------------------- */
@@ -314,26 +312,40 @@ footer {
 /* 
 MOBILNI 
 ------------------------------------*/
-.mobilni {
-  font-size: 1em; 
-  padding: 25px 2px;
-  text-align: justify;
-  width: 90%;
-}
 
 /* RESPONSIVE 
 -------------------------------------- */
-
+/* Laptop Large (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+  
+  /* PRVA SEKCIJA: [ Početna ] */
+    .navigation-bar {
+      margin-left: 55%;
+      margin-top: 4.6%;
+    }
+    .navigation-bar li a {
+      padding: 0 20px;
+    }
+    /* FOOTER */
+  #vrh-strane a {
+    font-size: 1.5vw;
+   }
+  } 
 /* Laptop Large (min-width: 1200px) */
 @media screen and (min-width: 1200px) {
   
 /* PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
-    margin-left: 59%;
+    margin-left: 58%;
     margin-top: 4.6%;
   }
   .navigation-bar li a {
     padding: 0 20px;
+  }
+   /* FOOTER */
+   #vrh-strane {
+    right: 3px;
+    top: -52px;
   }
 } 
 
@@ -352,12 +364,20 @@ MOBILNI
 /* Very Large Screen (min-width: 1900px) */
 @media screen and (min-width: 1900px) {
   
-/* PRVA SEKCIJA: [ Početna ] */
+  /* PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
     margin-left: 61%;
   }
   .navigation-bar li a {
     padding: 0 30px;
+    font-size: 1.4vw;
+  }
+  /* FOOTER */
+   footer {
+    top: 130px;
+  }
+  #vrh-strane {
+    top: -70px;
   }
 }
 /* Prelazak sa Flex-Fow na Flex-Column u drugoj sekciji (max-width 1023) */
@@ -365,12 +385,12 @@ MOBILNI
 
   /* PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
-    margin-left: 57%;
+    margin-left: 56%;
   }
-  .navigation-bar li a {
-    padding: 0 14px;
-    }
-  /* DRUGA SEKCIJA: [ Biografija ] */
+    .navigation-bar li a {
+    font-size: 1.3vw;
+  }
+ /* DRUGA SEKCIJA: [ Biografija ] */
   .biografija {
     position: relative;
     flex-direction: column-reverse;
@@ -379,10 +399,10 @@ MOBILNI
   }
   .biografija-text {
     background-image: url('slike/mima-prazno.png');
-    background-size: 110% 100%;
+    background-size: 110% 120%;
     position: absolute;
+    width: 100%;
     top: -2%;
-    line-height: 2.3vw;
   }
   .biografija-text pre{
     position: relative;
@@ -442,17 +462,22 @@ MOBILNI
     top: 16vw;
     left: 61vw;
   }
+  /* FOOTER */
+  #vrh-strane a {
+   font-size: 1.1em;
+  }
+  
 }
 /* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 900px) */
 @media screen and (min-width: 768px) and (max-width: 900px) {
   /*PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
     margin-top: 3.8%;
-    margin-left: 54%;
+    margin-left: 53%;
   }
   .navigation-bar li a {
     padding: 0 12px;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     }
   /* DRUGA SEKCIJA: [ Biografija ] */
   .biografija-text pre{
@@ -469,28 +494,73 @@ MOBILNI
     font-size: 0.95em;
   }
 }
-/* 
-ŠESTA SEKCIJA: [ Mima-lično ] 
--------------------------------*/
-
-
+/* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 900px) */
 
 /* MOBILNI */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .mimaarbid-naslovna {
+    justify-content: space-around;
     background-image: url('slike/mobilni.png'); 
-    background-size: containcover; 
+    background-size: cover; 
     height:92.1vw;
   }
-  .navigation-bar {
-    margin-top: 4%;
-    margin-left: 5%;
+   .navigation-bar {
+    margin-top: 4.3%;
+    margin-left: -7%;
   }
   .navigation-bar li a {
-    font-size: 3vw;
-    padding: 0 16px;
-    letter-spacing: 2.4px;
+    font-size: 2.6vw;
+    padding: 0 17px;
+    letter-spacing: 2.3px;
   }
+}
+
+@media screen and (max-width: 900px) {
+  /* 
+ŠESTA SEKCIJA: [ Mima-lično ] 
+-------------------------------*/
+.mima-lično {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+.mima-text {
+  margin-top: 3.2%;
+  position: relative;
+  left: 0%;
+  color: #3d6877;
+  line-height: 126%;
+} 
+#mima-potpis {
+  position: absolute;
+  font-size: 8vw;
+  text-align: center;
+  margin-top: 22%;
+  left:68%;
+}
+.mima-text pre {
+  position: absolute;
+  left: 5%;
+  margin-top: 0;
+  font-size: 2.4vw;
+  color: #3d6877;
+  line-height: 120%;
+  text-align: left;
+}
+.mima-lično img {
+  width: 40%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+.mima-lično img:last-of-type {
+  position: relative;
+  left: 44%;
+  top: 190px;
+  width: 42%;
+}
+
 }
 
 
