@@ -20,7 +20,7 @@ PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar)
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  margin-top: 4%;
+  margin-top: 4.2%;
   margin-left: 58%;
 }
 .navigation-bar li a {
@@ -330,7 +330,7 @@ MOBILNI
 /* PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
     margin-left: 59%;
-    margin-top: 4.1%;
+    margin-top: 4.6%;
   }
   .navigation-bar li a {
     padding: 0 20px;

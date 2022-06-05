@@ -43,6 +43,4 @@ for (let i = 0; i < navBar.length; i++) {
 }
 
 // PROMENE ZA MOBILNI
-//----------------------
-
-
+//---------------------
