@@ -462,7 +462,7 @@ MOBILNI
   }
   
 }
-/* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 900px) */
+/* iPad Air & iPad Mini (min-width: 768px) and (max-width: 900px) */
 @media screen and (min-width: 768px) and (max-width: 900px) {
   /*PRVA SEKCIJA: [ Početna ] */
   .navigation-bar {
@@ -491,6 +491,23 @@ MOBILNI
 /* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 900px) */
 
 /* MOBILNI */
+@media screen and (max-width: 767px) {
+  .mimaarbid-naslovna {
+    justify-content: space-around;
+    background-image: url('slike/mobilni.png'); 
+    background-size: cover; 
+    height:92.1vw;
+  }
+   .navigation-bar {
+    margin-top: 4.3%;
+    margin-left: -7%;
+  }
+  .navigation-bar li a {
+    font-size: 2.6vw;
+    padding: 0 17px;
+    letter-spacing: 2.3px;
+  }
+}
 
 @media screen and (max-width: 900px) {
   /* 
@@ -539,5 +556,3 @@ MOBILNI
 }
 
 }
-
-
