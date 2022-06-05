@@ -8,6 +8,12 @@ body {
 /* 
 PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar) 
 ---------------------------------------------------------- */
+.mimaarbid-naslovna {
+  background-image: url('slike/pozadina.png'); 
+  background-size: cover; 
+  height: 49.2vw;
+  display: flex;
+  }
 .navigation-bar {
   display: flex;
   justify-content: flex-end;
@@ -309,6 +315,7 @@ MOBILNI
 
 /* RESPONSIVE 
 -------------------------------------- */
+
 /* Laptop Large (min-width: 1024px) */
 @media screen and (min-width: 1024px) {
   
@@ -346,7 +353,7 @@ MOBILNI
 /* Laptop Extra Large (min-width 1400px) */
 @media screen and (min-width: 1400px) {
 
-/* PRVA SEKCIJA: [ Početna ] */
+/* PRVA SEKCIJA: (Početna) */
   .navigation-bar {
     margin-left: 60%;
   }
@@ -358,7 +365,7 @@ MOBILNI
 /* Very Large Screen (min-width: 1900px) */
 @media screen and (min-width: 1900px) {
   
-  /* PRVA SEKCIJA: [ Početna ] */
+  /* PRVA SEKCIJA: (Početna) */
   .navigation-bar {
     margin-left: 61%;
   }
@@ -377,7 +384,7 @@ MOBILNI
 /* Prelazak sa Flex-Fow na Flex-Column u drugoj sekciji (max-width 1023) */
 @media screen and (max-width: 1023px) {
 
-  /* PRVA SEKCIJA: [ Početna ] */
+  /* PRVA SEKCIJA: (Početna) */
   .navigation-bar {
     margin-left: 56%;
   }
@@ -464,7 +471,7 @@ MOBILNI
 }
 /* iPad Air & iPad Mini (min-width: 768px) and (max-width: 900px) */
 @media screen and (min-width: 768px) and (max-width: 900px) {
-  /*PRVA SEKCIJA: [ Početna ] */
+  /* PRVA SEKCIJA: (Početna) */
   .navigation-bar {
     margin-top: 3.8%;
     margin-left: 53%;
@@ -487,8 +494,34 @@ MOBILNI
     text-align: center;
     font-size: 0.95em;
   }
+  /* FOOTER */
+footer {
+  top: 50px;
+  align-items: center;
+  height: 16vw;
 }
-/* RESPONSIVE [ iPad Air & iPad Mini ] (min-width: 768px) and (max-width: 900px) */
+#mimaarbid-text {
+  bottom: -3.2%;
+  font-size: 3em;
+}
+#pismo-simbol {
+  font-size: 5em;
+  top: -6%;
+}
+.kontakt-imejl {
+ margin-left: -8%;
+ font-size: 2.7vw;
+ margin-bottom: 0%;
+}
+.kontakt-imejl p:first-of-type {
+  margin-left: 3px;
+  margin-bottom: -6%;
+}
+#facebook {
+  font-size: 2.7em;
+}
+
+}
 
 /* MOBILNI */
 @media screen and (max-width: 767px) {
@@ -508,11 +541,12 @@ MOBILNI
     letter-spacing: 2.3px;
   }
 }
-
+/* ČETVRTA SEKCIJA: [ Umetnički-Blok 2 ] */ 
+.umetnički-blok2-text pre, .slika-planina-text pre  {
+  font-size: 0.9em;
+}
 @media screen and (max-width: 900px) {
-  /* 
-ŠESTA SEKCIJA: [ Mima-lično ] 
--------------------------------*/
+  /* ŠESTA SEKCIJA: [ Mima-lično ] */
 .mima-lično {
   position: relative;
   display: flex;
