@@ -9,6 +9,8 @@ body {
 PRVA SEKCIJA: [ Početna ] (Glavna slika, Navigation-Bar) 
 ---------------------------------------------------------- */
 .mimaarbid-naslovna {
+  background-image: url('slike/pozadina.png');
+  background-size: cover;
   height: 49.2vw;
   display: flex;
   }
@@ -258,7 +260,6 @@ footer {
   position: relative;
   font-family: "Wingdings";
   font-size: 6.2vw;
-  font-weight: 100;
   top: -6%;
 }
 .kontakt-imejl {
@@ -306,9 +307,6 @@ footer {
   font-family:'Times New Roman', serif;
   font-weight: bold;
 }
-/* 
-MOBILNI 
-------------------------------------*/
 
 /* RESPONSIVE 
 -------------------------------------- */
@@ -346,9 +344,8 @@ MOBILNI
   }
   .biografija img {
     position: relative;
-    top: -12%;
     width: 60%;
-    height: auto;
+    top: -10%;
   }
   #wingdings-a {
     position:absolute;
@@ -479,9 +476,6 @@ MOBILNI
     line-height: 2.7vw;
     top: -33%;
   }
-  .biografija img {
-    top: -11%;
-  }
   /* TREĆA SEKCIJA: [ Umetnički-Blok ] */
   .slika-palme, .umetnički-blok2, .slika-planina p  {
     text-align: center;
@@ -491,26 +485,44 @@ MOBILNI
 
 /* MOBILNI */
 @media screen and (max-width: 767px) {
+  /* PRVA SEKCIJA */
   .mimaarbid-naslovna {
-    justify-content: space-around;
+    justify-content: flex-start;
     background-image: url('slike/mobilni.png'); 
     background-size: cover; 
     height:92.1vw;
   }
    .navigation-bar {
     margin-top: 4.3%;
-    margin-left: -7%;
+    margin-left: 0%;
   }
   .navigation-bar li a {
     font-size: 2.6vw;
     padding: 0 17px;
     letter-spacing: 2.3px;
   }
+  /*DRUGA SEKCIJA */
+  .biografija {
+    height: 130vw
+  }
+  .biografija-text pre{
+    width: 94%;
+    top: -35%;
+    font-size: 2.6vw;
+    line-height: 2.8vw;
+  }
+  .biografija img {
+    width: 95%;
+    top: -10%;
+    margin-left: 0%;
+  }
 }
 /* ČETVRTA SEKCIJA: [ Umetnički-Blok 2 ] */ 
 .umetnički-blok2-text pre, .slika-planina-text pre  {
   font-size: 0.9em;
 }
+
+/* TABLET / MOBILNI*/
 @media screen and (max-width: 900px) {
   /* ŠESTA SEKCIJA: [ Mima-lično ] */
 .mima-lično {
