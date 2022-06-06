@@ -96,7 +96,6 @@ TREĆA SEKCIJA: [ Umetnički-Blok ] (Dve slike: slikarske četkice i palme)
 ---------------------------------------------------------------------- */
 .umetnički-blok {
   display: flex;
-  align-items: flex-end;
   margin-top: -1%;
 }
 .slika-palme {
@@ -122,27 +121,24 @@ TREĆA SEKCIJA: [ Umetnički-Blok ] (Dve slike: slikarske četkice i palme)
 .umetnički-blok2 {
   display:flex;
   background-color: #f2f2f2;
-  width: 100%;
-  margin-top: 1%;
 }
 .slika-palme2 {
-  margin-top: 70px;
-  flex: 1;
-  margin-left: 10%;
-  
+  margin-top: 50px;
+  position: relative;
+  left: 8%;
 }
 .slika-palme3 {
-  margin-top: 70px;
-  flex: 1.68;
-  margin-left: 7%;
-  margin-right: 5%;
+  margin-top: 50px;
+  position: relative;
+  left: 10%;
+
 }
 .slika-palme2 img {
-  width: 100%;
+  width: 90.5%;
   height: auto;
 }
 .slika-palme3 img {
-  width: 100%;
+  width: 76%;
   height: auto;
 }
 /* ASIDE (Manji text u vezi slike-planina) */
@@ -309,7 +305,7 @@ footer {
 }
 
 /* RESPONSIVE 
--------------------------------------- */
+----------------------------------------------------------------------------- */
 /* Prelazak sa Flex-Fow na Flex-Column u drugoj sekciji (max-width 1023) */
 @media screen and (max-width: 1023px) {
 
@@ -364,7 +360,6 @@ footer {
     text-align: center;
     font-family: "Wingdings 2";
   }
- 
   /* ŠETA SEKCIJA */
   .mima-text {
     margin-top: 3%;
@@ -476,11 +471,8 @@ footer {
     line-height: 2.7vw;
     top: -33%;
   }
-  /* TREĆA SEKCIJA: [ Umetnički-Blok ] */
-  .slika-palme, .umetnički-blok2, .slika-planina p  {
-    text-align: center;
-    font-size: 0.95em;
-  }
+/* TREĆA SEKCIJA: [ Umetnički-Blok ] */
+
 }
 
 /* MOBILNI */
@@ -513,33 +505,17 @@ footer {
     line-height: 2.8vw;
   }
   .biografija img {
-    width: 95%;
+    width: 98%;
     top: -10%;
     margin-left: 0%;
+    margin-bottom: -13%;
   }
   /* TREĆA SEKCIJA*/
-  .slika-palme {
-    margin-left: 0;
-    font-size: 1.6vw;
-  }
-  .slika-palme img {
-    width: 100%;
-    margin-top: 50px;
-  }
+  
 }
 /* ČETVRTA SEKCIJA: [ Umetnički-Blok 2 ] */ 
-.umetnički-blok2 {
-  background-color: transparent;
-}
-.umetnički-blok2-text pre, .slika-planina-text pre  {
-  font-size: 0.9em;
-}
-.slika-palme2 {
-  margin-top: 20px;
-  width: 65%;
-  margin-left: 17%;
-}
-@media screen and (min-width: 500px) and (max-width: 650px) {
+
+/* @media screen and (min-width: 500px) and (max-width: 650px) {
   .biografija-text pre{
     top: -35%;
     font-size: 2.9vw;
@@ -549,10 +525,10 @@ footer {
 @media screen and (max-width: 400px) {
   .biografija-text pre{
     top: -35%;
-    font-size: 3.2vw;
-    line-height: 3.1vw;
+    font-size: 3.5vw;
+    line-height: 3.3vw;
   }
-}
+}*/
 /* TABLET / MOBILNI*/
 @media screen and (max-width: 900px) {
   /* ŠESTA SEKCIJA: [ Mima-lično ] */
