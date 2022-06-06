@@ -44,8 +44,8 @@ for (let i = 0; i < navBar.length; i++) {
 // TABLET / MOBILNI
 //---------------------
 const biografijaText = document.querySelector(".biografija-text");
-const biografijaTextPre = document.querySelector(".biografija-text pre");
-const biografijaSlika = document.querySelector(".biografija img");
+const umetničkiBlok = document.querySelector(".umetnički-blok");
+const umetničkiBlok2 = document.querySelector(".umetnički-blok2");
 const mediaHandler = matchMedia('(max-width: 767px)');
 
 // Funkcija za mediaHandler (max-width: 767px)
@@ -68,6 +68,8 @@ function promenaTexta(x) {
     Tweeter, Instagram or Facebook. Until we meet again! 
    </pre>
     `
+    umetničkiBlok.setAttribute("style", "flex-direction: column; align-items: flex-start");
+    umetničkiBlok2.setAttribute("style", "flex-direction: column-reverse; align-items: flex-start");
   } else {
     biografijaText.innerHTML = `
     <p id="wingdings-a">a</p>
@@ -87,6 +89,9 @@ function promenaTexta(x) {
     </pre>
     <p id="wingdings-b">b</p>      
     `
+    umetničkiBlok.setAttribute("style", "flex-direction: row; align-items: flex-end");
+    umetničkiBlok2.setAttribute("style", "flex-direction: row; align-items: flex-end");
+    
   }
 }
 promenaTexta(mediaHandler);

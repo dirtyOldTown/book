@@ -484,6 +484,7 @@ footer {
 }
 
 /* MOBILNI */
+
 @media screen and (max-width: 767px) {
   /* PRVA SEKCIJA */
   .mimaarbid-naslovna {
@@ -516,12 +517,42 @@ footer {
     top: -10%;
     margin-left: 0%;
   }
+  /* TREĆA SEKCIJA*/
+  .slika-palme {
+    margin-left: 0;
+    font-size: 1.6vw;
+  }
+  .slika-palme img {
+    width: 100%;
+    margin-top: 50px;
+  }
 }
 /* ČETVRTA SEKCIJA: [ Umetnički-Blok 2 ] */ 
+.umetnički-blok2 {
+  background-color: transparent;
+}
 .umetnički-blok2-text pre, .slika-planina-text pre  {
   font-size: 0.9em;
 }
-
+.slika-palme2 {
+  margin-top: 20px;
+  width: 65%;
+  margin-left: 17%;
+}
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .biografija-text pre{
+    top: -35%;
+    font-size: 2.9vw;
+    line-height: 3.1vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .biografija-text pre{
+    top: -35%;
+    font-size: 3.2vw;
+    line-height: 3.1vw;
+  }
+}
 /* TABLET / MOBILNI*/
 @media screen and (max-width: 900px) {
   /* ŠESTA SEKCIJA: [ Mima-lično ] */
