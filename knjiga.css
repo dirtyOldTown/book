@@ -97,6 +97,7 @@ TREĆA SEKCIJA: [ Umetnički-Blok ] (Dve slike: slikarske četkice i palme)
 .umetnički-blok {
   display: flex;
   margin-top: -1%;
+  justify-content: center;
 }
 .slika-palme {
   margin-left: 4%;
@@ -120,6 +121,7 @@ TREĆA SEKCIJA: [ Umetnički-Blok ] (Dve slike: slikarske četkice i palme)
 -------------------------------------------------------*/
 .umetnički-blok2 {
   display:flex;
+  justify-content: center;
   background-color: #f2f2f2;
 }
 .slika-palme2 {
@@ -175,21 +177,18 @@ PETA SEKCIJA: [ Umetnički-Blok 3 ] (Slika: planine i reka)
   padding-bottom: 2%;
   font-size: 1.6vw;
 }
-.slika-planina-text {
-  padding-bottom: 15px;
-  font-size: 1.9vw;
-}
-.slika-planina-text pre {
-  color: white;
-  font-family: "Marion", serif;
-  width: 95%;
-  text-align: center;
-  font-style: italic;
-  margin-top: 25px;
-  padding-bottom: 20px;
-}
 /* 
-ŠESTA SEKCIJA: [ Mima-lično ] 
+ŠESTA SEKCIJA: [ Knjige ] 
+-------------------------------*/
+.knjige {
+  background-color: #f2f2f2;
+  padding:10px 0;
+  font-size: 1.9vw;
+  margin-top: -15px;
+}
+
+/* 
+SEDMA SEKCIJA: [ Mima-lično ] 
 -------------------------------*/
 .mima-lično {
   float: left;
@@ -474,64 +473,8 @@ footer {
 /* TREĆA SEKCIJA: [ Umetnički-Blok ] */
 
 }
-
-/* MOBILNI */
-
-@media screen and (max-width: 767px) {
-  /* PRVA SEKCIJA */
-  .mimaarbid-naslovna {
-    justify-content: flex-start;
-    background-image: url('slike/mobilni.png'); 
-    background-size: cover; 
-    height:92.1vw;
-  }
-   .navigation-bar {
-    margin-top: 4.3%;
-    margin-left: 0%;
-  }
-  .navigation-bar li a {
-    font-size: 2.6vw;
-    padding: 0 17px;
-    letter-spacing: 2.3px;
-  }
-  /*DRUGA SEKCIJA */
-  .biografija {
-    height: 130vw
-  }
-  .biografija-text pre{
-    width: 94%;
-    top: -35%;
-    font-size: 2.6vw;
-    line-height: 2.8vw;
-  }
-  .biografija img {
-    width: 98%;
-    top: -10%;
-    margin-left: 0%;
-    margin-bottom: -13%;
-  }
-  /* TREĆA SEKCIJA*/
-  
-}
-/* ČETVRTA SEKCIJA: [ Umetnički-Blok 2 ] */ 
-
-/* @media screen and (min-width: 500px) and (max-width: 650px) {
-  .biografija-text pre{
-    top: -35%;
-    font-size: 2.9vw;
-    line-height: 3.1vw;
-  }
-}
-@media screen and (max-width: 400px) {
-  .biografija-text pre{
-    top: -35%;
-    font-size: 3.5vw;
-    line-height: 3.3vw;
-  }
-}*/
-/* TABLET / MOBILNI*/
 @media screen and (max-width: 900px) {
-  /* ŠESTA SEKCIJA: [ Mima-lično ] */
+/* SEDMA SEKCIJA: [ Mima-lično ] */
 .mima-lično {
   position: relative;
   display: flex;
@@ -601,6 +544,82 @@ footer {
 }
 
 
+}
+
+@media screen and (max-width: 767px) {
+  /* PRVA SEKCIJA */
+  .mimaarbid-naslovna {
+    justify-content: flex-start;
+    background-image: url('slike/mobilni.png'); 
+    background-size: cover; 
+    height:92.1vw;
+  }
+   .navigation-bar {
+    margin-top: 4.3%;
+    margin-left: 0%;
+  }
+  .navigation-bar li a {
+    font-size: 2.6vw;
+    padding: 0 17px;
+    letter-spacing: 2.3px;
+  }
+  /*DRUGA SEKCIJA */
+  .biografija {
+    height: 130vw
+  }
+  .biografija-text pre{
+    width: 94%;
+    top: -35%;
+    font-size: 2.6vw;
+    line-height: 2.8vw;
+  }
+  .biografija img {
+    width: 98%;
+    top: -10%;
+    margin-left: 0%;
+    margin-bottom: -13%;
+  }
+  /* TREĆA SEKCIJA*/
+  .umetnički-blok2 {
+    background-color: transparent;
+  }
+  .slika-palme {
+    max-width:90%;
+    margin-left: 0;
+    font-size: 1.6vw;
+    margin-top:-6%;
+  }
+  .slika-palme img {
+    height: auto;
+    width:110%;
+    margin-top: 50px;
+  }
+  
+  #slika-četkice {
+    position: relative;
+    top: 5px;
+    width: 35%;
+    height: auto;
+   margin-bottom: -0;
+  }
+}
+
+/* MOBILNI */
+
+/* ČETVRTA SEKCIJA: [ Umetnički-Blok 2 ] */ 
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .biografija-text pre{
+    top: -35%;
+    font-size: 2.9vw;
+    line-height: 3.1vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .biografija-text pre{
+    top: -35%;
+    font-size: 3.5vw;
+    line-height: 3.3vw;
+  }
 }
 
 
