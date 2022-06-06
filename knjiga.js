@@ -46,23 +46,24 @@ for (let i = 0; i < navBar.length; i++) {
 const biografijaText = document.querySelector(".biografija-text");
 const umetničkiBlok = document.querySelector(".umetnički-blok");
 const umetničkiBlok2 = document.querySelector(".umetnički-blok2");
-const mediaHandler = matchMedia('(max-width: 767px)');
+const mediaHandler = window.matchMedia('screen and (max-width: 767px)');
 
 // Funkcija za mediaHandler (max-width: 767px)
 function promenaTexta(x) {
   if (x.matches) {
     biografijaText.innerHTML = `
     <pre>
-    Do you believe in destiny? Do you think that everything happens 
-    for a reason? Do you ever have that feeling of not belonging?
-    My book <a href="#books">I DO NOT BELONG</a> is a story of a young girl desperately 
-    trying to find herself and her place in the world after a tragic 
-    event in her life. A chance encounter with an elderly American 
-    couple and a misunderstanding on their part changes her 
-    life forever. She is catapulted into a new world searching for 
-    her destiny. Will she ever find it? It's a relatable story inspired by 
-    true events. An easy and fast read. You can find it on 
-    Amazon in paperback or kindle. And all the art 
+    Do you believe in destiny? Do you think that everything 
+    happens for a reason? Do you ever have that feeling of 
+    not belonging? My book <a href="#books">I DO NOT BELONG</a> is a story
+    of a young girl desperately trying to find herself and
+    her place in the world after a tragic event in her life. 
+    A chance encounter with an elderly American couple and a 
+    misunderstanding on their part changes her life forever. 
+    She is catapulted into a new world searching for her 
+    destiny. Will she ever find it? It's a relatable story 
+    inspired by true events. An easy and fast read. You can 
+    find it on Amazon in paperback or kindle. And all the art 
     throughout the book, including the cover, is mine. 
     Hope you enjoy reading it. Please let me know. On Amazon, 
     Tweeter, Instagram or Facebook. Until we meet again! 
@@ -91,9 +92,9 @@ function promenaTexta(x) {
     `
     umetničkiBlok.setAttribute("style", "flex-direction: row; align-items: flex-end");
     umetničkiBlok2.setAttribute("style", "flex-direction: row; align-items: flex-end");
-    
   }
 }
+
 promenaTexta(mediaHandler);
 mediaHandler.addEventListener("change",promenaTexta)
 
