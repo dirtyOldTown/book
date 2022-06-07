@@ -580,12 +580,11 @@ footer {
     max-width:90%;
     margin-left: 0;
     font-size: 1.6vw;
-    margin-top:-6%;
   }
   .slika-palme img {
     height: auto;
     width:110%;
-    margin-top: 50px;
+    margin-top: 1%;
   }
   
   #slika-četkice {
@@ -593,7 +592,6 @@ footer {
     top: 5px;
     width: 35%;
     height: auto;
-   margin-bottom: -0;
   }
 }
 
