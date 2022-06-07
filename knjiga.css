@@ -7,6 +7,9 @@ body {
 /* 
 PRVA SEKCIJA: Početna
 ------------------------------------------------------------ */
+.mimaarbid-naslovna header {
+  display: none;
+}
 .mimaarbid-naslovna {
   background-image: url('slike/pozadina.png');
   background-size: cover;
@@ -102,7 +105,6 @@ TREĆA SEKCIJA: Umetnički blok
   flex: 3;
   margin-left: 4%;
   text-align: left;
-  font-size: 1.6vw;
 }
 .slika-palme img {
   height: auto;
@@ -144,13 +146,13 @@ ASIDE: Slika-text
   padding-bottom: 60px;
   margin-left: 0;
   text-align: center;
-  font-size: 1.9vw;
+  font-size: 1.7vw;
 }
 .slika-text pre {
   font-family: "Marion";
   color: #3d6877;
   margin-top: 0px;
-  padding-top: 40px;
+  padding-top: 50px;
   font-style: italic;
 }
 /* 
@@ -158,7 +160,7 @@ PETA SEKCIJA: Umetnički-Blok 3
 ------------------------------------------------------------*/
 .slika-planina {
   background-color: #3d6877;
-  margin-top: -45px;
+  margin-top: -70px;
   color: white;
   padding-bottom: 20px;
 }
@@ -302,8 +304,8 @@ footer {
 ----------------------------------------------------------------------------- */
 
 /* Prelazak sa Flex-Row na Flex-Column u drugoj sekciji (max-width 1023px) */
-@media screen and (max-width: 1023px) {
 
+@media screen and (max-width: 1023px) {
   /* PRVA SEKCIJA: Početna */
   .navigation-bar {
     margin-left: 56%;
@@ -384,8 +386,8 @@ footer {
   }
 }
 /* Laptop  (min-width: 1024px) */
+
 @media screen and (min-width: 1024px) {
-  
   /* PRVA SEKCIJA: Početna */
   .navigation-bar {
     margin-left: 55%;
@@ -400,9 +402,9 @@ footer {
   }
 } 
 /* Laptop Large (min-width: 1200px) */
+
 @media screen and (min-width: 1200px) {
-  
-/* PRVA SEKCIJA: Početna */
+  /* PRVA SEKCIJA: Početna */
   .navigation-bar {
     margin-left: 58%;
     margin-top: 4.6%;
@@ -417,8 +419,8 @@ footer {
   }
 } 
 /* Laptop Extra Large (min-width 1400px) */
-@media screen and (min-width: 1400px) {
 
+@media screen and (min-width: 1400px) {
   /* PRVA SEKCIJA: Početna */
   .navigation-bar {
     margin-left: 60%;
@@ -428,8 +430,8 @@ footer {
   }
 }
 /* Large Screen (min-width: 1900px) */
+
 @media screen and (min-width: 1900px) {
-  
   /* PRVA SEKCIJA: Početna */
   .navigation-bar {
     margin-left: 61%;
@@ -447,8 +449,8 @@ footer {
   }
 }
 /* iPad Air & iPad Mini (min-width: 768px) and (max-width: 900px) */
-@media screen and (min-width: 768px) and (max-width: 900px) {
 
+@media screen and (min-width: 768px) and (max-width: 900px) {
   /* PRVA SEKCIJA: Početna */
   .navigation-bar {
     margin-top: 3.8%;
@@ -466,8 +468,8 @@ footer {
   }
 }
 /* Prelazak sa Flex-Row na Flex-Column u sedmoj sekciji (max-width 900px) */
-@media screen and (max-width: 900px) {
 
+@media screen and (max-width: 900px) {
   /* SEDMA SEKCIJA: Mima-lično */
   .mima-lično {
     position: relative;
@@ -538,24 +540,25 @@ footer {
   }
 }
 /* VEĆI MOBILNI (max-width: 767px) */
+
 @media screen and (max-width: 767px) {
   /* PRVA SEKCIJA */
   .mimaarbid-naslovna {
-    justify-content: flex-start;
+    justify-content: center;
     background-image: url('slike/mobilni.png'); 
     background-size: cover; 
     height:92.1vw;
   }
    .navigation-bar {
     margin-top: 4.3%;
-    margin-left: 0%;
+    margin-left: -9%;
   }
   .navigation-bar li a {
     font-size: 2.6vw;
     padding: 0 17px;
     letter-spacing: 2.3px;
   }
-  /*DRUGA SEKCIJA */
+  /*DRUGA SEKCIJA Biografija*/
   .biografija {
     height: 130vw
   }
@@ -575,7 +578,6 @@ footer {
   .slika-palme {
     text-align: center;
     margin-left: 0;
-    font-size: 1.6vw;
     margin-top: -2px;
   }
   .slika-palme img {
@@ -589,45 +591,56 @@ footer {
     width: 35%;
     height: auto;
   }
-  
-/* ČETVRTA SEKCIJA: Umetnički-Blok 2 */  
-.umetnički-blok2 {
-  text-align: center;
-  background-color: transparent;
-}
-.slika-palme2 {
-  align-self: center;
- }
-/*.slika-palme3 {
- }*/
-.slika-palme2 img {
-  width: 85%;
-  height: auto;
-}
-.slika-palme3 img {
-  width: 85%;
-  height: auto;
-}
+  /* ČETVRTA SEKCIJA: Umetnički-Blok 2 */  
+  .umetnički-blok2 {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+  }
+  .slika-palme2 {
+    width: 75%;
+    margin-left: 13%;
+    margin-top: 0px;
+  }
+  .slika-palme2 img {
+    width: 65%;
+    height: auto;
+  }
+  .slika-palme3 img {
+    width: 85%;
+    height: auto;
+  }
   /* ASIDE: Slika-text */
   .slika-text {
     background-color: transparent;
   }
 }
-
 /* SREDNJI MOBILNI (min-width: 500px) and (max-width: 650px) */
+
 @media screen and (min-width: 500px) and (max-width: 650px) {
+  /*DRUGA SEKCIJA Biografija*/
   .biografija-text pre{
     top: -35%;
     font-size: 2.9vw;
     line-height: 3.1vw;
   }
+  /* ČETVRTA SEKCIJA: Umetnički-Blok 2 */ 
+  .umetnički-blok2 {
+    font-size: 0.8em;
+  }
 }
 /*MANJI MOBILNI (max-width: 400px) */
+
 @media screen and (max-width: 400px) {
+  /*DRUGA SEKCIJA Biografija*/
   .biografija-text pre{
     top: -35%;
     font-size: 3.5vw;
     line-height: 3.3vw;
+  }
+  /* ČETVRTA SEKCIJA: Umetnički-Blok 2 */ 
+  .umetnički-blok2 {
+    font-size: 0.8em;
   }
 }
 
