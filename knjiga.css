@@ -95,22 +95,22 @@ TREĆA SEKCIJA: Umetnički blok
 ------------------------------------------------------------ */
 .umetnički-blok {
   display: flex;
-  margin-top: -1%;
-  justify-content: center;
+  margin-top: 50px;
+  justify-content: flex-start;
 }
 .slika-palme {
+  flex: 3;
   margin-left: 4%;
   text-align: left;
   font-size: 1.6vw;
 }
 .slika-palme img {
-  width: 78%;
   height: auto;
-  margin-top: 50px;
+  width: 75%;
 }
-#slika-četkice {
-  position: relative;
-  width: 23%;
+#slika-četkice  {
+  width: 25%;
+  flex: 1;
   height: auto;
 }
 /*
@@ -118,9 +118,7 @@ TREĆA SEKCIJA: Umetnički blok
 ------------------------------------------------------------ */
 .umetnički-blok2 {
   display:flex;
-
   background-color: #f2f2f2;
-
 }
 .slika-palme2 {
   flex:1.19;
@@ -141,14 +139,14 @@ TREĆA SEKCIJA: Umetnički blok
 /* 
 ASIDE: Slika-text 
 ------------------------------------------------------------ */
-.umetnički-blok2-text {
+.slika-text {
   background-color: #f2f2f2;
   padding-bottom: 60px;
   margin-left: 0;
   text-align: center;
   font-size: 1.9vw;
 }
-.umetnički-blok2-text pre {
+.slika-text pre {
   font-family: "Marion";
   color: #3d6877;
   margin-top: 0px;
@@ -181,7 +179,7 @@ PETA SEKCIJA: Umetnički-Blok 3
   background-color: #f2f2f2;
   padding:10px 0;
   font-size: 1.9vw;
-  margin-top: -15px;
+  margin-top: -22px;
 }
 /* 
 SEDMA SEKCIJA: Mima-lično 
@@ -573,7 +571,7 @@ footer {
     margin-bottom: -13%;
   }
   /* TREĆA SEKCIJA*/
-  .umetnički-blok2 {
+  .slika-text {
     background-color: transparent;
   }
   .slika-palme {

@@ -1,6 +1,3 @@
-// PROMENE ZA LAPTOP + MOBILNI
-//-----------------------------
-
 // Animacija za email, facebook (Promena boja: mouseover/mouseout)
 
 const email = document.querySelector(".kontakt-imejl p:last-of-type a");
@@ -12,42 +9,43 @@ function plavaBoja(x) {
 function belaBoja(x) {
     x.setAttribute("style", "color: white; background-color: transparent")
   }
-// mouseover (addEventListener)
+// addEventListener (mouseover)
 email.addEventListener("mouseover", () => {
   plavaBoja(email)
 });
 facebook.addEventListener("mouseover", () => {
   plavaBoja(facebook)
 });
-//  mouseout (addEventListener)
+//   addEventListener (mouseout)
 email.addEventListener("mouseout", () => {
   belaBoja(email)
 });
 facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
 });
-// Animacija za navigation-bar 
+
+// Animacija za navigation-bar  (Promena boja: mouseover/mouseout)
+
 const navBar = document.querySelectorAll(".navigation-bar li a");
-// For Loop: moouseover (addEventListener)
+// For-Loop: addEventListener (moouseover)
 for (let i = 0; i < navBar.length; i++) {
   navBar[i].addEventListener("mousemove", () => {
    navBar[i].setAttribute("style", "color: yellow")
   })
 }
-// For Loop: moouseout (addEventListener)
+// For-Loop: addEventListener (moouseout)
 for (let i = 0; i < navBar.length; i++) {
   navBar[i].addEventListener("mouseout", () => {
    navBar[i].setAttribute("style", "color: white")
   })
 }
 
-// TABLET / MOBILNI
-//---------------------
+// Promena strukture teksta (matchMedia: max-width: 767px )
+
 const biografijaText = document.querySelector(".biografija-text");
 const umetničkiBlok = document.querySelector(".umetnički-blok");
 const umetničkiBlok2 = document.querySelector(".umetnički-blok2");
 const mediaHandler = window.matchMedia('screen and (max-width: 767px)');
-
 // Funkcija za mediaHandler (max-width: 767px)
 function promenaTexta(x) {
   if (x.matches) {
@@ -94,7 +92,7 @@ function promenaTexta(x) {
     umetničkiBlok2.setAttribute("style", "flex-direction: row; align-items: flex-end");
   }
 }
-
+// Realizovanje funkcije (addEventListener)
 promenaTexta(mediaHandler);
 mediaHandler.addEventListener("change",promenaTexta)
 
