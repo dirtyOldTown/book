@@ -160,6 +160,7 @@ PETA SEKCIJA: Umetnički-Blok 3
   background-color: #3d6877;
   margin-top: -45px;
   color: white;
+  padding-bottom: 20px;
 }
 .slika-planina img {
   width: 85%;
@@ -303,7 +304,7 @@ footer {
 /* Prelazak sa Flex-Row na Flex-Column u drugoj sekciji (max-width 1023px) */
 @media screen and (max-width: 1023px) {
 
-  /* PRVA SEKCIJA: (Početna) */
+  /* PRVA SEKCIJA: Početna */
   .navigation-bar {
     margin-left: 56%;
   }
@@ -571,25 +572,45 @@ footer {
     margin-bottom: -13%;
   }
   /* TREĆA SEKCIJA*/
-  .slika-text {
-    background-color: transparent;
-  }
   .slika-palme {
-    max-width:90%;
+    text-align: center;
     margin-left: 0;
     font-size: 1.6vw;
+    margin-top: -2px;
   }
   .slika-palme img {
     height: auto;
-    width:110%;
+    width:100%;
     margin-top: 1%;
   }
-  
   #slika-četkice {
     position: relative;
     top: 5px;
     width: 35%;
     height: auto;
+  }
+  
+/* ČETVRTA SEKCIJA: Umetnički-Blok 2 */  
+.umetnički-blok2 {
+  text-align: center;
+  background-color: transparent;
+}
+.slika-palme2 {
+  align-self: center;
+ }
+/*.slika-palme3 {
+ }*/
+.slika-palme2 img {
+  width: 85%;
+  height: auto;
+}
+.slika-palme3 img {
+  width: 85%;
+  height: auto;
+}
+  /* ASIDE: Slika-text */
+  .slika-text {
+    background-color: transparent;
   }
 }
 
