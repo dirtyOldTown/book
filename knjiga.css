@@ -639,7 +639,7 @@ footer {
   .mobilni {
     font-size: 3vw;
     line-height: 3.4vw;
-    padding: 40px 50px 0;
+    padding: 40px 60px 0;
   }
   /* ASIDE: Slika-text */
   .slika-text {
@@ -650,13 +650,16 @@ footer {
 @media screen and (max-width: 575px) {
   
   /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 140vw;
+  }
   .biografija img {
-    top: -5%;
+    top: -7%;
     margin-bottom: -15%;
   }
   .mobilni {
-    font-size: 3.3vw;
-    line-height: 3.7vw;
+    font-size: 3.5vw;
+    line-height: 3.9vw;
     padding: 40px 40px 0;
   }
 
@@ -664,19 +667,36 @@ footer {
 @media screen and (max-width: 475px) {
   
   /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 151vw;
+  }
   .biografija img {
-    top: -5%;
+    top: -12%;
     margin-bottom: -25%;
   }
   .mobilni {
-    font-size: 3.8vw;
-    line-height: 4.1vw;
+    font-size: 4vw;
+    line-height: 4.3vw;
     padding: 40px 30px 0;
   }
 }
 /*MANJI MOBILNI (max-width: 400px) */
 
 @media screen and (max-width: 400px) {
+  /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 205vw;
+  }
+  .biografija img {
+    top: -10%;
+    margin-bottom: -32%;
+  }
+  .mobilni {
+    font-size: 5.2vw;
+    line-height: 5.4vw;
+    padding: 40px 23px 0;
+    text-align: start;
+  }
   /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
   .umetnički-blok, .umetnički-blok2, .slika-planina p {
     font-size: 0.9em;
