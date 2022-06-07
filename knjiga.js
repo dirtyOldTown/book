@@ -1,4 +1,4 @@
-// Animacija za email, facebook (Promena boja: mouseover/mouseout)
+// Animacija za email, facebook (Promena boje: mouseover/mouseout)
 
 const email = document.querySelector(".kontakt-imejl p:last-of-type a");
 const facebook = document.querySelector("#facebook a");
@@ -24,7 +24,7 @@ facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
 });
 
-// Animacija za navigation-bar  (Promena boja: mouseover/mouseout)
+// Animacija za navigation-bar  (Promena boje: mouseover/mouseout)
 
 const navBar = document.querySelectorAll(".navigation-bar li a");
 // For-Loop: addEventListener (moouseover)
@@ -43,6 +43,7 @@ for (let i = 0; i < navBar.length; i++) {
 // Promena strukture teksta (matchMedia: max-width: 767px )
 
 const biografijaText = document.querySelector(".biografija-text");
+const biografijaTextPre = document.querySelector(".biografija-text pre");
 const umetničkiBlok = document.querySelector(".umetnički-blok");
 const umetničkiBlok2 = document.querySelector(".umetnički-blok2");
 const mediaHandler = window.matchMedia('screen and (max-width: 767px)');
@@ -50,7 +51,7 @@ const mediaHandler = window.matchMedia('screen and (max-width: 767px)');
 function promenaTexta(x) {
   if (x.matches) {
     biografijaText.innerHTML = `
-    <pre>
+    <p">
     Do you believe in destiny? Do you think that everything 
     happens for a reason? Do you ever have that feeling of 
     not belonging? My book <a href="#books">I DO NOT BELONG</a> is a story
@@ -65,8 +66,9 @@ function promenaTexta(x) {
     throughout the book, including the cover, is mine. 
     Hope you enjoy reading it. Please let me know. On Amazon, 
     Tweeter, Instagram or Facebook. Until we meet again! 
-   </pre>
+   </p>
     `
+    biografijaText.classList.add("mobilni")
     umetničkiBlok.setAttribute("style", "flex-direction: column; align-items: flex-start");
     umetničkiBlok2.setAttribute("style", "flex-direction: column-reverse; align-items: flex-start");
   } else {
@@ -88,6 +90,7 @@ function promenaTexta(x) {
     </pre>
     <p id="wingdings-b">b</p>      
     `
+    biografijaText.classList.remove("mobilni")
     umetničkiBlok.setAttribute("style", "flex-direction: row; align-items: flex-end");
     umetničkiBlok2.setAttribute("style", "flex-direction: row; align-items: flex-end");
   }
@@ -96,3 +99,8 @@ function promenaTexta(x) {
 promenaTexta(mediaHandler);
 mediaHandler.addEventListener("change",promenaTexta)
 
+/*
+// Promena strukture teksta (matchMedia: max-width: 400px )
+
+const slikaText = document.querySelector(".slika-text");
+const mediaHandler2 = window.matchMedia('(max-width: 400px)')*/
