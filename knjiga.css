@@ -588,7 +588,7 @@ footer {
     height: auto;
   }
   .navigation-bar li a {
-    font-size: 1.2em;
+    font-size: 1.25em;
     color:   #F7F3D6;
     font-weight: bolder;
     padding: 0 17px;
@@ -647,7 +647,7 @@ footer {
 @media screen and (max-width: 650px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 1.1em;
+    font-size: 1.15em;
     padding: 0 17px;
   }
   /* DRUGA SEKCIJA: Biografija */
@@ -704,7 +704,7 @@ footer {
 @media screen and (max-width: 520px) {
    /* PRVA SEKCIJA Naslovna*/
    .navigation-bar li a {
-    font-size: 1em;
+    font-size: 1.05em;
     padding: 0 15px;
   }
   /* DRUGA SEKCIJA: Biografija */
@@ -730,7 +730,7 @@ footer {
 @media screen and (max-width: 486px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.9em;
+    font-size: 0.95em;
     padding: 0 15px;
   }
   /* DRUGA SEKCIJA: Biografija */
@@ -756,7 +756,7 @@ footer {
 @media screen and (max-width: 420px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.8em;
+    font-size: 0.85em;
     padding: 0 10px;
   }
   /* DRUGA SEKCIJA: Biografija */
@@ -764,7 +764,7 @@ footer {
     height: 165vw;
   }
   .biografija img {
-    top: -7%;
+    top: -9%;
     margin-bottom: -19%;
   }
   .mobilni {
@@ -773,11 +773,12 @@ footer {
     line-height: 4.8vw;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 384px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.7em;
+    font-size: 0.73em;
     padding: 0 12px;
+    
   }
    /* DRUGA SEKCIJA: Biografija */
    .biografija-text {
@@ -804,7 +805,7 @@ footer {
 @media screen and (max-width: 340px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.6em;
+    font-size: 0.65em;
     padding: 0 10px;
   }
   /* DRUGA SEKCIJA: Biografija */
@@ -813,7 +814,7 @@ footer {
  }
  .biografija img {
    top: -7%;
-   margin-bottom: -24%;
+   margin-bottom: -26%;
  }
  .mobilni {
    padding: 35px 20px 0;
@@ -834,7 +835,7 @@ footer {
  }
  .biografija img {
    top: -7%;
-   margin-bottom: -24%;
+   margin-bottom: -26%;
  }
  .mobilni {
    padding: 30px 20px 0;
