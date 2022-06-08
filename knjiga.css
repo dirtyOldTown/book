@@ -572,7 +572,7 @@ footer {
     margin-left: -9%;
   }
   .navigation-bar li a {
-    font-size: 2.6vw;
+    font-size: 2.7vw;
     padding: 0 17px;
     letter-spacing: 2.3px;
   }
@@ -683,6 +683,10 @@ footer {
 @media screen and (max-width: 520px) {
   
   /* DRUGA SEKCIJA: Biografija */
+  .biografija-text {
+    background-size: 107% 90%;
+    background-position: 40% 90%;
+  }
   .biografija {
     height: 150vw;
   }
@@ -730,9 +734,13 @@ footer {
 
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 382px) {
   
    /* DRUGA SEKCIJA: Biografija */
+   .biografija-text {
+    background-size: 107% 90%;
+    background-position: 40% 130%;
+  }
   .biografija {
     height: 186vw;
   }
