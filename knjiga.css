@@ -103,7 +103,7 @@ DRUGA SEKCIJA: Biografija
 TREĆA SEKCIJA: Umetnički blok
 ------------------------------------------------------------ */
 .umetnički-blok {
-  font-size: 1.62vw;
+  font-size: 1.7vw;
   display: flex;
   margin-top: 50px;
   justify-content: flex-start;
@@ -129,7 +129,7 @@ TREĆA SEKCIJA: Umetnički blok
 ČETVRTA SEKCIJA: Umetnički-Blok 2  
 ------------------------------------------------------------ */
 .umetnički-blok2 {
-  font-size: 1.62vw;
+  font-size: 1.7vw;
   display:flex;
   background-color: #f2f2f2;
 }
@@ -150,7 +150,7 @@ TREĆA SEKCIJA: Umetnički blok
   height: auto;
 }
 .slika-palme2 p, .slika-palme3 p {
-  margin-top: -0.01%;
+  margin-top: -0.0001%;
 }
 /* 
 ASIDE: Slika-text 
@@ -401,6 +401,10 @@ footer {
   #vrh-strane a {
    font-size: 1.1em;
   }
+  /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
+  .umetnički-blok, .umetnički-blok2, .slika-planina p {
+    font-size: 1.1em;
+  }
 }
 
 /* Laptop  (min-width: 1024px) */
@@ -493,10 +497,6 @@ footer {
 /* Prelazak sa Flex-Row na Flex-Column u sedmoj sekciji (max-width 900px) */
 
 @media screen and (max-width: 900px) {
-  /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
-  .umetnički-blok, .umetnički-blok2, .slika-planina p {
-    font-size: 1.1em;
-  }
   /* ASIDE: Slika-text */
   .slika-text {
     font-size: 1.1em;
@@ -582,7 +582,7 @@ footer {
   }
    .navigation-bar {
     position: relative;
-    left: -4%;
+    left: -4.7%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -630,11 +630,11 @@ footer {
   }
   .slika-palme2 {
     width: 80%;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .slika-palme3 {
     width: 100%;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   /* ASIDE: Slika-text */
   .slika-text {
@@ -765,7 +765,7 @@ footer {
   }
   .biografija img {
     top: -7%;
-    margin-bottom: -18%;
+    margin-bottom: -19%;
   }
   .mobilni {
     padding: 35px 25px 0;
