@@ -607,20 +607,16 @@ footer {
   .umetnički-blok2 {
     width: 100%;
     text-align: center;
+    align-items: center;
     background-color: transparent;
   }
   .slika-palme2 {
-    width: 75%;
-    margin-left: 13%;
+    width: 80%;
     margin-top: 0px;
   }
-  .slika-palme2 img {
-    width: 65%;
-    height: auto;
-  }
-  .slika-palme3 img {
-    width: 85%;
-    height: auto;
+  .slika-palme3 {
+    width: 100%;
+    margin-top: 0px;
   }
   /* ASIDE: Slika-text */
   .slika-text {
@@ -725,7 +721,7 @@ footer {
   }
   .biografija img {
     top: -7%;
-    margin-bottom: -14%;
+    margin-bottom: -18%;
   }
   .mobilni {
     padding: 35px 25px 0;
@@ -734,7 +730,7 @@ footer {
 
   }
 }
-@media screen and (max-width: 382px) {
+@media screen and (max-width: 376px) {
   
    /* DRUGA SEKCIJA: Biografija */
    .biografija-text {
@@ -746,7 +742,7 @@ footer {
   }
   .biografija img {
     top: -7%;
-    margin-bottom: -21%;
+    margin-bottom: -20%;
   }
   .mobilni {
     padding: 35px 25px 0;
