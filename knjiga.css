@@ -562,19 +562,22 @@ footer {
 @media screen and (max-width: 767px) {
   /* PRVA SEKCIJA */
   .mimaarbid-naslovna {
-    justify-content: center;
     background-image: url('slike/mobilni.png'); 
     background-size: cover; 
     height:92.1vw;
   }
    .navigation-bar {
-    margin-top: 4.3%;
-    margin-left: -9%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
   }
   .navigation-bar li a {
-    font-size: 2.7vw;
+    font-size: 2.9vw;
+    color:   #F7F3D6;
+    font-weight: bolder;
     padding: 0 17px;
     letter-spacing: 2.3px;
+    margin-left: -18%;
   }
   /* DRUGA SEKCIJA: Biografija */
   .biografija {
