@@ -96,7 +96,7 @@ DRUGA SEKCIJA: Biografija
   font-size: 2.6vw;
   line-height: 3.1vw;
   font-family: "Marion",serif;
-  padding: 50px 70px 20px;
+  padding: 40px 70px 20px;
   margin-left: 0;
 }
 /* 
@@ -578,14 +578,14 @@ footer {
   }
   /* DRUGA SEKCIJA: Biografija */
   .biografija {
-    height: 130vw
+    height: 120vw
   }
   .biografija img {
     position: relative;
     width: 98%;
     top: -20%;
     margin-left: 0%;
-    margin-bottom: -15%;
+    margin-bottom: -24%;
   }
   /* TREĆA SEKCIJA: Umetnički-Blok*/
   .slika-palme {
@@ -629,17 +629,20 @@ footer {
 }
 /* SREDNJI MOBILNI (max-width: 650px) */
 
-@media screen and (max-width: 671px) {
+@media screen and (max-width: 650px) {
   
   /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 128vw;
+  }
   .biografija img {
     top: -5%;
-    margin-bottom: -8%;
+    margin-bottom: -6%;
   }
   .mobilni {
-    font-size: 3vw;
-    line-height: 3.4vw;
-    padding: 40px 60px 0;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    padding: 40px 40px 0;
   }
   /* ASIDE: Slika-text */
   .slika-text {
@@ -647,67 +650,133 @@ footer {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 604px) {
   
   /* DRUGA SEKCIJA: Biografija */
   .biografija {
-    height: 140vw;
+    height: 134vw;
   }
   .biografija img {
     top: -7%;
-    margin-bottom: -15%;
+    margin-bottom: -10%;
   }
   .mobilni {
-    font-size: 3.5vw;
-    line-height: 3.9vw;
     padding: 40px 40px 0;
   }
 
 }
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 557px) {
   
   /* DRUGA SEKCIJA: Biografija */
   .biografija {
-    height: 151vw;
+    height: 142vw;
   }
   .biografija img {
-    top: -12%;
-    margin-bottom: -25%;
+    top: -7%;
+    margin-bottom: -10%;
   }
   .mobilni {
-    font-size: 4vw;
-    line-height: 4.3vw;
-    padding: 40px 30px 0;
+    padding: 35px 35px 0;
+
   }
 }
-/*MANJI MOBILNI (max-width: 400px) */
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 520px) {
+  
   /* DRUGA SEKCIJA: Biografija */
   .biografija {
-    height: 205vw;
+    height: 150vw;
   }
   .biografija img {
-    top: -10%;
-    margin-bottom: -30%;
+    top: -7%;
+    margin-bottom: -14%;
   }
   .mobilni {
-    font-size: 5.2vw;
-    line-height: 5.4vw;
-    padding: 40px 23px 0;
+    padding: 35px 30px 0;
+
   }
-  /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
-  .umetnički-blok, .umetnički-blok2, .slika-planina p {
-    font-size: 0.9em;
-  }
-  /* ČETVRTA SEKCIJA: Umetnički-Blok 2 */ 
-  .umetnički-blok2 {
-    font-size: 0.8em;
-  }
-  /* ASIDE: Slika-text */
-  /*.slika-text {
-    font-size: 0.7em;
-  } */
 }
+@media screen and (max-width: 486px) {
+  
+  /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 162vw;
+  }
+  .biografija img {
+    top: -7%;
+    margin-bottom: -11%;
+  }
+  .mobilni {
+    font-size: 3.9vw;
+    line-height: 4.6vw;
+    padding: 35px 25px 0;
 
+  }
+}
+/*MANJI MOBILNI */
+@media screen and (max-width: 420px) {
+  
+  /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 165vw;
+  }
+  .biografija img {
+    top: -7%;
+    margin-bottom: -14%;
+  }
+  .mobilni {
+    padding: 35px 25px 0;
+    font-size: 4.2vw;
+    line-height: 4.8vw;
 
+  }
+}
+@media screen and (max-width: 380px) {
+  
+   /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 186vw;
+  }
+  .biografija img {
+    top: -7%;
+    margin-bottom: -21%;
+  }
+  .mobilni {
+    padding: 35px 25px 0;
+    font-size: 4.6vw;
+    line-height: 5.2vw;
+  }
+}
+@media screen and (max-width: 340px) {
+  
+  /* DRUGA SEKCIJA: Biografija */
+ .biografija {
+   height: 197vw;
+ }
+ .biografija img {
+   top: -7%;
+   margin-bottom: -23%;
+ }
+ .mobilni {
+   padding: 35px 20px 0;
+   font-size: 5.1vw;
+   line-height: 5.5vw;
+   text-align: center;
+ }
+}
+@media screen and (max-width: 306px) {
+  
+  /* DRUGA SEKCIJA: Biografija */
+ .biografija {
+   height: 215vw;
+ }
+ .biografija img {
+   top: -7%;
+   margin-bottom: -24%;
+ }
+ .mobilni {
+   padding: 30px 20px 0;
+   font-size: 5.5vw;
+   line-height: 5.8vw;
+   text-align: center;
+ }
+}
