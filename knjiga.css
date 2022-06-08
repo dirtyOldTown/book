@@ -689,13 +689,12 @@ footer {
   }
   .biografija img {
     top: -10%;
-    margin-bottom: -32%;
+    margin-bottom: -30%;
   }
   .mobilni {
     font-size: 5.2vw;
     line-height: 5.4vw;
     padding: 40px 23px 0;
-    text-align: start;
   }
   /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
   .umetnički-blok, .umetnički-blok2, .slika-planina p {
