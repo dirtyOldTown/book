@@ -582,7 +582,7 @@ footer {
   }
    .navigation-bar {
     position: relative;
-    left: -4.7%;
+    left: -5%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -761,7 +761,7 @@ footer {
 @media screen and (max-width: 383px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.73em;
+    font-size: 0.7em;
     padding: 0 12px;
     
   }
@@ -808,7 +808,7 @@ footer {
 @media screen and (max-width: 306px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.5em;
+    font-size: 0.6em;
     padding: 0 8px;
   }
   /* DRUGA SEKCIJA: Biografija */
