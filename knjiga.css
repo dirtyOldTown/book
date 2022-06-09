@@ -256,7 +256,7 @@ ASIDE: Mima-lično
 /* ASIDE: About */
 #mimaabout {
   position: relative;
-  top: 0px;
+  top: 20px;
   clear: both;
 }
 .mimaarbid {
@@ -265,14 +265,16 @@ ASIDE: Mima-lično
   padding: 30px;
   background-color: #f2f2f2;
   color: #3d6877;
-  padding: 5px 105px;
+  padding: 15px 105px 30px;
+}
+.mimaarbid p {
+  font-family: "Marion";
 }
 /* 
 FOOTER 
 ------------------------------*/
 footer {
   position: relative;
-  top: 70px;
   display: flex;
   justify-content: space-around;
   align-items: center;
