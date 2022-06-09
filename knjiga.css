@@ -406,7 +406,6 @@ footer {
     font-size: 1.1em;
   }
 }
-
 /* Laptop  (min-width: 1024px) */
 
 @media screen and (min-width: 1024px) {
@@ -423,7 +422,6 @@ footer {
     font-size: 1.5vw;
   }
 } 
-
 /* Laptop Large (min-width: 1200px) */
 
 @media screen and (min-width: 1200px) {
@@ -441,7 +439,6 @@ footer {
     top: -52px;
   }
 } 
-
 /* Laptop Extra Large (min-width 1400px) */
 
 @media screen and (min-width: 1400px) {
@@ -453,7 +450,6 @@ footer {
     padding: 0 22px;
   }
 }
-
 /* Large Screen (min-width: 1900px) */
 
 @media screen and (min-width: 1900px) {
@@ -473,7 +469,6 @@ footer {
     top: -70px;
   }
 }
-
 /* iPad Air & iPad Mini (min-width: 768px) and (max-width: 900px) */
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
@@ -493,7 +488,6 @@ footer {
     top: -33%;
   }
 }
-
 /* Prelazak sa Flex-Row na Flex-Column u sedmoj sekciji (max-width 900px) */
 
 @media screen and (max-width: 900px) {
@@ -570,11 +564,16 @@ footer {
     font-size: 2.7em;
   }
 }
-
 /* VEĆI MOBILNI (max-width: 767px) */
 
 @media screen and (max-width: 767px) {
   /* PRVA SEKCIJA */
+  .mimaarbid-naslovna {
+    background-image: url('slike/mobilni.png');
+    background-size: cover;
+    height: 92.6vw;
+    display: flex;
+  }
    .navigation-bar {
     position: relative;
     left: -5%;
@@ -642,7 +641,7 @@ footer {
 @media screen and (max-width: 670px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 1.15em;
+    font-size: 1.2em;
     padding: 0 17px;
   }
   /* DRUGA SEKCIJA: Biografija */
@@ -685,7 +684,7 @@ footer {
 @media screen and (max-width: 540px) {
    /* PRVA SEKCIJA Naslovna*/
    .navigation-bar li a {
-    font-size: 1.05em;
+    font-size: 1.1em;
     padding: 0 15px;
   }
   /* DRUGA SEKCIJA: Biografija */
@@ -712,7 +711,7 @@ footer {
 @media screen and (max-width: 491px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.95em;
+    font-size: 1em;
     padding: 0 15px;
   }
   /* DRUGA SEKCIJA: Biografija */
@@ -737,7 +736,7 @@ footer {
 @media screen and (max-width: 436px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.85em;
+    font-size: 0.9em;
     padding: 0 10px;
   }
   /* DRUGA SEKCIJA: Biografija */
@@ -756,9 +755,8 @@ footer {
 @media screen and (max-width: 383px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.7em;
+    font-size: 0.8em;
     padding: 0 12px;
-    
   }
    /* DRUGA SEKCIJA: Biografija */
    .biografija-text {
