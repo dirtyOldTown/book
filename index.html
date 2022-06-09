@@ -11,16 +11,7 @@
   <script src="knjiga.js" async></script>
   <link rel="stylesheet" href="knjiga.css" />
   <link rel="preload" href="slike/pozadina.png" as="image" type="image/webp" />
-  <link rel="preload" href="slike/mobilni.png" as="image" type="image/webp" />
   <link rel="preload" href="slike/mima-prazno.png" as="image" />
-  <style>
-    .mimaarbid-naslovna {
-      background-image: url('slike/pozadina.png');
-      background-size: cover;
-      height: 49.2vw;
-      display: flex;
-    }
-  </style>
 </head>
 
 <body>
@@ -86,25 +77,33 @@
   </div>
 </article>
 <article id="books" class="knjige">
-  <p>
-    Books
-  </p>
-</article>
+  <p>BOOKS</p>
+  <div class="knjige-izdanja">
+    <p><em>- First book : I DO NOT BELONG</em></p>
+    <p><em>- Working on second book</em></p>
+  </div>
+ </article>
 <article class="mima-lično">
   <img src="slike/mima2.png" width="380" height="376" alt="Mima's picture">
   <img src="slike/mima7.png" width="400" height="266" alt="pen"/>
-</article>
-<aside class="mima-text">
-  <pre>
+  <aside class="mima-text">
+    <p>
   "She seemed completely oblivious to all the beaty around her. Her mind was 
   back where it all began all those years ago. She seemed completely oblivious to 
   all the beaty around her. Her mind was back where it all began all those years 
   ago. She seemed completely oblivious to all the beaty around her. Her mind
   was back where it all began all those years ago. She seemed completely oblivious
-  to all the beaty around her. Her mind was back where it all beganall those 
+  to all the beaty around her. Her mind was back where it all began all those 
   years ago."
-  </pre>
-  <p id="mima-potpis">Mima</p>
+    </p>
+    <p id="mima-potpis">Mima</p>
+  </aside>
+</article>
+<aside id="mimaabout">
+  <div class="mimaarbid">
+    <header>ABOUT THE AUTOR</header>
+    <p></p>
+  </div>
 </aside> 
 <footer>
   <p id="mimaarbid-text">Mima Arbid</p>
@@ -114,7 +113,7 @@
     <p><a href="mailto: mima.arbid@gmail.com">mima.arbid@gmail.com</a></p>
   </div>
   <p id="facebook"><a href="https://m.facebook.com/people/Mima-Arbid/100078719047201/">ⓕ</a></p>
-  <p id="vrh-strane"><i><a href="#MimaArbid">Back to top..</a></i></p>
+  <!-- <p id="vrh-strane"><i><a href="#MimaArbid">Back to top..</a></i></p> -->
 </footer>
 
 </body>
