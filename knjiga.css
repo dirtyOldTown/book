@@ -10,12 +10,6 @@ PRVA SEKCIJA: Početna
 .mimaarbid-naslovna header {
   display: none;
 }
-.mimaarbid-naslovna {
-  background-image: url('slike/pozadina.png');
-  background-size: cover;
-  height: 49.2vw;
-  display: flex;
-}
 .navigation-bar {
   display: flex;
   justify-content: flex-end;
@@ -756,7 +750,7 @@ footer {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
     font-size: 0.8em;
-    padding: 0 12px;
+    padding: 0 10px;
   }
    /* DRUGA SEKCIJA: Biografija */
    .biografija-text {
@@ -782,8 +776,8 @@ footer {
 @media screen and (max-width: 340px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
-    font-size: 0.65em;
-    padding: 0 10px;
+    font-size: 0.7em;
+    padding: 0 9px;
   }
   /* DRUGA SEKCIJA: Biografija */
  .biografija {
