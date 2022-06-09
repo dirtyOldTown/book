@@ -716,11 +716,10 @@ footer {
     height: 150vw;
   }
   .biografija img {
-    top: -7%;
-    margin-bottom: -14%;
+    top: -40px;
   }
   .mobilni {
-    padding: 35px 30px 0;
+    padding: 35px 35px 0;
   }
   /* PETA SEKCIJA: Umetnički-Blok 3 */
   .slika-planina p {
@@ -738,13 +737,12 @@ footer {
     height: 162vw;
   }
   .biografija img {
-    top: -7%;
-    margin-bottom: -11%;
+   top: -50px;
   }
   .mobilni {
     font-size: 3.9vw;
     line-height: 4.6vw;
-    padding: 35px 25px 0;
+    padding: 35px 35px 0;
   }
    /* ASIDE: Slika-text */
   .slika-text  p {
@@ -764,8 +762,7 @@ footer {
     height: 165vw;
   }
   .biografija img {
-    top: -9%;
-    margin-bottom: -20%;
+    top: -40px;
   }
   .mobilni {
     padding: 35px 25px 0;
@@ -773,7 +770,7 @@ footer {
     line-height: 4.8vw;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 382px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
     font-size: 0.73em;
@@ -786,14 +783,13 @@ footer {
     background-position: 40% 130%;
   }
   .biografija {
-    height: 186vw;
+    height: 188vw;
   }
   .biografija img {
-    top: -7%;
-    margin-bottom: -21%;
+    top: -25px;
   }
   .mobilni {
-    padding: 35px 25px 0;
+    padding: 35px 30px 0px;
     font-size: 4.6vw;
     line-height: 5.2vw;
   }
@@ -812,12 +808,11 @@ footer {
  .biografija {
    height: 202vw;
   }
- .biografija img {
-   top: -7%;
-   margin-bottom: -21%;
+  .biografija img {
+    top: -10px;
   }
  .mobilni {
-   padding: 35px 20px 0;
+   padding: 35px 25px 0;
    font-size: 5.1vw;
    line-height: 5.5vw;
    text-align: center;
