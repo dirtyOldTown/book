@@ -5,14 +5,31 @@
   <title>Mima Arbid</title>
   <link rel="icon" type="image/x-icon" href="slike/favicon.ico" />
   <meta name="author" content="Mima Arbid" />
-  <meta name="keywords" content="Mima Arbid, Books, Writer, Artist" />
+  <meta name="keywords" content="Mima Arbid, Books, Writer, Art" />
   <meta name="description" content="Introduction of Mima Arbid's writing and artistic opus" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="knjiga.js" async></script>
   <link rel="stylesheet" href="knjiga.css" />
-  <link rel="preload" href="slike/pozadina.png" as="image" />
-  <link rel="preload" href="slike/mobilni.png" as="image" />
+  <link rel="preload" href="slike/pozadina.png" as="image" type="image/webp" />
+  <link rel="preload" href="slike/mobilni.png" as="image" type="image/webp" />
   <link rel="preload" href="slike/mima-prazno.png" as="image" />
+  <style>
+    .mimaarbid-naslovna {
+      background-image: url('slike/pozadina.png');
+      background-size: cover;
+      height: 49.2vw;
+      display: flex;
+    }
+    @media screen and (max-width: 767px) {
+     .navigation-bar {
+        position: relative;
+        left: -5%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+      }
+    }
+  </style>
 </head>
 
 <body>

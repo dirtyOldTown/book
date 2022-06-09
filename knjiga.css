@@ -349,7 +349,7 @@ footer {
     width: 95%;
     top: -35%;
     font-size: 2.1vw;
-    line-height: 2.6vw;
+    line-height: 2.4vw;
     align-items: center;
   }
   .biografija img {
@@ -367,7 +367,7 @@ footer {
   }
   #wingdings-b {
     position: absolute;
-    margin-top: -5%;
+    margin-top: -4%;
     font-size: 1.3em;
     margin-left: enter;
     margin-left: 49%;
