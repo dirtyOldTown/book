@@ -176,20 +176,21 @@ PETA SEKCIJA: Umetnički-Blok 3
 ------------------------------------------------------------*/
 .slika-planina {
   background-color: #3d6877;
-  margin-top: -45px;
+  margin-top: -50px;
   color: white;
-  padding: 20px 0 50px;
+  padding-bottom: 50px;
 }
 .slika-planina img {
   width: 85%;
   height: auto;
-  margin-top: 7%;
+  margin-top: 6%;
   margin-left: 7.5%;
 }
 .slika-planina p {
   margin-left: 7.8%;
-  padding-bottom: 20px;
   font-size: 1.62vw;
+  margin-top: 10px;
+  padding-bottom: 15px;
 }
 /* 
 ASIDE: Knjige  
@@ -201,7 +202,7 @@ ASIDE: Knjige
   color: #3d6877;
   padding: 30px 105px 5px;
   font-size: 1.9vw;
-  margin-top: -4%;
+  margin-top: -6%;
   font-family: "Monsterrat";
 }
 .knjige-izdanja {
@@ -242,7 +243,7 @@ ASIDE: Mima-lično
 } 
 .mima-text p {
   width: 88%;
-  font-size: 1.56vw;
+  font-size: 1.6vw;
   color: #3d6877;
   line-height: 120%;
   font-family: "Marion", serif;
@@ -399,11 +400,12 @@ footer {
   }
   /* ASIDE: Mima-lično  */
   .mima-text {
-    margin-top: 3%;
-    left: 28%;
+    width: 67%;
+    margin-top: -1%;
+    left: 38%;
   }
-  .mima-text pre {
-    font-size: 1.84vw;
+  .mima-text p {
+    font-size: 1.8vw;
     line-height: 120%;
   }
   .mima-lično img {
@@ -413,7 +415,7 @@ footer {
   .mima-lično img:last-of-type {
     margin-left: 1%;
     width:20%;
-    margin-bottom: -4.1%;
+    margin-bottom: -2.4%;
   }
   #mima-potpis {
     font-size: 2.9vw;
