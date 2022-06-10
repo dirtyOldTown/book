@@ -106,25 +106,43 @@ TREĆA SEKCIJA: Umetnički blok
   font-size: 1.7vw;
   display: flex;
   margin-top: 50px;
-  justify-content: flex-start;
+  justify-content:flex-start;
 }
 .slika-palme {
-  flex: 3;
-  margin-left: 4%;
-  text-align: left;
+  width: 65%;
+  height: auto;
 }
 .slika-palme p {
   margin-top: 5px;
+  text-align: left;
 }
 .slika-palme img {
   height: auto;
-  width: 75%;
+  width: 95%;
 }
-#slika-četkice  {
-  width: 25%;
-  flex: 1;
+.slika-četkice  {
+  width: 30%;
   height: auto;
 }
+.slika-četkice img {
+  width: 100%;
+  height: auto;
+}
+.slika-četkice-text {
+  display:none;
+  width: 60%;
+  font-family: "Marion", serif;
+  position: absolute;
+margin-left: 30%;
+}
+.slika-četkice-text h2 {
+ font-size: 1em;
+ color:#222059;
+}
+.slika-četkice-text p {
+  font-size: 1em;
+  color: #3d6877;
+ }
 /*
 ČETVRTA SEKCIJA: Umetnički-Blok 2  
 ------------------------------------------------------------ */
@@ -435,7 +453,7 @@ footer {
    font-size: 1.1em;
   }
   /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
-  .umetnički-blok, .umetnički-blok2, .slika-planina p {
+  .umetnički-blok, .umetnički-blok2, .slika-planina div p {
     font-size: 1.1em;
   }
 }
@@ -535,7 +553,7 @@ footer {
     height: 65vw;
   }
   .mima-text {
-    top: 1%;
+    top: -1%;
     left: 12%;
     width: 74%;
     text-align: center;
@@ -544,7 +562,7 @@ footer {
     font-size: 2.5vw;
   }
   .mima-lično img:first-of-type {
-    width: 41%;
+    width: 40%;
     margin-left: 8%;
   }
   .mima-lično img:last-of-type {
@@ -554,14 +572,14 @@ footer {
   }
   #mima-potpis {
     font-size: 7.5vw;
-    margin-top: 0%;
+    margin-top: 0;
   }
  
   /* FOOTER */
   footer {
     align-items: center;
     height: 16vw;
-  }-
+  }
   #mimaarbid-text {
     bottom: -3.2%;
     font-size: 3em;
@@ -620,19 +638,15 @@ footer {
   }
   /* TREĆA SEKCIJA: Umetnički-Blok*/
   .slika-palme {
-    text-align: center;
+    width: 110%;
     margin-left: 0;
     margin-top: -1%;
   }
-  .slika-palme img {
-    height: auto;
-    width:100%;
-    margin-top: 1%;
+  .slika-palme p {
+    text-align: center;
   }
-  #slika-četkice {
-    position: relative;
-    width: 35%;
-    height: auto;
+  .slika-četkice-text {
+    display: block;
   }
   /* ČETVRTA SEKCIJA: Umetnički-Blok 2 */  
   .umetnički-blok2 {
@@ -649,6 +663,7 @@ footer {
     width: 100%;
     margin-top: 10px;
   }
+
    /* ASIDE: slika-planina (text) */
   .slika-text {
     background-color: transparent;

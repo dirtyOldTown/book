@@ -99,8 +99,5 @@ function promenaTexta(x) {
 promenaTexta(mediaHandler);
 mediaHandler.addEventListener("change",promenaTexta)
 
-/*
-// Promena strukture teksta (matchMedia: max-width: 400px )
+// Ubacivanje texta pored slike četkice za max-width: 767px
 
-const slikaText = document.querySelector(".slika-text");
-const mediaHandler2 = window.matchMedia('(max-width: 400px)')*/
