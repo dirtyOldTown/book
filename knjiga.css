@@ -130,19 +130,7 @@ TREĆA SEKCIJA: Umetnički blok
 }
 .slika-četkice-text {
   display:none;
-  width: 60%;
-  font-family: "Marion", serif;
-  position: absolute;
-margin-left: 30%;
 }
-.slika-četkice-text h2 {
- font-size: 1em;
- color:#222059;
-}
-.slika-četkice-text p {
-  font-size: 1em;
-  color: #3d6877;
- }
 /*
 ČETVRTA SEKCIJA: Umetnički-Blok 2  
 ------------------------------------------------------------ */
@@ -281,7 +269,7 @@ ASIDE: Mima-lično
 }
 .mimaarbid {
   font-size: 1.9vw;
-  font-family: "Monsterrat";
+  font-family: "Marion", serif;
   padding: 30px;
   background-color: #f2f2f2;
   color: #3d6877;
@@ -647,7 +635,19 @@ footer {
   }
   .slika-četkice-text {
     display: block;
+    width: 60%;
+    font-family: "Marion", serif;
+    position: absolute;
+    margin-left: 30%;
   }
+  .slika-četkice-text h2 {
+   font-size: 1em;
+   color:#222059;
+  }
+  .slika-četkice-text p {
+    font-size: 1em;
+    color: #3d6877;
+   }
   /* ČETVRTA SEKCIJA: Umetnički-Blok 2 */  
   .umetnički-blok2 {
     width: 100%;
@@ -664,10 +664,12 @@ footer {
     margin-top: 10px;
   }
 
-   /* ASIDE: slika-planina (text) */
+  /* ASIDE: slika-planina (text) */
   .slika-text {
     background-color: transparent;
   }
+  /* FOOTER MOBILNI */
+ 
 }
 
 /* SREDNJI MOBILNI (max-width: 650px) */

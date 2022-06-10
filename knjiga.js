@@ -99,5 +99,5 @@ function promenaTexta(x) {
 promenaTexta(mediaHandler);
 mediaHandler.addEventListener("change",promenaTexta)
 
-// Ubacivanje texta pored slike četkice za max-width: 767px
-
+// Funkcija za footer (max-width: 767px)
+const footer = document.querySelector("footer");
