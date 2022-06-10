@@ -200,20 +200,22 @@ ASIDE: Knjige
   flex-direction: column;
   background-color: #f2f2f2;
   color: #3d6877;
-  padding: 30px 105px 5px;
+  padding: 30px 0px 5px;
   font-size: 1.9vw;
   margin-top: -6%;
   font-family: "Monsterrat";
 }
+.knjige > p {
+  margin-left: 8%;
+}
 .knjige-izdanja {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: -3.5%;
-  margin-left: -1.5%;
-}
-.knjige-izdanja  {
+  margin-left: -6%;
   font-size: 2.3vw;
 }
+
 /* 
 ASIDE: Mima-lično 
 -------------------------------*/
@@ -265,10 +267,15 @@ ASIDE: Mima-lično
   padding: 30px;
   background-color: #f2f2f2;
   color: #3d6877;
-  padding: 15px 105px 30px;
+  padding: 15px 0 30px;
+}
+.mimaarbid header {
+  margin-left: 6%;
 }
 .mimaarbid p {
   font-family: "Marion";
+  width: 90%;
+  margin-left: 6%;
 }
 /* 
 FOOTER 
@@ -400,13 +407,14 @@ footer {
   }
   /* ASIDE: Mima-lično  */
   .mima-text {
-    width: 67%;
+    width: 47%;
     margin-top: -1%;
-    left: 38%;
   }
   .mima-text p {
     font-size: 1.8vw;
     line-height: 120%;
+    margin-left: -5%;
+    width: 115%;
   }
   .mima-lično img {
     width: 22%;
@@ -521,47 +529,7 @@ footer {
     font-size: 1.1em;
   }
   /* ASIDE: Mima-lično */
-  /*.mima-lično {
-    position: relative;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-start;
-  }
-  .mima-text {
-    margin-top: 3.2%;
-    position: relative;
-    left: 0%;
-    color: #3d6877;
-    line-height: 126%;
-  } 
-  #mima-potpis {
-    position: absolute;
-    font-size: 7.8vw;
-    text-align: center;
-    margin-top: 123px;
-    left:69%;
-  }
-  .mima-text pre {
-    position: absolute;
-    left: 5%;
-    margin-top: 0;
-    font-size: 2.4vw;
-    color: #3d6877;
-    line-height: 120%;
-    text-align: left;
-  }
-  .mima-lično img {
-    width: 40%;
-    height: auto;
-    margin-left: 5%;
-    margin-top: 0%;
-  }
-  .mima-lično img:last-of-type {
-    position: relative;
-    left: 44%;
-    top: 170px;
-    width: 43%;
-  }*/
+ 
   /* FOOTER */
   footer {
     align-items: center;
