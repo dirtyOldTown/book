@@ -53,7 +53,7 @@ DRUGA SEKCIJA: Biografija
   background-size: 112% 100%;
   background-position: 40% 0;
 }
-*.biografija-text pre {
+.biografija-text pre {
   width: 100%;
   margin-left: 2%;
   margin-top: 6.4%;
@@ -114,7 +114,7 @@ TREĆA SEKCIJA: Umetnički blok
   text-align: left;
 }
 .slika-palme p {
-  margin-top: -0.01%;
+  margin-top: 5px;
 }
 .slika-palme img {
   height: auto;
@@ -150,14 +150,14 @@ TREĆA SEKCIJA: Umetnički blok
   height: auto;
 }
 .slika-palme2 p, .slika-palme3 p {
-  margin-top: -0.0001%;
+  margin-top: 5px;
 }
 /* 
 ASIDE: slika-planina (text)
 ------------------------------------------------------------ */
 .slika-text {
   background-color: #f2f2f2;
-  padding-bottom: 60px;
+ margin-bottom: 3%;
   text-align: center;
   font-size: 1.7vw;
 }
@@ -176,21 +176,21 @@ PETA SEKCIJA: Umetnički-Blok 3
 ------------------------------------------------------------*/
 .slika-planina {
   background-color: #3d6877;
-  margin-top: -50px;
+  padding: 6% 8%;
   color: white;
-  padding-bottom: 50px;
 }
-.slika-planina img {
-  width: 85%;
+.slika-planina div {
+  width: 100%;
+}
+.slika-planina div img {
+  width: 100%;
   height: auto;
-  margin-top: 6%;
-  margin-left: 7.5%;
 }
-.slika-planina p {
-  margin-left: 7.8%;
-  font-size: 1.62vw;
-  margin-top: 10px;
-  padding-bottom: 15px;
+.slika-planina div p {
+  position: relative;
+  top: -7px;
+  font-size: 1.67vw;
+ 
 }
 /* 
 ASIDE: Knjige  
@@ -225,7 +225,7 @@ ASIDE: Mima-lično
   float: left;
   margin-top: 1.7%;
 }
-.mima-lično img {
+.mima-lično img:first-of-type {
   width: 27%;
   margin-left: 8%;
   height: auto;
@@ -529,12 +529,39 @@ footer {
     font-size: 1.1em;
   }
   /* ASIDE: Mima-lično */
+  .mima-lično {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 65vw;
+  }
+  .mima-text {
+    top: 1%;
+    left: 12%;
+    width: 74%;
+    text-align: center;
+  }
+  .mima-text p{
+    font-size: 2.5vw;
+  }
+  .mima-lično img:first-of-type {
+    width: 41%;
+    margin-left: 8%;
+  }
+  .mima-lično img:last-of-type {
+    width: 44%;
+    margin-left: 48%;
+    margin-bottom: -25%;
+  }
+  #mima-potpis {
+    font-size: 7.5vw;
+    margin-top: 0%;
+  }
  
   /* FOOTER */
   footer {
     align-items: center;
     height: 16vw;
-  }
+  }-
   #mimaarbid-text {
     bottom: -3.2%;
     font-size: 3em;
