@@ -46,12 +46,12 @@ const biografijaText = document.querySelector(".biografija-text");
 const biografijaTextPre = document.querySelector(".biografija-text pre");
 const umetničkiBlok = document.querySelector(".umetnički-blok");
 const umetničkiBlok2 = document.querySelector(".umetnički-blok2");
-const mediaHandler = window.matchMedia('screen and (max-width: 767px)');
+const mediaHandler = window.matchMedia('(max-width: 767px)');
 // Funkcija za mediaHandler (max-width: 767px)
 function promenaTexta(x) {
   if (x.matches) {
     biografijaText.innerHTML = `
-    <p">
+    <p>
     Do you believe in destiny? Do you think that everything 
     happens for a reason? Do you ever have that feeling of 
     not belonging? My book <a href="#books">I DO NOT BELONG</a> is a story
@@ -97,7 +97,7 @@ function promenaTexta(x) {
 }
 // Realizovanje funkcije (addEventListener)
 promenaTexta(mediaHandler);
-mediaHandler.addEventListener("change",promenaTexta)
+mediaHandler.addEventListener("change", promenaTexta)
 
 // 'knjige-izdanja': Promena iz flex-direction: 'row' u flex-direction: 'column' 
 

@@ -70,7 +70,7 @@ DRUGA SEKCIJA: Biografija
   color: #222059;
   text-decoration: underline;
 }
-.biografija-text p {
+#wingdings-a, #wingdings-b {
   opacity: 0.5;
   font-family: "Wingdings 2";
   color: grey;
@@ -96,8 +96,9 @@ DRUGA SEKCIJA: Biografija
   font-size: 2.6vw;
   line-height: 3.1vw;
   font-family: "Marion", serif;
-  padding: 35px 70px 20px;
+  padding: 15px 70px 20px;
   margin-left: 0;
+  margin-top: 0;
 }
 /* 
 TREĆA SEKCIJA: Umetnički blok
@@ -258,7 +259,7 @@ ASIDE: Mima-lično
 }
 #mima-potpis {
   font-family: "Sacramento";
-  font-size: 2.5vw;
+  font-size: 2.7vw;
   text-align: right;
 }
 /* ASIDE: About */
@@ -268,20 +269,21 @@ ASIDE: Mima-lično
   clear: both;
 }
 .mimaarbid {
-  font-size: 1.9vw;
   font-family: "Marion", serif;
-  padding: 30px;
   background-color: #f2f2f2;
   color: #3d6877;
-  padding: 15px 0 30px;
+  padding: 15px 0 7px;
 }
 .mimaarbid header {
-  margin-left: 6%;
+  font-size: 2.2vw;
+  letter-spacing: 2px;
+  margin-left: 8%;
 }
-.mimaarbid p {
+.mimaarbid pre {
   font-family: "Marion";
-  width: 90%;
-  margin-left: 6%;
+  font-size: 2vw;
+  margin-left: 5%;
+  line-height: 2.3vw;
 }
 /* 
 FOOTER 
@@ -384,7 +386,7 @@ footer {
   .navigation-bar {
     margin-left: 56%;
   }
-    .navigation-bar li a {
+  .navigation-bar li a {
     font-size: 1.3vw;
   }
  /* DRUGA SEKCIJA: Biografija */
@@ -401,7 +403,7 @@ footer {
     width: 100%;
     top: -2%;
   }
-  .biografija-text pre{
+  .biografija-text pre {
     position: relative;
     width: 95%;
     top: -35%;
@@ -457,8 +459,8 @@ footer {
     left: 61vw;
   }
   /* FOOTER */
-  #vrh-strane a {
-   font-size: 1.1em;
+    #vrh-strane a {
+     font-size: 1.1em;
   }
   /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
   .umetnički-blok, .umetnički-blok2, .slika-planina div p {
@@ -520,10 +522,6 @@ footer {
     padding: 0 30px;
     font-size: 1.4vw;
   }
-  /* FOOTER */
-   footer {
-    top: 130px;
-  }
   #vrh-strane {
     top: -70px;
   }
@@ -541,7 +539,7 @@ footer {
     font-size: 1.4vw;
   }
   /* DRUGA SEKCIJA: Biografija */
-  .biografija-text pre{
+  .biografija-text pre {
     font-size: 2.3vw;
     line-height: 2.7vw;
     top: -33%;
@@ -591,7 +589,16 @@ footer {
     font-size: 7.5vw;
     margin-top: 0;
   }
-
+  /* ASIDE: About */
+.mimaarbid header {
+  margin-left: 13%;
+  font-size: 2.6vw;
+  letter-spacing: 2px;
+}
+.mimaarbid pre {
+  font-size: 2.3vw;
+  line-height: 2.7vw;
+}
   /* FOOTER */
   footer {
     height: 16vw;
@@ -620,6 +627,7 @@ footer {
 /* VEĆI MOBILNI (max-width: 767px) */
 
 @media screen and (max-width: 767px) {
+
   /* PRVA SEKCIJA */
   .mimaarbid-naslovna {
     background-image: url('slike/mobilni.png');
@@ -691,8 +699,7 @@ footer {
     width: 100%;
     margin-top: 10px;
   }
-
-  /* ASIDE: slika-planina (text) */
+/* ASIDE: slika-planina (text) */
   .slika-text {
     background-color: transparent;
   }
@@ -716,7 +723,7 @@ footer {
   .mobilni {
     font-size: 2.9vw;
     line-height: 3.4vw;
-    padding: 35px 40px 0;
+    padding: 15px 40px 0;
   }
    /* ASIDE: slika-planina (text) */
   .slika-text {
@@ -804,7 +811,7 @@ footer {
   .mobilni {
     font-size: 3.14vw;
     line-height: 3.7vw;
-    padding: 35px 40px 0;
+    padding: 15px 40px 0;
   }
 }
 @media screen and (max-width: 540px) {
@@ -827,7 +834,7 @@ footer {
   .mobilni {
     font-size: 3.4vw;
     line-height: 4.0vw;
-    padding: 35px 32px 0;
+    padding: 15px 32px 0;
   }
   /* PETA SEKCIJA: Umetnički-Blok 3 */
   .slika-planina p {
@@ -850,7 +857,7 @@ footer {
   .mobilni {
     font-size: 3.8vw;
     line-height: 4.4vw;
-    padding: 35px 24px 0;
+    padding: 15px 24px 0;
   }
   /* ASIDE: slika-planina (text) */
   .slika-text  p {
@@ -908,7 +915,7 @@ footer {
     top: -10%;
   }
   .mobilni {
-    padding: 35px 28px 0;
+    padding: 15px 28px 0;
     font-size: 4.4vw;
     line-height: 5vw;
   }
@@ -931,7 +938,7 @@ footer {
     top: -10%;
   }
   .mobilni {
-    padding: 35px 20px 0px;
+    padding: 15px 20px 0px;
     font-size: 4.85vw;
     line-height: 5.3vw;
   }
@@ -967,7 +974,7 @@ footer {
     top: -7%;
   }
  .mobilni {
-   padding: 35px 22px 0;
+   padding: 15px 22px 0;
    font-size: 5.48vw;
    line-height: 5.9vw;
   }
@@ -996,7 +1003,7 @@ footer {
    top: -7%;
   }
  .mobilni {
-   padding: 30px 20px 0;
+   padding: 15px 20px 0;
    font-size: 5.5vw;
    line-height: 5.8vw;
   }
