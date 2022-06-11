@@ -845,14 +845,14 @@ footer {
     flex-basis: 45%;
     order: 3;
     font-size: 20vw;
-    margin-top: -40px;
+    margin-top: -35px;
   }
   .kontakt-imejl {
     flex-basis: 30%;
     order: 4;
     font-size: 5vw;
     margin-left: -22%;
-    margin-top: -40px;
+    margin-top: -35px;
   }
   .kontakt-imejl p:first-of-type {
     font-size: 0.9em;
@@ -914,45 +914,6 @@ footer {
    .slika-text  p {
     width: 95%;
   }
-  /*FOOTER MOBILNI*/
- /* footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:center;
-    align-items: flex-start;
-    height: 66vw;
-  }
-  #mimaarbid-text {
-    order: 1;
-    flex-basis: 55%;
-    font-size: 10.7vw;
-  }
-  #pismo-simbol {
-    flex-basis: 45%;
-    order: 3;
-    font-size: 22vw;
-    margin-top: -35px;
-  }
-  .kontakt-imejl {
-    flex-basis: 30%;
-    order: 4;
-    font-size: 5.9vw;
-    margin-left: -22%;
-    margin-top: -32px;
-  }
-  .kontakt-imejl p:first-of-type {
-    font-size: 0.9em;
-  }
-  .kontakt-imejl p:last-of-type a {
-    font-size: 6.7vw;
-  }
-  #facebook {
-    flex-basis: 15%;
-    order: 2;
-    font-size: 11vw;
-    margin-top: 12%;
-    margin-left: 6%;
-  }*/
 }
 @media screen and (max-width: 340px) {
   /* PRVA SEKCIJA Naslovna*/
@@ -971,6 +932,16 @@ footer {
    padding: 35px 22px 0;
    font-size: 5.48vw;
    line-height: 5.9vw;
+  }
+  /*FOOTER MOBILNI*/
+  footer {
+    height: 57vw;
+  }
+  #pismo-simbol {
+    margin-top: -30px;
+  }
+  .kontakt-imejl {
+    margin-top: -30px;
   }
 }
 @media screen and (max-width: 306px) {
