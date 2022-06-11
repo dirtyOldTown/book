@@ -930,13 +930,13 @@ footer {
   #pismo-simbol {
     flex-basis: 45%;
     order: 3;
-    font-size: 24vw;
+    font-size: 22vw;
     margin-top: -35px;
   }
   .kontakt-imejl {
     flex-basis: 30%;
     order: 4;
-    font-size: 6vw;
+    font-size: 5.9vw;
     margin-left: -22%;
     margin-top: -32px;
   }
@@ -944,7 +944,7 @@ footer {
     font-size: 0.9em;
   }
   .kontakt-imejl p:last-of-type a {
-    font-size: 7vw;
+    font-size: 6.7vw;
   }
   #facebook {
     flex-basis: 15%;
