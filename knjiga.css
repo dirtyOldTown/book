@@ -163,9 +163,9 @@ ASIDE: slika-planina (text)
 ------------------------------------------------------------ */
 .slika-text {
   background-color: #f2f2f2;
- margin-bottom: 3%;
   text-align: center;
   font-size: 1.7vw;
+  padding-bottom: 10px;
 }
 .slika-text p {
   width: 70%;
@@ -182,7 +182,7 @@ PETA SEKCIJA: Umetnički-Blok 3
 ------------------------------------------------------------*/
 .slika-planina {
   background-color: #3d6877;
-  padding: 6% 8%;
+  padding: 7% 8%;
   color: white;
 }
 .slika-planina div {
@@ -196,7 +196,6 @@ PETA SEKCIJA: Umetnički-Blok 3
   position: relative;
   top: -7px;
   font-size: 1.67vw;
- 
 }
 /* 
 KNJIGE 
@@ -211,7 +210,7 @@ KNJIGE
   font-family: "Monsterrat";
 }
 .knjige > p {
-  font-size: 3.4vw;
+  font-size: 3.3vw;
   margin-left: 8%;
   letter-spacing: 2px;
   margin-top: 0;
@@ -220,7 +219,8 @@ KNJIGE
   display: flex;
   justify-content: space-around;
   margin-top: -3.5%;
-  font-size: 2.9vw;
+  margin-left: -2%;
+  font-size: 2.8vw;
 }
 /* 
 ASIDE: Mima-lično 
@@ -722,22 +722,32 @@ footer {
   .slika-text {
     width: 100%;
     font-size: 1em;
-    margin-top: -10px;
   }
   .slika-text  p {
     width: 80%;
+  }
+  /*PETA SEKCIJA: Umetnički-Blok 3 */
+  .slika-planina div {
+    text-align: center;
+  }
+  .slika-planina div p{
+  margin-bottom: 0%;
   }
   /* KNJIGE */
   .knjige > p {
     margin-left: 10%;
     font-size: 2.2em;
+    margin-bottom: 2.3%;
   }
   .knjige-izdanja {
     font-size: 1.4em;
-    margin-left: 10%;
+    margin-left: 8%;
   }
   .knjige-izdanja p {
     font-size: 1.3em;
+  }
+  .knjige-izdanja p:last-of-type {
+    margin-top: -2%;
   }
   /*FOOTER MOBILNI*/
 footer {
@@ -931,15 +941,16 @@ footer {
   }
   /* KNJIGE */
   .knjige > p {
-    margin-left: 2%;
-    font-size: 8.5vw;
+    margin-left: -5%;
+    text-align: center;
+    font-size: 8.3vw;
   }
   .knjige-izdanja {
     font-size: 1.3em;
     margin-left: 2%;
   }
   .knjige-izdanja p {
-    font-size: 6.5vw;
+    font-size: 6.2vw;
   }
 }
 @media screen and (max-width: 340px) {
