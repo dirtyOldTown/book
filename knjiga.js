@@ -1,4 +1,4 @@
-// Animacija za email, facebook (Promena boje: mouseover/mouseout)
+// #facebook, "email": Animacija (Promena boje: mouseover/mouseout)
 
 const email = document.querySelector(".kontakt-imejl p:last-of-type a");
 const facebook = document.querySelector("#facebook a");
@@ -16,7 +16,7 @@ email.addEventListener("mouseover", () => {
 facebook.addEventListener("mouseover", () => {
   plavaBoja(facebook)
 });
-//   addEventListener (mouseout)
+// addEventListener (mouseout)
 email.addEventListener("mouseout", () => {
   belaBoja(email)
 });
@@ -24,7 +24,7 @@ facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
 });
 
-// Animacija za navigation-bar  (Promena boje: mouseover/mouseout)
+// 'navigation-bar': Animacija (Promena boje: mouseover/mouseout)
 
 const navBar = document.querySelectorAll(".navigation-bar li a");
 // For-Loop: addEventListener (moouseover)
@@ -40,7 +40,7 @@ for (let i = 0; i < navBar.length; i++) {
   })
 }
 
-// Promena strukture teksta (matchMedia: max-width: 767px )
+// 'biografija': Promena strukture teksta (matchMedia: max-width: 767px)
 
 const biografijaText = document.querySelector(".biografija-text");
 const biografijaTextPre = document.querySelector(".biografija-text pre");
@@ -99,5 +99,19 @@ function promenaTexta(x) {
 promenaTexta(mediaHandler);
 mediaHandler.addEventListener("change",promenaTexta)
 
-// Funkcija za footer (max-width: 767px)
-const footer = document.querySelector("footer");
+// 'knjige-izdanja': Promena iz flex-direction: 'row' u flex-direction: 'column' 
+
+const knjigeIzdanja = document.querySelector(".knjige-izdanja");
+const mediaHandler2 = window.matchMedia('(max-width: 670px)');
+
+// funkcija za mediaHandler2 (max-width: 670px)
+function column(x) {
+  if (x.matches) {
+    knjigeIzdanja.setAttribute("style", "flex-direction: column");
+  } else {
+    knjigeIzdanja.setAttribute("style", "flex-direction: row");
+  }
+}
+// Realizovanje funkcije (addEventListener)
+column(mediaHandler2);
+mediaHandler2.addEventListener("change", column)

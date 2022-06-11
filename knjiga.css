@@ -220,9 +220,8 @@ KNJIGE
   display: flex;
   justify-content: space-around;
   margin-top: -3.5%;
-  font-size: 3vw;
+  font-size: 2.9vw;
 }
-
 /* 
 ASIDE: Mima-lično 
 -------------------------------*/
@@ -697,9 +696,7 @@ footer {
   .slika-text {
     background-color: transparent;
   }
-  /* FOOTER MOBILNI */
- 
-}
+ }
 
 /* SREDNJI MOBILNI (max-width: 650px) */
 
@@ -729,6 +726,18 @@ footer {
   }
   .slika-text  p {
     width: 80%;
+  }
+  /* KNJIGE */
+  .knjige > p {
+    margin-left: 10%;
+    font-size: 2.2em;
+  }
+  .knjige-izdanja {
+    font-size: 1.4em;
+    margin-left: 10%;
+  }
+  .knjige-izdanja p {
+    font-size: 1.3em;
   }
   /*FOOTER MOBILNI*/
 footer {
@@ -838,6 +847,18 @@ footer {
     width: 90%;
     margin-bottom: 0;
   }
+  /* KNJIGE */
+  .knjige > p {
+    margin-left: 5%;
+    font-size: 2.1em;
+  }
+  .knjige-izdanja {
+    font-size: 1.3em;
+    margin-left: 5%;
+  }
+  .knjige-izdanja p {
+    font-size: 1.12em;
+  }
 /*FOOTER MOBILNI*/
   #mimaarbid-text {
     font-size: 10vw;
@@ -907,6 +928,18 @@ footer {
   /* ASIDE: slika-planina (text) */
    .slika-text  p {
     width: 95%;
+  }
+  /* KNJIGE */
+  .knjige > p {
+    margin-left: 2%;
+    font-size: 8.5vw;
+  }
+  .knjige-izdanja {
+    font-size: 1.3em;
+    margin-left: 2%;
+  }
+  .knjige-izdanja p {
+    font-size: 6.5vw;
   }
 }
 @media screen and (max-width: 340px) {
