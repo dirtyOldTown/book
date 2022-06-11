@@ -300,36 +300,36 @@ footer {
   position: relative;
   bottom: -3.2%;
   font-family:"Sacramento";
-  font-size: 4.3vw;
+  font-size: 4.5vw;
 }
 #pismo-simbol {
   position: relative;
   font-family: "Wingdings";
-  font-size: 6.2vw;
+  font-size: 6.7vw;
   top: -6%;
 }
 .kontakt-imejl {
  display: block;
  margin-left: -14.5%;
- font-size: 1.7vw;
+ font-size: 1.9vw;
  margin-bottom: 0%;
 }
 .kontakt-imejl p:first-of-type {
   margin-left: 3px;
   margin-bottom: -7%;
-  font-size: 0.8em;
+  font-size: 0.88em;
 }
 .kontakt-imejl p:last-of-type a {
   color: white;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
   padding: 4px;
   border-radius: 2px;
 }
 #facebook {
   font-family: "Arial";
   font-weight: bolder;
-  font-size: 3.2vw;
+  font-size: 3.5vw;
 }
 #facebook a {
   color: white;
@@ -353,6 +353,26 @@ footer {
   font-family:'Times New Roman', serif;
   font-weight: bold;
 }
+
+/*#vrh-strane {
+  position: absolute;
+  right: 3px;
+  top: -47px;
+  opacity: 0.7;
+}
+#vrh-strane a {
+  color:#222059;
+  padding: 7px 28px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.4vw;
+  background-color: transparent;
+  color: black;
+  border: 1px solid #adb5bd;
+  font-family:'Times New Roman', serif;
+  font-weight: bold;
+}*/
+
 
 /* RESPONSIVE 
 ----------------------------------------------------------------------------- */
@@ -562,10 +582,9 @@ footer {
     font-size: 7.5vw;
     margin-top: 0;
   }
- 
+
   /* FOOTER */
   footer {
-    align-items: center;
     height: 16vw;
   }
   #mimaarbid-text {
@@ -573,11 +592,11 @@ footer {
     font-size: 3em;
   }
   #pismo-simbol {
-    font-size: 5em;
+    font-size: 10vw;
     top: -6%;
   }
   .kontakt-imejl {
-     margin-left: -8%;
+     margin-left: -6.3%;
      font-size: 2.7vw;
      margin-bottom: 0%;
   }
@@ -701,6 +720,48 @@ footer {
   .slika-text  p {
     width: 80%;
   }
+  /*FOOTER MOBILNI*/
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items: flex-start;
+  height: 50vw;
+}
+#mimaarbid-text {
+  order: 1;
+  flex-basis: 55%;
+  font-size: 8.7vw;
+}
+#pismo-simbol {
+  flex-basis: 45%;
+  order: 3;
+  font-size: 17vw;
+  margin-top: -40px;
+}
+.kontakt-imejl {
+  flex-basis: 30%;
+  order: 4;
+  font-size: 4.5vw;
+  margin-left: -22%;
+  margin-top: -40px;
+}
+.kontakt-imejl p:first-of-type {
+  font-size: 0.8em;
+}
+.kontakt-imejl p:last-of-type a {
+  font-size: 4vw;
+}
+#facebook {
+  flex-basis: 15%;
+  order: 2;
+  font-size: 8.7vw;
+  margin-top: 10%;
+  margin-left: 3%;
+}
+#facebook a {
+  color: white;
+}
 }
 @media screen and (max-width: 590px) {
   
@@ -767,6 +828,45 @@ footer {
     width: 90%;
     margin-bottom: 0;
   }
+/*FOOTER MOBILNI*/
+  footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: flex-start;
+    height: 57vw;
+  }
+  #mimaarbid-text {
+    order: 1;
+    flex-basis: 55%;
+    font-size: 10vw;
+  }
+  #pismo-simbol {
+    flex-basis: 45%;
+    order: 3;
+    font-size: 20vw;
+    margin-top: -40px;
+  }
+  .kontakt-imejl {
+    flex-basis: 30%;
+    order: 4;
+    font-size: 5vw;
+    margin-left: -22%;
+    margin-top: -40px;
+  }
+  .kontakt-imejl p:first-of-type {
+    font-size: 0.9em;
+  }
+  .kontakt-imejl p:last-of-type a {
+    font-size: 5.2vw;
+  }
+  #facebook {
+    flex-basis: 15%;
+    order: 2;
+    font-size: 11vw;
+    margin-top: 11%;
+    margin-left: 3%;
+  }
 }
 /*MANJI MOBILNI */
 @media screen and (max-width: 436px) {
@@ -813,6 +913,45 @@ footer {
   /* ASIDE: slika-planina (text) */
    .slika-text  p {
     width: 95%;
+  }
+  /*FOOTER MOBILNI*/
+  footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: flex-start;
+    height: 66vw;
+  }
+  #mimaarbid-text {
+    order: 1;
+    flex-basis: 55%;
+    font-size: 10.7vw;
+  }
+  #pismo-simbol {
+    flex-basis: 45%;
+    order: 3;
+    font-size: 24vw;
+    margin-top: -35px;
+  }
+  .kontakt-imejl {
+    flex-basis: 30%;
+    order: 4;
+    font-size: 6vw;
+    margin-left: -22%;
+    margin-top: -32px;
+  }
+  .kontakt-imejl p:first-of-type {
+    font-size: 0.9em;
+  }
+  .kontakt-imejl p:last-of-type a {
+    font-size: 7vw;
+  }
+  #facebook {
+    flex-basis: 15%;
+    order: 2;
+    font-size: 11vw;
+    margin-top: 12%;
+    margin-left: 6%;
   }
 }
 @media screen and (max-width: 340px) {
