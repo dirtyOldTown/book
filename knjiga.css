@@ -845,7 +845,7 @@ footer {
     flex-basis: 45%;
     order: 3;
     font-size: 20vw;
-    margin-top: -35px;
+    margin-top: -45px;
   }
   .kontakt-imejl {
     flex-basis: 30%;
@@ -864,7 +864,7 @@ footer {
     flex-basis: 15%;
     order: 2;
     font-size: 11vw;
-    margin-top: 11%;
+    margin-top: 10%;
     margin-left: 3%;
   }
 }
