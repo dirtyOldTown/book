@@ -199,7 +199,7 @@ PETA SEKCIJA: Umetnički-Blok 3
  
 }
 /* 
-ASIDE: Knjige  
+KNJIGE 
 -------------------------------*/
 .knjige {
   display: flex;
@@ -207,19 +207,20 @@ ASIDE: Knjige
   background-color: #f2f2f2;
   color: #3d6877;
   padding: 30px 0px 5px;
-  font-size: 1.9vw;
   margin-top: -6%;
   font-family: "Monsterrat";
 }
 .knjige > p {
+  font-size: 3.4vw;
   margin-left: 8%;
+  letter-spacing: 2px;
+  margin-top: 0;
 }
 .knjige-izdanja {
   display: flex;
   justify-content: space-around;
   margin-top: -3.5%;
-  margin-left: -6%;
-  font-size: 2.3vw;
+  font-size: 3vw;
 }
 
 /* 
@@ -554,6 +555,15 @@ footer {
   .slika-text {
     font-size: 1.1em;
   }
+  /* KNJIGE */
+  .knjige > p {
+    margin-left: 8%;
+    font-size: 3.8vw;
+  }
+  .knjige-izdanja {
+    margin-left: 1%;
+    font-size: 3.3vw;
+  }
   /* ASIDE: Mima-lično */
   .mima-lično {
     display: flex;
@@ -646,11 +656,11 @@ footer {
   /* TREĆA SEKCIJA: Umetnički-Blok*/
   .slika-palme {
     width: 110%;
-    margin-left: 0;
     margin-top: -1%;
   }
   .slika-palme p {
     text-align: center;
+    margin-left: -10%;
   }
   .slika-četkice-text {
     display: block;
@@ -829,40 +839,24 @@ footer {
     margin-bottom: 0;
   }
 /*FOOTER MOBILNI*/
-  footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:center;
-    align-items: flex-start;
-    height: 57vw;
-  }
   #mimaarbid-text {
-    order: 1;
-    flex-basis: 55%;
     font-size: 10vw;
   }
   #pismo-simbol {
     flex-basis: 45%;
-    order: 3;
     font-size: 20vw;
     margin-top: -45px;
+    margin-left: 4%;
   }
   .kontakt-imejl {
-    flex-basis: 30%;
-    order: 4;
     font-size: 5vw;
-    margin-left: -22%;
+    margin-left: -25%;
     margin-top: -35px;
-  }
-  .kontakt-imejl p:first-of-type {
-    font-size: 0.9em;
   }
   .kontakt-imejl p:last-of-type a {
     font-size: 5.2vw;
   }
   #facebook {
-    flex-basis: 15%;
-    order: 2;
     font-size: 11vw;
     margin-top: 10%;
     margin-left: 3%;
