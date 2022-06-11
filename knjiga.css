@@ -915,7 +915,7 @@ footer {
     width: 95%;
   }
   /*FOOTER MOBILNI*/
-  footer {
+ /* footer {
     display: flex;
     flex-flow: row wrap;
     justify-content:center;
@@ -952,7 +952,7 @@ footer {
     font-size: 11vw;
     margin-top: 12%;
     margin-left: 6%;
-  }
+  }*/
 }
 @media screen and (max-width: 340px) {
   /* PRVA SEKCIJA Naslovna*/
