@@ -114,4 +114,34 @@ function column(x) {
 }
 // Realizovanje funkcije (addEventListener)
 column(mediaHandler2);
-mediaHandler2.addEventListener("change", column)
+mediaHandler2.addEventListener("change", column);
+
+// // 'mima-arbid': Promena strukture teksta (matchMedia: max-width: 767px)
+
+const mimaarbidPre = document.querySelector(".mimaarbid pre");
+//  Funkcija za mediaHandler (max-width: 767px)
+function mimaarbidPromena(x) {
+  if (x.matches) {
+    mimaarbidPre.innerHTML = `
+    Mima Arbid moved from former Yugoslavia 
+    as young adult after completing her 
+    degree in English and Literature from 
+    University of Belgrade. She has traveled 
+    the world embracing different cultures. 
+
+    Mima is a mother, wife, artist and writer.
+
+    I DO NOT BELONG is her first novel.
+    `
+  } else {
+    mimaarbidPre.innerHTML = `
+    Mima Arbid moved from former Yugoslavia as young adult after completing her degree
+    in English and Literature from University of Belgrade. She has traveled the world
+    embracing different cultures. Mima is a mother, wife, artist and writer.
+    I DO NOT BELONG is her first novel.
+    `
+  }
+}
+// Realizovanje funkcije (addEventListener)
+mimaarbidPromena(mediaHandler);
+mediaHandler.addEventListener("change", mimaarbidPromena);

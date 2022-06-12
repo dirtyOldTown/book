@@ -284,6 +284,7 @@ ASIDE: Mima-lično
   font-size: 2vw;
   margin-left: 5%;
   line-height: 2.3vw;
+  margin-top: -0.7%;
 }
 /* 
 FOOTER 
@@ -698,11 +699,23 @@ footer {
     width: 100%;
     margin-top: 10px;
   }
-/* ASIDE: slika-planina (text) */
+  /* ASIDE: slika-planina (text) */
   .slika-text {
     background-color: transparent;
   }
- }
+  /* ASIDE: About */
+  .mimaarbid header {
+    font-size: 3.25vw;
+    letter-spacing: 0.3vw;
+    margin-left: 8%;
+  }
+  .mimaarbid pre {
+    font-size: 3.2vw;
+    margin-left: 4%;
+    line-height: 3.7vw;
+    margin-top: -0.7%;
+  }
+}
 
 /* SREDNJI MOBILNI (max-width: 650px) */
 
@@ -839,6 +852,18 @@ footer {
   .slika-planina p {
     font-size: 1em;
   }
+  /* ASIDE: About */
+ .mimaarbid header {
+  font-size: 3.6vw;
+  letter-spacing: 0.3vw;
+  margin-left: 8%;
+}
+.mimaarbid pre {
+  font-size: 3.9vw;
+  margin-left: 3%;
+  line-height: 4.5vw;
+  margin-top: -0.7%;
+}
 }
 @media screen and (max-width: 491px) {
   /* PRVA SEKCIJA Naslovna*/
@@ -917,6 +942,17 @@ footer {
     padding: 15px 28px 0;
     font-size: 4.4vw;
     line-height: 5vw;
+  }
+  .mimaarbid header {
+    font-size: 4vw;
+    letter-spacing: 0.3vw;
+    margin-left: 8%;
+  }
+  .mimaarbid pre {
+    font-size: 4.6vw;
+    margin-left: 2%;
+    line-height: 5.2vw;
+    margin-top: -0.7%;
   }
 }
 @media screen and (max-width: 383px) {
