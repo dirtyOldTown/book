@@ -239,29 +239,34 @@ ASIDE: Mima-lično
   height: auto;
 }
 .mima-lično img:last-of-type {
-  width: 23%;
-  margin-left: 2%;
-  margin-bottom: -2.5%;
+  width: 30%;
+  margin-left: 0%;
+  margin-bottom: -3.2%;
   height: auto;
 }
  .mima-text {
   position: absolute;
-  top: -5%;
+  top: 2%;
   left: 45%;
   color: #3d6877;
   line-height: 126%;
 } 
 .mima-text p {
-  width: 88%;
-  font-size: 1.6vw;
+  width: 100%;
+  font-size: 2vw;
   color: #3d6877;
   line-height: 120%;
   font-family: "Marion", serif;
 }
+.mima-text p:first-of-type {
+  margin-bottom: -3%;
+}
 #mima-potpis {
   font-family: "Sacramento";
-  font-size: 2.7vw;
+  font-size: 2.9vw;
   text-align: right;
+  margin-left: -8%;
+  margin-top: 15%;
 }
 /* ASIDE: About */
 #mimaabout {
@@ -435,31 +440,6 @@ footer {
     text-align: center;
     font-family: "Wingdings 2";
   }
-  /* ASIDE: Mima-lično  */
-  .mima-text {
-    width: 47%;
-    margin-top: -1%;
-  }
-  .mima-text p {
-    font-size: 1.8vw;
-    line-height: 120%;
-    margin-left: -5%;
-    width: 115%;
-  }
-  .mima-lično img {
-    width: 22%;
-    height: auto;
-  }
-  .mima-lično img:last-of-type {
-    margin-left: 1%;
-    width:20%;
-    margin-bottom: -2.4%;
-  }
-  #mima-potpis {
-    font-size: 2.9vw;
-    top: 16vw;
-    left: 61vw;
-  }
   /* FOOTER */
     #vrh-strane a {
      font-size: 1.1em;
@@ -570,13 +550,12 @@ footer {
     height: 65vw;
   }
   .mima-text {
-    top: -1%;
-    left: 12%;
+    top: -0.5%;
+    left: 7.5%;
     width: 74%;
-    text-align: center;
   }
   .mima-text p{
-    font-size: 2.5vw;
+    font-size: 2.7vw;
   }
   .mima-lično img:first-of-type {
     width: 40%;
@@ -585,11 +564,12 @@ footer {
   .mima-lično img:last-of-type {
     width: 44%;
     margin-left: 48%;
-    margin-bottom: -25%;
+    margin-bottom: -33%;
   }
   #mima-potpis {
-    font-size: 7.5vw;
-    margin-top: 0;
+    font-size: 8vw;
+    margin-top: 14%;
+    margin-left: 8%;
   }
   /* ASIDE: About */
 .mimaarbid header {
@@ -704,6 +684,25 @@ footer {
   .slika-text {
     background-color: transparent;
   }
+   /* ASIDE: Mima-lično */
+  .mima-text {
+    top: -0.5%;
+    left: 7.5%;
+    width: 80%;
+  }
+  .mima-text p{
+    font-size: 3vw;
+  }
+  .mima-lično img:last-of-type {
+    width: 48%;
+    margin-left: 48%;
+    margin-bottom: -35%;
+  }
+  #mima-potpis {
+    font-size: 9vw;
+    margin-top: 9.5%;
+    margin-left: 6%;
+  }
   /* ASIDE: About */
   .mimaarbid header {
     font-size: 3.25vw;
@@ -768,6 +767,25 @@ footer {
   }
   .knjige-izdanja p:last-of-type {
     margin-top: -2%;
+  }
+  /* ASIDE: Mima-lično */
+  .mima-text {
+    top: -3%;
+    left: 7.5%;
+    width: 90%;
+  }
+  .mima-text p{
+    font-size: 3.4vw;
+  }
+  .mima-lično img:last-of-type {
+    width: 46%;
+    margin-left: 48%;
+    margin-bottom: -35%;
+  }
+  #mima-potpis {
+    font-size: 8.5vw;
+    margin-top: 8%;
+    margin-left: -7%;
   }
   /*FOOTER MOBILNI*/
 footer {
@@ -853,18 +871,45 @@ footer {
   .slika-planina div p {
     font-size: 0.9em;
   }
+  /* ASIDE: Mima-lično */
+  .mima-text {
+    width: 87%;
+  }
+  .mima-text p{
+    font-size: 3.9vw;
+  }
+  .mima-lično img:first-of-type {
+    margin-bottom: -10%;
+  }
+  .mima-lično img:last-of-type {
+    width: 44%;
+    margin-left: 48%;
+    margin-bottom: -35%;
+  }
+  #mima-potpis {
+    font-size: 10vw;
+    margin-left: -5%;
+  }
   /* ASIDE: About */
+  #mimaabout {
+   top: 13vw;
+   margin-bottom: -3%;
+  }
  .mimaarbid header {
-  font-size: 4vw;
+  font-size: 4.3vw;
   letter-spacing: 0.3vw;
   margin-left: 8%;
-}
+  }
 .mimaarbid pre {
   font-size: 3.9vw;
   margin-left: 2.5%;
   line-height: 4.5vw;
   margin-top: -0.7%;
-}
+  }
+  /* FOOTER*/
+  footer {
+    margin-top: 12%;
+  }
 }
 @media screen and (max-width: 491px) {
   /* PRVA SEKCIJA Naslovna*/
@@ -902,6 +947,9 @@ footer {
     font-size: 1.12em;
   }
 /*FOOTER MOBILNI*/
+footer {
+  height: 60vw;
+}
   #mimaarbid-text {
     font-size: 10vw;
   }
@@ -943,18 +991,33 @@ footer {
     font-size: 4.4vw;
     line-height: 5vw;
   }
+  /* ASIDE: Mima-lično */
+  .mima-text {
+    width: 87%;
+  }
+  .mima-text p{
+    font-size: 4.4vw;
+  }
+  .mima-lično img:first-of-type {
+    margin-bottom: -20%;
+  }
+  /* ASIDE: About */
+  #mimaabout {
+    top: 23vw;
+   }
   .mimaarbid header {
-    font-size: 4.5vw;
-    letter-spacing: 0.3vw;
-    margin-left: 8%;
-  }
-  .mimaarbid pre {
-    font-size: 4.6vw;
-    margin-left: 1.4%;
-    line-height: 5.2vw;
-    margin-top: -0.7%;
-  }
-}
+   font-size: 4.7vw;
+   }
+ .mimaarbid pre {
+   font-size: 4.4vw;
+   margin-left: 2.5%;
+   line-height: 5.3vw;
+   }
+   /* FOOTER*/
+   footer {
+     margin-top: 19%;
+   }
+ }
 @media screen and (max-width: 383px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
@@ -1015,9 +1078,31 @@ footer {
    font-size: 5.48vw;
    line-height: 5.9vw;
   }
+  /* ASIDE: Mima-lično */
+  .mima-text {
+    width: 90%;
+  }
+  .mima-text p{
+    font-size: 4.8vw;
+  }
+  .mima-lično img:first-of-type {
+    margin-bottom: -24%;
+  }
+  /* ASIDE: About */
+  #mimaabout {
+    top: 27vw;
+   }
+  .mimaarbid header {
+   font-size: 4.7vw;
+   }
+ .mimaarbid pre {
+   font-size: 4.6vw;
+   margin-left: 2.5%;
+   line-height: 5.3vw;
+   }
   /*FOOTER MOBILNI*/
   footer {
-    height: 57vw;
+    margin-top: 22%;
   }
   #pismo-simbol {
     margin-top: -35px;

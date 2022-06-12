@@ -128,10 +128,8 @@ function mimaarbidPromena(x) {
     degree in English and Literature from 
     University of Belgrade. She has traveled 
     the world embracing different cultures. 
-
-    Mima is a mother, wife, artist and writer.
-
-    I DO NOT BELONG is her first novel.
+    <span style="line-height:2.2em">Mima is a mother, wife, artist and writer.</span>
+    <span style="line-height:1.5em">I DO NOT BELONG is her first novel.</span>
     `
   } else {
     mimaarbidPre.innerHTML = `
