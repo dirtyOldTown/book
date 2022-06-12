@@ -124,7 +124,7 @@ function mimaarbidPromena(x) {
   if (x.matches) {
     mimaarbidPre.innerHTML = `
     Mima Arbid moved from former Yugoslavia 
-    as young adult after completing her 
+    as a young adult after completing her 
     degree in English and Literature from 
     University of Belgrade. She has traveled 
     the world embracing different cultures. 
@@ -135,7 +135,7 @@ function mimaarbidPromena(x) {
     `
   } else {
     mimaarbidPre.innerHTML = `
-    Mima Arbid moved from former Yugoslavia as young adult after completing her degree
+    Mima Arbid moved from former Yugoslavia as a young adult after completing her degree
     in English and Literature from University of Belgrade. She has traveled the world
     embracing different cultures. Mima is a mother, wife, artist and writer.
     I DO NOT BELONG is her first novel.
