@@ -711,7 +711,7 @@ footer {
   }
   .mimaarbid pre {
     font-size: 3.2vw;
-    margin-left: 4%;
+    margin-left: 3.5%;
     line-height: 3.7vw;
     margin-top: -0.7%;
   }
@@ -785,7 +785,7 @@ footer {
   flex-basis: 45%;
   order: 3;
   font-size: 17vw;
-  margin-top: -40px;
+  margin-top: -43px;
 }
 .kontakt-imejl {
   flex-basis: 30%;
@@ -854,13 +854,13 @@ footer {
   }
   /* ASIDE: About */
  .mimaarbid header {
-  font-size: 3.6vw;
+  font-size: 4vw;
   letter-spacing: 0.3vw;
   margin-left: 8%;
 }
 .mimaarbid pre {
   font-size: 3.9vw;
-  margin-left: 3%;
+  margin-left: 2.5%;
   line-height: 4.5vw;
   margin-top: -0.7%;
 }
@@ -906,8 +906,7 @@ footer {
   }
   #pismo-simbol {
     flex-basis: 45%;
-    font-size: 22vw;
-    margin-top: -45px;
+    font-size: 20vw;
     margin-left: 4%;
   }
   .kontakt-imejl {
@@ -944,13 +943,13 @@ footer {
     line-height: 5vw;
   }
   .mimaarbid header {
-    font-size: 4vw;
+    font-size: 4.5vw;
     letter-spacing: 0.3vw;
     margin-left: 8%;
   }
   .mimaarbid pre {
     font-size: 4.6vw;
-    margin-left: 2%;
+    margin-left: 1.4%;
     line-height: 5.2vw;
     margin-top: -0.7%;
   }
@@ -1016,7 +1015,7 @@ footer {
     height: 57vw;
   }
   #pismo-simbol {
-    margin-top: -30px;
+    margin-top: -35px;
   }
   .kontakt-imejl {
     margin-top: -30px;
