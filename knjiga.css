@@ -174,7 +174,7 @@ ASIDE: slika-planina (text)
   margin-right: auto;
   font-family: "Marion";
   color: #3d6877;
-  margin-top: 0px;
+  margin-top: -2%;
   padding-top: 35px;
   font-style: italic;
 }
@@ -183,7 +183,7 @@ PETA SEKCIJA: Umetnički-Blok 3
 ------------------------------------------------------------*/
 .slika-planina {
   background-color: #3d6877;
-  padding: 7% 8%;
+  padding: 7.5% 8%;
   color: white;
 }
 .slika-planina div {
@@ -195,8 +195,9 @@ PETA SEKCIJA: Umetnički-Blok 3
 }
 .slika-planina div p {
   position: relative;
-  top: -7px;
+  top: -12px;
   font-size: 1.67vw;
+  margin-bottom: 1%;
 }
 /* 
 KNJIGE 
@@ -220,7 +221,7 @@ KNJIGE
   display: flex;
   justify-content: space-around;
   margin-top: -3.5%;
-  margin-left: -2%;
+  margin-left: -1%;
   font-size: 2.8vw;
 }
 /* 
@@ -559,7 +560,7 @@ footer {
     font-size: 3.8vw;
   }
   .knjige-izdanja {
-    margin-left: 2%;
+    margin-left: 3%;
     font-size: 3.3vw;
   }
   /* ASIDE: Mima-lično */
@@ -849,8 +850,8 @@ footer {
     padding: 15px 32px 0;
   }
   /* PETA SEKCIJA: Umetnički-Blok 3 */
-  .slika-planina p {
-    font-size: 1em;
+  .slika-planina div p {
+    font-size: 0.9em;
   }
   /* ASIDE: About */
  .mimaarbid header {
@@ -979,6 +980,10 @@ footer {
   /* ASIDE: slika-planina (text) */
    .slika-text  p {
     width: 95%;
+  }
+  /* PETA SEKCIJA: Umetnički-Blok 3 */
+  .slika-planina div {
+   margin-bottom: -2%;
   }
   /* KNJIGE */
   .knjige > p {
