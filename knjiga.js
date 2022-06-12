@@ -116,7 +116,7 @@ function column(x) {
 column(mediaHandler2);
 mediaHandler2.addEventListener("change", column);
 
-// // 'mima-arbid': Promena strukture teksta (matchMedia: max-width: 767px)
+// 'mima-arbid': Promena strukture teksta (matchMedia: max-width: 767px)
 
 const mimaarbidPre = document.querySelector(".mimaarbid pre");
 //  Funkcija za mediaHandler (max-width: 767px)
