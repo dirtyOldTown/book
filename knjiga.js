@@ -52,6 +52,7 @@ function promenaTexta(x) {
   if (x.matches) {
     biografijaText.innerHTML = `
     <p>
+    🙥
     Do you believe in destiny? Do you think that everything 
     happens for a reason? Do you ever have that feeling of 
     not belonging? My book <a href="#books">I DO NOT BELONG</a> is a story
