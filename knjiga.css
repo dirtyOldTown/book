@@ -742,7 +742,7 @@ footer {
   /* KNJIGE */
   .knjige > p {
     margin-left: 10%;
-    font-size: 2.2em;
+    font-size: 2em;
     margin-bottom: 2.3%;
   }
   .knjige-izdanja {
@@ -881,7 +881,7 @@ footer {
   }
   #pismo-simbol {
     flex-basis: 45%;
-    font-size: 20vw;
+    font-size: 22vw;
     margin-top: -45px;
     margin-left: 4%;
   }
@@ -947,7 +947,7 @@ footer {
   }
   /* KNJIGE */
   .knjige > p {
-    font-size: 8.3vw;
+    font-size: 8.1vw;
   }
   .knjige-izdanja {
     font-size: 1.3em;
