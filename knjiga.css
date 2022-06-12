@@ -45,20 +45,21 @@ DRUGA SEKCIJA: Biografija
   width: 33%;
   margin-top: 4%;
   padding-bottom: -3%;
-  margin-left: 4.2%;
+  margin-left: 4.8%;
   height: auto;
 }
 .biografija-text {
   background-image: url('slike/mima-prazno.png');
-  background-size: 112% 100%;
-  background-position: 40% 0;
+  background-size: 110% 100%;
+  background-position: 45% 0;
+  
 }
 .biografija-text pre {
   width: 100%;
-  margin-left: 2%;
+  margin-left: 6.8%;
   margin-top: 6.4%;
-  font-size: 1.62vw;
-  line-height: 2.08vw;
+  font-size: 1.63vw;
+  line-height: 2.1vw;
   font-family: "Marion", serif;
   color: black;
 }
@@ -80,7 +81,7 @@ DRUGA SEKCIJA: Biografija
   position:absolute;
   font-size: 1.9vw;
   text-align: center;
-  margin-left: 30.8%;
+  margin-left: 29%;
   margin-top: 1.5%;
   font-family: "Wingdings 2";
 }
@@ -88,7 +89,7 @@ DRUGA SEKCIJA: Biografija
   position: absolute;
   margin-top: -3.4%;
   font-size: 1.9vw;
-  margin-left: 30.8%;
+  margin-left: 29%;
   text-align: center;
   font-family: "Wingdings 2";
 }
@@ -213,6 +214,7 @@ KNJIGE
 }
 .knjige > p {
   font-size: 3.3vw;
+  margin-top: -5%;;
   margin-left: 8%;
   letter-spacing: 2px;
   margin-top: 0;

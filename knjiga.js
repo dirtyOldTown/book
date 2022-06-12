@@ -75,18 +75,18 @@ function promenaTexta(x) {
     biografijaText.innerHTML = `
     <p id="wingdings-a">a</p>
     <pre>
-     Do you believe in destiny? Do you think that everything happens for a 
-     reason? Do you ever have that feeling of not belonging?
-     My book <a href="#books">I DO NOT BELONG</a> is a story of a young girl desperately trying to 
-     find herself and her place in the world after a tragic event in her life. A 
-     chance encounter with an elderly American couple and a misunderstanding 
-     on their part changes her life forever.
-     She is catapulted into a new world searching for her destiny. Will she ever 
-     find it? It's a relatable story inspired by true events. An easy and fast read. 
-     You can find it on Amazon in paperback or kindle. And all the art
-     throughout the book, including the cover, is mine.
-     Hope you enjoy reading it. Please let me know. On Amazon, tweeter, Insta-
-     gram or Facebook. Until we meet again! 
+    Do you believe in destiny? 
+    Do you think that everything happens for a reason? 
+    Do you ever have that feeling of not belonging?
+    <a href="#books">I DO NOT BELONG</a> is a story of a young girl desperately trying 
+    to find herself and her place in the world after a tragic event 
+    in her life. A chance encounter with an elderly American 
+    couple and a misunderstanding on their part changes her life forever.
+    She is catapulted into a new world searching for her destiny. 
+    Will she ever find it? 
+    It's a relatable story inspired by true events. 
+    An easy and fast read. 
+    On Amazon, in paperback and kindle. 
     </pre>
     <p id="wingdings-b">b</p>      
     `
@@ -116,7 +116,7 @@ function column(x) {
 column(mediaHandler2);
 mediaHandler2.addEventListener("change", column);
 
-// 'mima-arbid': Promena strukture teksta (matchMedia: max-width: 767px)
+//'mima-arbid': Promena strukture teksta (matchMedia: max-width: 767px)
 
 const mimaarbidPre = document.querySelector(".mimaarbid pre");
 //  Funkcija za mediaHandler (max-width: 767px)
