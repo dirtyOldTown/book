@@ -51,6 +51,7 @@ const mediaHandler = window.matchMedia('(max-width: 767px)');
 function promenaTexta(x) {
   if (x.matches) {
     biografijaText.innerHTML = `
+    <p id="wingdings-a">&#97;</p>
     <p>
     Do you believe in destiny? Do you think that everything 
     happens for a reason? Do you ever have that feeling of 
@@ -73,7 +74,7 @@ function promenaTexta(x) {
     umetničkiBlok2.setAttribute("style", "flex-direction: column-reverse; align-items: flex-start");
   } else {
     biografijaText.innerHTML = `
-    <p id="wingdings-a">a</p>
+    <p id="wingdings-a">&#97;</p>
     <pre>
     Do you believe in destiny? 
     Do you think that everything happens for a reason? 
