@@ -164,3 +164,13 @@ function biografijaPromena(x) {
 // Realizovanje funkcije (addEventListener)
 biografijaPromena(mediaHandler3);
 mediaHandler3.addEventListener("change", biografijaPromena);
+
+// "#vrh-strane": Animacija (promena boje)
+const vrhStrane = document.querySelector("#vrh-strane a");
+
+vrhStrane.addEventListener("mouseover", (e) => {
+e.target.style.backgroundColor = "#ced4da";
+});
+vrhStrane.addEventListener("mouseout", (e) => {
+  e.target.style.backgroundColor = "transparent";
+})
