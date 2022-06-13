@@ -126,14 +126,15 @@ function biografijaPromena(x) {
     <a href="#books">I DO NOT BELONG</a> is a story of a
     young girl desperately trying to find 
     herself and her place in the world after
-     a tragic event in her life. A chance 
-     encounter with an elderly American 
-    couple and a misunderstanding on their part 
-    changes her life forever. She is catapulted
-    into a new  world searching for her destiny. 
+    a tragic event in her life. A chance 
+    encounter with an elderly 
+    American couple and a misunderstanding 
+    on their part changes her life forever. 
+    She is catapultedinto a new  world 
+    searching for her destiny. 
     Will she ever find it? 
-    It's a relatable story inspired by true events. 
-    An easy and fast read. 
+    It's a relatable story inspired 
+    by true events. An easy and fast read. 
     On Amazon, in paperback and kindle.
     </pre>
     <p id="wingdings-b">b</p>
