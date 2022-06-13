@@ -51,7 +51,6 @@ const mediaHandler = window.matchMedia('(max-width: 767px)');
 function promenaTexta(x) {
   if (x.matches) {
     biografijaText.innerHTML = `
-    <p style="font-family: 'Ornamental Dingbats'">&#128612;</p>
     <p>
     Do you believe in destiny? Do you think that everything 
     happens for a reason? Do you ever have that feeling of 
