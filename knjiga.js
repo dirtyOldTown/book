@@ -51,7 +51,7 @@ const mediaHandler = window.matchMedia('(max-width: 767px)');
 function promenaTexta(x) {
   if (x.matches) {
     biografijaText.innerHTML = `
-    <p><span style="font-family: 'Wingdings 2'">&#x0061</span>
+    <p>
     Do you believe in destiny? Do you think that everything 
     happens for a reason? Do you ever have that feeling of 
     not belonging? My book <a href="#books">I DO NOT BELONG</a> is a story
