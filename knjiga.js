@@ -120,15 +120,17 @@ function biografijaPromena(x) {
     <p id="wingdings-a">&#97;</p>
     <pre>
     Do you believe in destiny?
-    Do you think that everything happens for a reason? 
-    Do you ever have that feeling of not belonging?
+    Do you think that everything happens 
+    for a reason? Do you ever have that 
+    feeling of not belonging?
     <a href="#books">I DO NOT BELONG</a> is a story of a
-    young girl desperately trying to find herself and her
-    place in the world after a tragic event in her life.
-    A chance encounter with an elderly American couple
-    and a misunderstanding on their part changes her 
-    life forever. She is catapulted into a new 
-    world searching for her destiny. 
+    young girl desperately trying to find 
+    herself and her place in the world after
+     a tragic event in her life. A chance 
+     encounter with an elderly American 
+    couple and a misunderstanding on their part 
+    changes her life forever. She is catapulted
+    into a new  world searching for her destiny. 
     Will she ever find it? 
     It's a relatable story inspired by true events. 
     An easy and fast read. 

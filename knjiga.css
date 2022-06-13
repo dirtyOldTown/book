@@ -82,7 +82,7 @@ DRUGA SEKCIJA: Biografija
   font-size: 1.9vw;
   text-align: center;
   margin-left: 29%;
-  margin-top: 1.5%;
+  margin-top: 1.2%;
   font-family: "Wingdings 2";
 }
 #wingdings-b {
@@ -830,18 +830,18 @@ footer {
 @media screen and (max-width: 590px) {
   /* DRUGA SEKCIJA: Biografija */
   .biografija {
-    height: 147vw;
+    height: 153vw;
   }
   .biografija img {
-    margin-bottom: -26%;
+    margin-bottom: -28%;
   }
   .biografija-text pre {
-    font-size: 3.5vw;
-    line-height: 4vw;
+    font-size: 3.6vw;
+    line-height: 4.1vw;
     margin-left: 6%;
   }
   #wingdings-b {
-    margin-top: -5%;
+    margin-top: -7%;
   }
   /* TREĆA SEKCIJA: Umetnički-Blok*/
   .umetnički-blok {
@@ -918,14 +918,14 @@ footer {
   }
    /* DRUGA SEKCIJA: Biografija */
   .biografija {
-    height: 152vw;
+    height: 171vw;
   }
   .biografija img {
     margin-bottom: -30%;
   }
   .biografija-text pre {
-    font-size: 3.9vw;
-    line-height: 4.6vw;
+    font-size: 4.2vw;
+    line-height: 5vw;
     margin-left: 5%;
     margin-top: 8%
   }
@@ -998,6 +998,22 @@ footer {
     font-size: 0.9em;
     padding: 0 10px;
   }
+   /* DRUGA SEKCIJA: Biografija */
+   .biografija {
+    height: 174vw;
+  }
+  .biografija img {
+    margin-bottom: -33%;
+  }
+  .biografija-text pre {
+    font-size: 4.5vw;
+    line-height: 5.3vw;
+    margin-left: 3.5%;
+    margin-top: 8%
+  }
+  #wingdings-b {
+    margin-top: -8%;
+  }
   /* ASIDE: Mima-lično */
   .mima-text {
     width: 87%;
@@ -1032,17 +1048,18 @@ footer {
     font-size: 0.8em;
     padding: 0 10px;
   }
-   /* DRUGA SEKCIJA: Biografija */
+  /* DRUGA SEKCIJA: Biografija */
   .biografija {
-    height: 158vw;
+    height: 180vw;
   }
   .biografija img {
-    margin-bottom: -32%;
+    margin-bottom: -37%;
   }
   .biografija-text pre {
-    font-size: 4.12vw;
-    line-height: 5vw;
-    margin-left: 2%;
+    font-size: 4.8vw;
+    line-height: 5.7vw;
+    margin-left: 1%;
+    margin-top: 8%
   }
   #wingdings-b {
     margin-top: -8%;
