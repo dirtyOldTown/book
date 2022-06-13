@@ -865,7 +865,6 @@ footer {
     font-size: 1.1em;
     padding: 0 15px;
   }
-  
   /* PETA SEKCIJA: Umetnički-Blok 3 */
   .slika-planina div p {
     font-size: 0.9em;
@@ -1034,18 +1033,16 @@ footer {
     padding: 0 10px;
   }
    /* DRUGA SEKCIJA: Biografija */
-   /* DRUGA SEKCIJA: Biografija */
   .biografija {
-    height: 152vw;
+    height: 158vw;
   }
   .biografija img {
-    margin-bottom: -30%;
+    margin-bottom: -32%;
   }
   .biografija-text pre {
-    font-size: 3.9vw;
-    line-height: 4.6vw;
-    margin-left: 5%;
-    margin-top: 8%
+    font-size: 4.12vw;
+    line-height: 5vw;
+    margin-left: 2%;
   }
   #wingdings-b {
     margin-top: -8%;
