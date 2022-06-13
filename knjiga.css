@@ -357,33 +357,12 @@ footer {
   padding: 7px 28px;
   border-radius: 5px;
   text-decoration: none;
-  font-size: 1.4vw;
+  font-size: 1.62vw;
   background-color: transparent;
-  color: black;
   border: 1px solid #adb5bd;
-  font-family:'Times New Roman', serif;
+  font-family:'Arial';
   font-weight: bold;
 }
-
-/*#vrh-strane {
-  position: absolute;
-  right: 3px;
-  top: -47px;
-  opacity: 0.7;
-}
-#vrh-strane a {
-  color:#222059;
-  padding: 7px 28px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1.4vw;
-  background-color: transparent;
-  color: black;
-  border: 1px solid #adb5bd;
-  font-family:'Times New Roman', serif;
-  font-weight: bold;
-}*/
-
 
 /* RESPONSIVE 
 ----------------------------------------------------------------------------- */
@@ -443,7 +422,7 @@ footer {
   }
   /* FOOTER */
     #vrh-strane a {
-     font-size: 1.1em;
+     font-size: 1.2em;
   }
   /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
   .umetnički-blok, .umetnički-blok2, .slika-planina div p {
@@ -460,10 +439,6 @@ footer {
   }
   .navigation-bar li a {
     padding: 0 20px;
-  }
-  /* FOOTER */
-  #vrh-strane a {
-    font-size: 1.5vw;
   }
 } 
 /* Laptop Large (min-width: 1200px) */
@@ -653,17 +628,18 @@ footer {
   }
   .slika-četkice-text {
     display: block;
-    width: 60%;
+    width: 68%;
     font-family: "Marion", serif;
     position: absolute;
     margin-left: 30%;
   }
   .slika-četkice-text h2 {
-   font-size: 1em;
+   font-size: 1.2em;
    color:#222059;
   }
   .slika-četkice-text p {
-    font-size: 1em;
+    font-size: 1.17em;
+    line-height: 1.2em;
     color: #3d6877;
    }
   /* ČETVRTA SEKCIJA: Umetnički-Blok 2 */  
@@ -844,6 +820,21 @@ footer {
     line-height: 3.7vw;
     padding: 15px 40px 0;
   }
+  /* TREĆA SEKCIJA: Umetnički-Blok*/
+  .umetnički-blok {
+    margin-top: 60px;
+  }
+  .slika-četkice-text {
+    margin-left: 30%;
+    margin-top: -5%;
+  }
+  .slika-četkice-text h2 {
+   font-size: 1.2em;
+  }
+  .slika-četkice-text p {
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
 }
 @media screen and (max-width: 540px) {
    /* PRVA SEKCIJA Naslovna*/
@@ -908,7 +899,7 @@ footer {
   }
   /* FOOTER*/
   footer {
-    margin-top: 12%;
+    margin-top: 20%;
   }
 }
 @media screen and (max-width: 491px) {
@@ -928,6 +919,22 @@ footer {
     font-size: 3.8vw;
     line-height: 4.4vw;
     padding: 15px 24px 0;
+  }
+  /* TREĆA SEKCIJA: Umetnički-Blok*/
+  .umetnički-blok {
+    margin-top: 105px;
+  }
+  .slika-četkice-text {
+    margin-left: 30%;
+    margin-top: -17%;
+  }
+  .slika-četkice-text h2 {
+   font-size: 1.2em;
+  }
+  .slika-četkice-text p {
+    font-size: 1.1em;
+    line-height: 1.17em;
+    margin-top: -3%;
   }
   /* ASIDE: slika-planina (text) */
   .slika-text  p {
@@ -1015,7 +1022,7 @@ footer {
    }
    /* FOOTER*/
    footer {
-     margin-top: 19%;
+     margin-top: 31%;
    }
  }
 @media screen and (max-width: 383px) {
@@ -1039,6 +1046,22 @@ footer {
     padding: 15px 20px 0px;
     font-size: 4.85vw;
     line-height: 5.3vw;
+  }
+  /* TREĆA SEKCIJA: Umetnički-Blok*/
+  .umetnički-blok {
+    margin-top: 105px;
+  }
+  .slika-četkice-text {
+    margin-left: 30%;
+    margin-top: -22%;
+  }
+  .slika-četkice-text h2 {
+   font-size: 5.2vw;
+  }
+  .slika-četkice-text p {
+    font-size: 5.6vw;
+    line-height: 5.9vw;
+    margin-top: -2%;
   }
   /* ASIDE: slika-planina (text) */
    .slika-text  p {
@@ -1102,7 +1125,7 @@ footer {
    }
   /*FOOTER MOBILNI*/
   footer {
-    margin-top: 22%;
+    margin-top: 37%;
   }
   #pismo-simbol {
     margin-top: -35px;
