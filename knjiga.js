@@ -10,15 +10,17 @@ function belaBoja(x) {
     x.setAttribute("style", "color: white; background-color: transparent")
   }
 // addEventListener (mouseover)
-email.addEventListener("mouseover", () => {
-  plavaBoja(email)
+email.addEventListener("mouseover", (e) => {
+  plavaBoja(email);
+  e.target.style.textDecoration = "underline";
 });
 facebook.addEventListener("mouseover", () => {
   plavaBoja(facebook)
 });
 // addEventListener (mouseout)
-email.addEventListener("mouseout", () => {
-  belaBoja(email)
+email.addEventListener("mouseout", (e) => {
+  belaBoja(email);
+  e.target.style.textDecoration = "transparent";
 });
 facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
