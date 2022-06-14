@@ -110,7 +110,7 @@ const mediaHandler3 = window.matchMedia('(max-width: 590px)');
 function biografijaPromena(x) {
   if (x.matches) {
     biografijaText.innerHTML = `
-    <p id="wingdings-a">&#x2619;</p>
+    <p id="wingdings-a"><span style="font-weight: bolder">&Lscr;</span></p>
     <pre>
     Do you believe in destiny?
     Do you think that everything happens 
@@ -130,7 +130,7 @@ function biografijaPromena(x) {
     by true events. An easy and fast read. 
     On Amazon, in paperback and kindle.
     </pre>
-    <p id="wingdings-b">&#x2767;</p>
+    <p id="wingdings-b"><span style="font-weight: bolder">&weierp;</span></p>
     `
   } else  {
     biografijaText.innerHTML = `

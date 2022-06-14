@@ -475,13 +475,9 @@
     }
     #wingdings-a {
       margin-top: 1%;
-      font-size: 1.5em;
-      font-family: 'Courier New', Courier, monospace;
     }
     #wingdings-b {
       margin-top: -7%;
-      font-size: 1.5em;
-      font-family: 'Courier New', Courier, monospace;
     }
     /* TREĆA SEKCIJA: Umetnički-Blok*/
     .umetnički-blok {
@@ -660,7 +656,7 @@
     .mima-text {
       width: 87%;
     }
-    .mima-text p{
+    .mima-text p {
       font-size: 4.4vw;
     }
     .mima-lično img:first-of-type {
