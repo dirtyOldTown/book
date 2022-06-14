@@ -110,7 +110,7 @@ const mediaHandler3 = window.matchMedia('(max-width: 590px)');
 function biografijaPromena(x) {
   if (x.matches) {
     biografijaText.innerHTML = `
-    <p id="wingdings-a">&#128614;</p>
+    <p id="wingdings-a">&#x2619;</p>
     <pre>
     Do you believe in destiny?
     Do you think that everything happens 
@@ -130,11 +130,11 @@ function biografijaPromena(x) {
     by true events. An easy and fast read. 
     On Amazon, in paperback and kindle.
     </pre>
-    <p id="wingdings-b">&#128612;</p>
+    <p id="wingdings-b">&#x2767;</p>
     `
   } else  {
     biografijaText.innerHTML = `
-    <p id="wingdings-a">&#128614;</p>
+    <p id="wingdings-a">&#97;</p>
     <pre>
     Do you believe in destiny?
      Do you think that everything happens for a reason? 
@@ -149,7 +149,7 @@ function biografijaPromena(x) {
     An easy and fast read. 
     On Amazon, in paperback and kindle.
     </pre>
-    <p id="wingdings-b">&#128612;</p>
+    <p id="wingdings-b">b</p>
     `
   }
 }

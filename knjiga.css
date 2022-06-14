@@ -66,6 +66,7 @@ DRUGA SEKCIJA: Biografija
 #wingdings-a, #wingdings-b {
   opacity: 0.5;
   color: grey;
+  font-family: "Wingdings 2";
   font-size: 1.3em;
 }
 #wingdings-a {
