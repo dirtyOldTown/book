@@ -114,6 +114,7 @@
       padding: 0 30px;
       font-size: 1.4vw;
     }
+    /* FOOTER */
     #vrh-strane {
       top: -70px;
     }
@@ -211,9 +212,10 @@
       bottom: -3.2%;
       font-size: 3em;
     }
-    #pismo-simbol {
-      font-size: 10vw;
-      top: -6%;
+    #pismo {
+      font-size: 9vw;
+      top: -5%;
+      margin-left: 5%;
     }
     .kontakt-imejl {
        margin-left: -6.3%;
@@ -225,7 +227,7 @@
       margin-bottom: -6%;
     }
     #facebook {
-      font-size: 2.7em;
+      font-size: 3em;
     }
   }
   /* VEĆI MOBILNI (max-width: 767px) */
@@ -347,6 +349,10 @@
       line-height: 3.7vw;
       margin-top: -0.7%;
     }
+    /* FOOTER */
+    #mimaarbid-text {
+      font-size: 6.2vw;
+    }
   }
   /* SREDNJI MOBILNI (max-width: 670px) */
   
@@ -428,41 +434,38 @@
       flex-flow: row wrap;
       justify-content:center;
       align-items: flex-start;
-      height: 50vw;
+      height: 57vw;
     }
     #mimaarbid-text {
       order: 1;
       flex-basis: 55%;
       font-size: 8.7vw;
     }
-    #pismo-simbol {
+    #pismo {
       flex-basis: 45%;
       order: 3;
       font-size: 17vw;
-      margin-top: -43px;
+      margin-top: -62px;
     }
     .kontakt-imejl {
       flex-basis: 30%;
       order: 4;
       font-size: 4.5vw;
       margin-left: -22%;
-      margin-top: -40px;
+      margin-top: -12%;
     }
     .kontakt-imejl p:first-of-type {
-      font-size: 0.8em;
+      font-size: 0.74em;
     }
     .kontakt-imejl p:last-of-type a {
-      font-size: 4vw;
+      font-size: 4.2vw;
     }
     #facebook {
       flex-basis: 15%;
       order: 2;
-      font-size: 8.7vw;
+      font-size: 10vw;
       margin-top: 10%;
-      margin-left: 3%;
-    }
-    #facebook a {
-      color: white;
+      margin-left: 4%;
     }
   }
   @media screen and (max-width: 590px) {
@@ -493,6 +496,18 @@
     .slika-četkice-text p {
       font-size: 1.1em;
       line-height: 1.2em;
+    }
+    /* FOOTER */
+    .kontakt-imejl {
+      font-size: 4vw;
+      margin-left: -22%;
+      margin-top: -13%;
+    }
+    .kontakt-imejl p:last-of-type a {
+      font-size: 4.4vw;
+    }
+    .kontakt-imejl p:first-of-type {
+      font-size: 0.9em;
     }
   }
   @media screen and (max-width: 540px) {
@@ -548,6 +563,9 @@
     /* FOOTER*/
     footer {
       margin-top: 18%;
+    }
+    .kontakt-imejl {
+      margin-top: -14%;
     }
   }
   @media screen and (max-width: 491px) {
@@ -607,17 +625,17 @@
     height: 58vw;
   }
     #mimaarbid-text {
-      font-size: 10vw;
+      font-size: 9.7vw;
     }
-    #pismo-simbol {
+    #pismo {
       flex-basis: 45%;
       font-size: 20vw;
       margin-left: 4%;
     }
     .kontakt-imejl {
       font-size: 5vw;
-      margin-left: -25%;
-      margin-top: -35px;
+      margin-left: -20%;
+      margin-top: -16%;
     }
     .kontakt-imejl p:last-of-type a {
       font-size: 5.2vw;
@@ -625,7 +643,7 @@
     #facebook {
       font-size: 11vw;
       margin-top: 10%;
-      margin-left: 3%;
+      margin-left: 12%;
     }
   }
   /*MANJI MOBILNI */
@@ -674,6 +692,16 @@
      footer {
        margin-top: 28%;
      }
+     #pismo {
+      margin-top: -14%;
+     }
+     .kontakt-imejl {
+      font-size: 4.5vw;
+      margin-top: -17%;
+     }
+     .kontakt-imejl p:last-of-type {
+      font-size: 5.2vw;
+     }
    }
   @media screen and (max-width: 383px) {
     /* PRVA SEKCIJA Naslovna*/
@@ -684,7 +712,6 @@
     /* DRUGA SEKCIJA: Biografija */
     .biografija {
       height: 181vw;
-      background-position: 0px 22%;
     }
     .biografija img {
       margin-bottom: -33%;
@@ -727,6 +754,10 @@
     }
     .knjige-izdanja p {
       font-size: 6.2vw;
+    }
+    /* FOOTER*/
+    .kontakt-imejl p:last-of-type {
+     font-size: 5.5vw;
     }
   }
   @media screen and (max-width: 340px) {
@@ -772,12 +803,16 @@
     /*FOOTER MOBILNI*/
     footer {
       margin-top: 32.5%;
+      height: 62vw;
     }
-    #pismo-simbol {
-      margin-top: -35px;
+    #pismo {
+      margin-top: -12%;
     }
     .kontakt-imejl {
-      margin-top: -30px;
+      margin-top: -15%;
+    }
+    #facebook {
+      font-size: 12vw;
     }
   }
   @media screen and (max-width: 306px) {

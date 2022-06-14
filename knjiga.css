@@ -292,11 +292,11 @@ footer {
   font-family: "Sacramento", cursive;
   font-size: 4.5vw;
 }
-#pismo-simbol {
+#pismo {
   position: relative;
-  font-family: "Wingdings";
   font-size: 6.7vw;
-  top: -6%;
+  top: -4%;
+  left: -2%;
 }
 .kontakt-imejl {
  display: block;
