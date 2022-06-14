@@ -163,6 +163,6 @@ vrhStrane.addEventListener("mouseover", (e) => {
 e.target.style.backgroundColor = "#ced4da";
 });
 vrhStrane.addEventListener("mouseout", (e) => {
-  e.target.style.backgroundColor = "transparent";
+  e.target.style.backgroundColor = "#f2f2f2";
 })
 
