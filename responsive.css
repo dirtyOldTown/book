@@ -473,8 +473,13 @@
       line-height: 4.1vw;
       margin-left: 6%;
     }
+    #wingdings-a {
+      margin-top: 1%;
+      font-size: 1.7em;
+    }
     #wingdings-b {
       margin-top: -7%;
+      font-size: 1.7em;
     }
     /* TREĆA SEKCIJA: Umetnički-Blok*/
     .umetnički-blok {
@@ -562,6 +567,9 @@
       margin-left: 5%;
       margin-top: 8%
     }
+    #wingdings-a {
+      margin-top: 2%;
+    }
     #wingdings-b {
       margin-top: -8%;
     }
@@ -644,7 +652,7 @@
       margin-top: 8%
     }
     #wingdings-b {
-      margin-top: -8%;
+      margin-top: -10%;
     }
     /* ASIDE: Mima-lično */
     .mima-text {
