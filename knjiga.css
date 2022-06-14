@@ -40,6 +40,10 @@ DRUGA SEKCIJA: Biografija
   text-align: center;
   display: flex;
   align-items: flex-start;
+  background-image: url('slike/mima-prazno.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 102% 30px;
 }
 .biografija img {
   width: 33%;
@@ -47,12 +51,6 @@ DRUGA SEKCIJA: Biografija
   padding-bottom: -3%;
   margin-left: 4.8%;
   height: auto;
-}
-.biografija-text {
-  background-image: url('slike/mima-prazno.png');
-  background-size: 110% 100%;
-  background-position: 45% 0;
-  
 }
 .biografija-text pre {
   width: 100%;
