@@ -168,9 +168,9 @@ vrhStrane.addEventListener("mouseout", (e) => {
 
 // Animacija za 'biografija-text' (I DO NOT BELONG)
 const IDoNotBelong = document.querySelector(".biografija-text pre a");
-IDoNotBelong.addEventListener("mousedown", (e) => {
+IDoNotBelong.addEventListener("mouseover", (e) => {
   e.target.style.color = "brown";
 });
-IDoNotBelong.addEventListener("mouseup", (e) => {
-  e.target.color = "blue";
+IDoNotBelong.addEventListener("mouseout", (e) => {
+  e.target.style.color = "#0000EE";
 });
