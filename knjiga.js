@@ -175,10 +175,8 @@ IDoNotBelong.addEventListener("mouseup", (e) => {
   e.target.color = "blue";
 });
 IDoNotBelong.addEventListener("mouseover", (e) => {
-  e.target.style.fontSize = "1.82vw"
-  e.target.style.marginRight = "10px"
+  e.target.style.fontSize = "1.72vw";
 });
 IDoNotBelong.addEventListener("mouseout", (e) => {
-  e.target.style.fontSize = "1.62vw"
-  e.target.style.marginRight = "0"
-})
+  e.target.style.fontSize = "1.62vw";
+});
