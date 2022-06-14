@@ -59,7 +59,6 @@ DRUGA SEKCIJA: Biografija
   font-size: 1.67vw;
   line-height: 2.1vw;
   font-family: "Marion", serif;
-  color: black;
 }
 #wingdings-a, #wingdings-b {
   opacity: 0.5;
@@ -153,9 +152,9 @@ ASIDE: slika-planina (text)
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Marion";
+  font-family: "Marion", serif;
   color: #3d6877;
-  margin-top: -2%;
+  margin-top: -2px;
   padding-top: 35px;
   font-style: italic;
 }
@@ -190,7 +189,7 @@ KNJIGE
   color: #3d6877;
   padding: 30px 0px 5px;
   margin-top: -6%;
-  font-family: "Monsterrat";
+  font-family: "Monsterrat", sans-serif;
 }
 .knjige > p {
   font-size: 3.3vw;
@@ -244,7 +243,7 @@ ASIDE: Mima-lično
   margin-bottom: -3%;
 }
 #mima-potpis {
-  font-family: "Sacramento";
+  font-family: "Sacramento", cursive;
   font-size: 2.9vw;
   text-align: right;
   margin-left: -8%;
@@ -268,7 +267,7 @@ ASIDE: Mima-lično
   margin-left: 8%;
 }
 .mimaarbid pre {
-  font-family: "Marion";
+  font-family: "Marion", serif;
   font-size: 2vw;
   margin-left: 5%;
   line-height: 2.3vw;
@@ -290,7 +289,7 @@ footer {
 #mimaarbid-text {
   position: relative;
   bottom: -3.2%;
-  font-family:"Sacramento";
+  font-family:"Sacramento", cursive;
   font-size: 4.5vw;
 }
 #pismo-simbol {
@@ -318,7 +317,7 @@ footer {
   border-radius: 2px;
 }
 #facebook {
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-weight: bolder;
   font-size: 3.5vw;
 }
