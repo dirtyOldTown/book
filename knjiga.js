@@ -174,9 +174,3 @@ IDoNotBelong.addEventListener("mousedown", (e) => {
 IDoNotBelong.addEventListener("mouseup", (e) => {
   e.target.color = "blue";
 });
-IDoNotBelong.addEventListener("mouseover", (e) => {
-  e.target.style.fontSize = "1.72vw";
-});
-IDoNotBelong.addEventListener("mouseout", (e) => {
-  e.target.style.fontSize = "1.62vw";
-});
