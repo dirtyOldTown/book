@@ -468,17 +468,16 @@
   @media screen and (max-width: 590px) {
     /* DRUGA SEKCIJA: Biografija */
     .biografija {
-      height: 155vw;
-      background-repeat: repeat;
-      background-position: 0px -22px;
+      height: 154vw;
+      background-position: 0px 10%;
     }
     .biografija img {
-      margin-bottom: -30%;
+      margin-bottom: -28%;
     }
     .biografija-text pre {
       font-size: 3.6vw;
       line-height: 4.1vw;
-      margin-left: 6%;
+      margin-top: 5%;
     }
     /* TREĆA SEKCIJA: Umetnički-Blok*/
     .umetnički-blok {
@@ -555,17 +554,16 @@
     }
      /* DRUGA SEKCIJA: Biografija */
     .biografija {
-      height: 175vw;
-      background-position: 0px 25px;
+      height: 171vw;
+      background-position: 0px 15%;
     }
     .biografija img {
-      margin-bottom: -33%;
+      margin-bottom: -30%;
     }
     .biografija-text pre {
       font-size: 4.2vw;
       line-height: 5vw;
       margin-left: 5%;
-      margin-top: 8%
     }
     /* TREĆA SEKCIJA: Umetnički-Blok*/
     .umetnički-blok {
@@ -635,16 +633,15 @@
     }
      /* DRUGA SEKCIJA: Biografija */
      .biografija {
-      height: 179vw;
-      background-position: 0px 30px;
+      height: 175vw;
+      background-position: 0px 14%;
     }
     .biografija img {
-      margin-bottom: -35%;
+      margin-bottom: -31%;
     }
     .biografija-text pre {
       font-size: 4.5vw;
       line-height: 5.3vw;
-      margin-top: 8%
     }
     /* ASIDE: Mima-lično */
     .mima-text {
@@ -682,16 +679,15 @@
     }
     /* DRUGA SEKCIJA: Biografija */
     .biografija {
-      height: 185vw;
-      background-position: 0px 40px;
+      height: 181vw;
+      background-position: 0px 15%;
     }
     .biografija img {
-      margin-bottom: -38%;
+      margin-bottom: -33%;
     }
     .biografija-text pre {
       font-size: 4.6vw;
       line-height: 5.7vw;
-      margin-top: 9%
     }
     /* TREĆA SEKCIJA: Umetnički-Blok*/
     .umetnički-blok {
@@ -737,15 +733,14 @@
     }
      /* DRUGA SEKCIJA: Biografija */
      .biografija {
-      height: 188vw;
+      height: 180vw;
     }
     .biografija img {
-      margin-bottom: -40%;
+      margin-bottom: -36%;
     }
     .biografija-text pre {
       font-size: 4.87vw;
       line-height: 5.8vw;
-      margin-top: 9%
     }
     /* ASIDE: Mima-lično */
     .mima-text {
