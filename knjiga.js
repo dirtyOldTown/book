@@ -116,7 +116,7 @@ function biografijaPromena(x) {
     Do you think that everything happens 
     for a reason? Do you ever have that 
     feeling of not belonging?
-    <a href="#books">I DO NOT BELONG</a> is a story of a
+    <a href="https://www.goodreads.com/book/show/56043154-i-do-not-belong">I DO NOT BELONG</a> is a story of a
     young girl desperately trying to find 
     herself and her place in the world after
     a tragic event in her life. A chance 
@@ -166,11 +166,3 @@ vrhStrane.addEventListener("mouseout", (e) => {
   e.target.style.backgroundColor = "transparent";
 })
 
-// Animacija za 'biografija-text' (I DO NOT BELONG)
-const IDoNotBelong = document.querySelector(".biografija-text pre a");
-IDoNotBelong.addEventListener("mouseover", (e) => {
-  e.target.style.color = "brown";
-});
-IDoNotBelong.addEventListener("mouseout", (e) => {
-  e.target.style.color = "#0000EE";
-});
