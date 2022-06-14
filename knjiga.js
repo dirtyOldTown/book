@@ -146,7 +146,7 @@ function biografijaPromena(x) {
     Do you believe in destiny?
      Do you think that everything happens for a reason? 
      Do you ever have that feeling of not belonging?
-    <a href="#books">I DO NOT BELONG</a> is a story of a young girl desperately trying 
+    <a href="https://www.goodreads.com/book/show/56043154-i-do-not-belong">I DO NOT BELONG</a> is a story of a young girl desperately trying 
     to find herself and her place in the world after a tragic event 
     in her life. A chance encounter with an elderly American 
     couple and a misunderstanding on their part changes her life forever.

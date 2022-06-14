@@ -63,14 +63,6 @@ DRUGA SEKCIJA: Biografija
   font-family: "Marion", serif;
   color: black;
 }
-.biografija-text a {
-  color: black;
-  text-decoration: none;
-}
-.biografija-text a:hover {
-  color: #222059;
-  text-decoration: underline;
-}
 #wingdings-a, #wingdings-b {
   opacity: 0.5;
   font-family: "Wingdings 2";
