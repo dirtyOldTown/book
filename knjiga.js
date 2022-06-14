@@ -1,5 +1,5 @@
-// #facebook, "email": Animacija (Promena boje: mouseover/mouseout)
 
+// Animacija (Promena boje: mouseover/mouseout) za #facebook, "email"
 const email = document.querySelector(".kontakt-imejl p:last-of-type a");
 const facebook = document.querySelector("#facebook a");
 // Funkcije za animaciju
@@ -26,8 +26,7 @@ facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
 });
 
-// 'navigation-bar': Animacija (Promena boje: mouseover/mouseout)
-
+//  Animacija (Promena boje: mouseover/mouseout) za 'navigation-bar'
 const navBar = document.querySelectorAll(".navigation-bar li a");
 // For-Loop: addEventListener (moouseover)
 for (let i = 0; i < navBar.length; i++) {
@@ -42,17 +41,14 @@ for (let i = 0; i < navBar.length; i++) {
   })
 }
 
-// 'umetnički blok', 'umetnički blok 2':
 // Prelazak na flex-direction: column (matchMedia: max-width: 767px)
-
+// za 'umetnički blok', 'umetnički blok 2':
 const mediaHandler = window.matchMedia('(max-width: 767px)');
 const umetničkiBlok = document.querySelector(".umetnički-blok");
 const umetničkiBlok2 = document.querySelector(".umetnički-blok2");
-
 // Funkcija za mediaHandler (max-width: 767px)
 function promenaTexta(x) {
   if (x.matches) {
-   
     umetničkiBlok.setAttribute("style", "flex-direction: column; align-items: flex-start");
     umetničkiBlok2.setAttribute("style", "flex-direction: column-reverse; align-items: flex-start");
   } else {
@@ -64,11 +60,9 @@ function promenaTexta(x) {
 promenaTexta(mediaHandler);
 mediaHandler.addEventListener("change", promenaTexta)
 
-// 'knjige-izdanja': Promena iz flex-direction: 'row' u flex-direction: 'column' 
-
+// Prelazak na flex-direction: column za 'knjige-izdanja'
 const mediaHandler2 = window.matchMedia('(max-width: 670px)');
 const knjigeIzdanja = document.querySelector(".knjige-izdanja");
-
 // funkcija za mediaHandler2 (max-width: 670px)
 function column(x) {
   if (x.matches) {
@@ -81,8 +75,7 @@ function column(x) {
 column(mediaHandler2);
 mediaHandler2.addEventListener("change", column);
 
-//'mima-arbid': Promena strukture teksta (matchMedia: max-width: 767px)
-
+// Promena strukture teksta (matchMedia: max-width: 767px) za 'mima-arbid'
 const mimaarbidPre = document.querySelector(".mimaarbid pre");
 //  Funkcija za mediaHandler (max-width: 767px)
 function mimaarbidPromena(x) {
@@ -109,12 +102,10 @@ function mimaarbidPromena(x) {
 mimaarbidPromena(mediaHandler);
 mediaHandler.addEventListener("change", mimaarbidPromena);
 
-// 'biografija': Promena strukture teksta (max-width: 590px)
-
+// Promena strukture teksta (max-width: 590px) za 'biografija-text'
 const biografijaText = document.querySelector(".biografija-text");
 const biografijaTextPre = document.querySelector(".biografija-text pre");
 const mediaHandler3 = window.matchMedia('(max-width: 590px)');
-
 // Funkcija za mediaHandeler (max-width: 590px)
 function biografijaPromena(x) {
   if (x.matches) {
@@ -161,18 +152,33 @@ function biografijaPromena(x) {
     <p id="wingdings-b">b</p>
     `
   }
- 
 }
 // Realizovanje funkcije (addEventListener)
 biografijaPromena(mediaHandler3);
 mediaHandler3.addEventListener("change", biografijaPromena);
 
-// "#vrh-strane": Animacija (promena boje)
+// Animacija (promena boje) za "#vrh-strane"
 const vrhStrane = document.querySelector("#vrh-strane a");
-
 vrhStrane.addEventListener("mouseover", (e) => {
 e.target.style.backgroundColor = "#ced4da";
 });
 vrhStrane.addEventListener("mouseout", (e) => {
   e.target.style.backgroundColor = "transparent";
+})
+
+// Animacija za 'biografija-text' (I DO NOT BELONG)
+const IDoNotBelong = document.querySelector(".biografija-text pre a");
+IDoNotBelong.addEventListener("mousedown", (e) => {
+  e.target.style.color = "brown";
+});
+IDoNotBelong.addEventListener("mouseup", (e) => {
+  e.target.color = "blue";
+});
+IDoNotBelong.addEventListener("mouseover", (e) => {
+  e.target.style.fontSize = "1.72vw"
+  e.target.style.marginRight = "10px"
+});
+IDoNotBelong.addEventListener("mouseout", (e) => {
+  e.target.style.fontSize = "1.62vw"
+  e.target.style.marginRight = "0"
 })
