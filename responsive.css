@@ -767,14 +767,14 @@
     }
     /* FOOTER*/
      #mimaarbid-text {
-      margin-left: 1%;
+      margin-left: 0%;
      }
     .kontakt-imejl p:last-of-type {
      font-size: 5.5vw;
      margin-top: 8%;
     }
     #facebook {
-      margin-left: 2%;
+      margin-left: 3%;
     }
   }
   @media screen and (max-width: 340px) {
