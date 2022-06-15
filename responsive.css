@@ -186,7 +186,7 @@
   .mima-text {
     top: -0.5%;
     left: 7.5%;
-    width: 74%;
+    width: 79%;
   }
   .mima-text p{
     font-size: 2.7vw;
@@ -196,14 +196,14 @@
     margin-left: 8%;
   }
   .mima-lično img:last-of-type {
-    width: 44%;
-    margin-left: 48%;
-    margin-bottom: -33%;
+    width: 40%;
+    margin-left: 49%;
+    margin-bottom: -31%;
   }
   #mima-potpis {
-    font-size: 8vw;
-    margin-top: 14%;
-    margin-left: 8%;
+    font-size: 7.6vw;
+    margin-top: 12%;
+    margin-left: 10%;
   }
   /* ASIDE: About */
   .mimaarbid header {
@@ -338,20 +338,20 @@
   .mima-text {
     top: -0.5%;
     left: 7.5%;
-    width: 80%;
+    width: 88%;
   }
   .mima-text p{
     font-size: 3vw;
   }
   .mima-lično img:last-of-type {
-    width: 48%;
-    margin-left: 48%;
+    width: 46%;
+    margin-left: 49%;
     margin-bottom: -35%;
   }
   #mima-potpis {
-    font-size: 9vw;
-    margin-top: 9.5%;
-    margin-left: 6%;
+    font-size: 8.5vw;
+    margin-top: 8%;
+    margin-left: 5%;
   }
   /* ASIDE: About */
   .mimaarbid header {
@@ -430,20 +430,20 @@
   .mima-text {
     top: -3%;
     left: 7.5%;
-    width: 90%;
+    width: 96%;
   }
   .mima-text p{
-    font-size: 3.4vw;
+    font-size: 3.3vw;
   }
   .mima-lično img:last-of-type {
-    width: 46%;
-    margin-left: 48%;
+    width: 45%;
+    margin-left: 49%;
     margin-bottom: -35%;
   }
   #mima-potpis {
     font-size: 8.5vw;
     margin-top: 8%;
-    margin-left: -7%;
+    margin-left: -5%;
   }
   /*FOOTER MOBILNI*/
   footer {
@@ -561,7 +561,7 @@
   }
   /* ASIDE: Mima-lično */
   .mima-text {
-    width: 87%;
+    width: 95%;
   }
   .mima-text p{
     font-size: 3.9vw;
@@ -576,7 +576,7 @@
   }
   #mima-potpis {
     font-size: 10vw;
-    margin-left: -5%;
+    margin-left: -6%;
   }
   /* ASIDE: About */
   #mimaabout {
@@ -714,13 +714,16 @@
   }
   /* ASIDE: Mima-lično */
   .mima-text {
-    width: 87%;
+    width: 84%;
   }
   .mima-text p {
     font-size: 4.4vw;
   }
   .mima-lično img:first-of-type {
     margin-bottom: -20%;
+  }
+  #mima-potpis {
+    margin-left: 4%;
   }
   /* ASIDE: About */
   #mimaabout {
@@ -839,6 +842,9 @@
   }
   .mima-lično img:first-of-type {
     margin-bottom: -24%;
+  }
+  #mima-potpis {
+    margin-left: -1%;
   }
   /* ASIDE: About */
   #mimaabout {
