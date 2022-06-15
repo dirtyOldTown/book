@@ -1,5 +1,6 @@
 
 // Animacija (Promena boje: mouseover/mouseout) za #facebook, "email"
+//----------------------------------------------------------------------
 const email = document.querySelector(".kontakt-imejl p:last-of-type a");
 const facebook = document.querySelector("#facebook a");
 // Funkcije za animaciju
@@ -27,6 +28,7 @@ facebook.addEventListener("mouseout", () => {
 });
 
 //  Animacija (Promena boje: mouseover/mouseout) za 'navigation-bar'
+//----------------------------------------------------------------------
 const navBar = document.querySelectorAll(".navigation-bar li a");
 // For-Loop: addEventListener (moouseover)
 for (let i = 0; i < navBar.length; i++) {
@@ -43,6 +45,7 @@ for (let i = 0; i < navBar.length; i++) {
 
 // Prelazak na flex-direction: column (matchMedia: max-width: 767px)
 // za 'umetnički blok', 'umetnički blok 2':
+//----------------------------------------------------------------------
 const mediaHandler = window.matchMedia('(max-width: 767px)');
 const umetničkiBlok = document.querySelector(".umetnički-blok");
 const umetničkiBlok2 = document.querySelector(".umetnički-blok2");
@@ -156,11 +159,12 @@ biografijaPromena(mediaHandler3);
 mediaHandler3.addEventListener("change", biografijaPromena);
 
 // Animacija (promena boje) za "#vrh-strane"
+//----------------------------------------------------------------------
 const vrhStrane = document.querySelector("#vrh-strane a");
 vrhStrane.addEventListener("mouseover", (e) => {
 e.target.style.backgroundColor = "#ced4da";
 });
-vrhStrane.addEventListener("mouseout", (e) => {
+vrhStrane.addEventListener("mouseup", (e) => {
   e.target.style.backgroundColor = "#f2f2f2";
-})
+});
 
