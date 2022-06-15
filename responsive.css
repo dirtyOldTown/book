@@ -774,7 +774,8 @@
      margin-top: 8%;
     }
     #facebook {
-      margin-left: 3%;
+      margin-left: 6%;
+      margin-top: 9%;
     }
   }
   @media screen and (max-width: 340px) {
@@ -830,7 +831,7 @@
     }
     #facebook {
       font-size: 14vw;
-      margin-left: 6%;
+      margin-top: 8%;
     }
   }
   @media screen and (max-width: 306px) {
