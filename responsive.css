@@ -768,6 +768,7 @@
     /* FOOTER*/
     .kontakt-imejl p:last-of-type {
      font-size: 5.5vw;
+     margin-top: 8%;
     }
   }
   @media screen and (max-width: 340px) {
@@ -816,10 +817,10 @@
       height: 61vw;
     }
     #pismo {
-      margin-top: -17%;
+      margin-top: -16%;
     }
     .kontakt-imejl {
-      margin-top: -20%;
+      margin-top: -19%;
     }
     #facebook {
       font-size: 14vw;
