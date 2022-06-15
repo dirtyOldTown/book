@@ -803,9 +803,6 @@
     font-size: 4.9vw;
   }
   /* ASIDE: Mima-lično */
-  .mima-text {
-    width: 85%;
-  }
   #mima-potpis {
     margin-left: 2%;
   }
@@ -820,6 +817,10 @@
   #facebook {
     margin-left: 6%;
     margin-top: 9%;
+  }
+   /* ASIDE: Mima-lično */
+   .mima-text {
+    width: 95%;
   }
 }
   
@@ -839,10 +840,6 @@
   .biografija-text pre {
     font-size: 4.87vw;
     line-height: 5.8vw;
-  }
-  /* ASIDE: Mima-lično */
-  .mima-text {
-    width: 100%;
   }
   .mima-text p{
     font-size: 4.8vw;
