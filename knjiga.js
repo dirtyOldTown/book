@@ -122,7 +122,7 @@ function biografijaPromena(x) {
     encounter with an elderly 
     American couple and a misunderstanding 
     on their part changes her life forever. 
-    She is catapultedinto a new  world 
+    She is catapulted into a new  world 
     searching for her destiny. 
     Will she ever find it? 
     It's a relatable story inspired 

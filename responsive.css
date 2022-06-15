@@ -766,6 +766,9 @@
       font-size: 6.2vw;
     }
     /* FOOTER*/
+     #mimaarbid-text {
+      margin-left: 1%;
+     }
     .kontakt-imejl p:last-of-type {
      font-size: 5.5vw;
      margin-top: 8%;
