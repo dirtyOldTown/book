@@ -192,7 +192,7 @@ KNJIGE
   padding: 30px 0px 5px;
   margin-top: -6%;
   font-family: "Monsterrat", sans-serif;
-  border-bottom: 5px ridge #f2f2f2;
+  border-bottom: 3px ridge #f2f2f2;
 }
 .knjige > p {
   font-size: 3.2vw;
@@ -257,6 +257,7 @@ ASIDE: Mima-lično
   position: relative;
   top: 15px;
   clear: both;
+  border-top: 3px ridge #f2f2f2; 
 }
 .mimaarbid {
   font-family: "Marion", serif;

@@ -802,6 +802,13 @@
   .knjige-izdanja {
     font-size: 4.9vw;
   }
+  /* ASIDE: Mima-lično */
+  .mima-text {
+    width: 90%;
+  }
+  #mima-potpis {
+    margin-left: 0;
+  }
   /* FOOTER*/
   #mimaarbid-text {
     margin-left: 0%;
@@ -835,7 +842,7 @@
   }
   /* ASIDE: Mima-lično */
   .mima-text {
-    width: 98%;
+    width: 100%;
   }
   .mima-text p{
     font-size: 4.8vw;
@@ -844,7 +851,8 @@
     margin-bottom: -24%;
   }
   #mima-potpis {
-    margin-left: -3%;
+    margin-left: -9%;
+   
   }
   /* ASIDE: About */
   #mimaabout {
