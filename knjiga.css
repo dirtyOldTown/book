@@ -119,6 +119,7 @@ TREĆA SEKCIJA: Umetnički blok
   font-size: 1.7vw;
   display:flex;
   background-color: #f2f2f2;
+  margin-top: -5px;
 }
 .slika-palme2 {
   flex:1.19;
@@ -149,7 +150,7 @@ ASIDE: slika-planina (text)
   padding-bottom: 10px;
 }
 .slika-text p {
-  width: 45%;
+  width: 39%;
   margin-left: auto;
   margin-right: auto;
   font-family: "Marion", serif;
@@ -192,9 +193,9 @@ KNJIGE
   font-family: "Monsterrat", sans-serif;
 }
 .knjige > p {
-  font-size: 3.3vw;
+  font-size: 3.2vw;
   margin-top: -5%;;
-  margin-left: 8%;
+  margin-left: 11%;
   letter-spacing: 2px;
   margin-top: 0;
 }
@@ -202,8 +203,8 @@ KNJIGE
   display: flex;
   justify-content: space-around;
   margin-top: -3.5%;
-  margin-left: -1%;
-  font-size: 2.8vw;
+  margin-left: 2%;
+  font-size: 2.5vw;
 }
 /* 
 ASIDE: Mima-lično 
@@ -339,8 +340,7 @@ footer {
   font-size: 1.62vw;
   background-color: transparent;
   border: 1px solid #adb5bd;
-  font-family:'Arial';
-  font-weight: bold;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 

@@ -1,201 +1,211 @@
 
-/* RESPONSIVE */
-
 /* Prelazak sa Flex-Row na Flex-Column u drugoj sekciji (max-width 1023px) */
 
 @media screen and (max-width: 1023px) {
-    /* PRVA SEKCIJA: Početna */
-    .navigation-bar {
-      margin-left: 56%;
-    }
-    .navigation-bar li a {
-      font-size: 1.3vw;
-    }
-   /* DRUGA SEKCIJA: Biografija */
-    .biografija {
-      background-position: 100% 0px;
-      position: relative;
-      flex-direction: column-reverse;
-      align-items: center;
-      height: 104vw;
-    }
-    .biografija-text {
-      position: absolute;
-      width: 100%;
-      top: 0%;
-    }
-    .biografija-text pre {
-      position: relative;
-      width: 95%;
-      left: -5%;
-      font-size: 2.1vw;
-      line-height: 2.4vw;
-      align-items: center;
-    }
-    .biografija img {
-      position: relative;
-      width: 70%;
-      top: -10%;
-      left: -2%;
-    }
-    #wingdings-a {
-      position:absolute;
-      font-size: 1.3em;
-      text-align: center;
-      margin-left: 47%;
-      margin-top: 3.5%;
-      font-family: "Wingdings 2";
-    }
-    #wingdings-b {
-      position: absolute;
-      margin-top: -4%;
-      font-size: 1.3em;
-      margin-left: 47%;
-      text-align: center;
-      font-family: "Wingdings 2";
-    }
-    /* FOOTER */
-      #vrh-strane a {
-       font-size: 1.2em;
-    }
-    /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
-    .umetnički-blok, .umetnički-blok2, .slika-planina div p {
-      font-size: 1.1em;
-    }
+  /* PRVA SEKCIJA: Početna */
+  .navigation-bar {
+    margin-left: 56%;
   }
-  /* Laptop  (min-width: 1024px) */
-  
-  @media screen and (min-width: 1024px) {
-    /* PRVA SEKCIJA: Početna */
-    .navigation-bar {
-      margin-left: 55%;
-      margin-top: 4.6%;
-    }
-    .navigation-bar li a {
-      padding: 0 20px;
-    }
-  } 
-  /* Laptop Large (min-width: 1200px) */
-  
-  @media screen and (min-width: 1200px) {
-    /* PRVA SEKCIJA: Početna */
-    .navigation-bar {
-      margin-left: 58%;
-      margin-top: 4.6%;
-    }
-    .navigation-bar li a {
-      padding: 0 20px;
-    }
-     /* FOOTER */
-     #vrh-strane {
-      right: 3px;
-      top: -52px;
-    }
-  } 
-  /* Laptop Extra Large (min-width 1400px) */
-  
-  @media screen and (min-width: 1400px) {
-    /* PRVA SEKCIJA: Početna */
-    .navigation-bar {
-      margin-left: 60%;
-    }
-    .navigation-bar li a {
-      padding: 0 22px;
-    }
+  .navigation-bar li a {
+    font-size: 1.3vw;
   }
-  /* Large Screen (min-width: 1900px) */
-  
-  @media screen and (min-width: 1900px) {
-    /* PRVA SEKCIJA: Početna */
-    .navigation-bar {
-      margin-left: 61%;
-    }
-    .navigation-bar li a {
-      padding: 0 30px;
-      font-size: 1.4vw;
-    }
-    /* FOOTER */
-    #vrh-strane {
-      top: -70px;
-    }
+  /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    background-position: 100% 0px;
+    position: relative;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 104vw;
   }
-  /* iPad Air & iPad Mini (min-width: 768px) and (max-width: 900px) */
-  
-  @media screen and (min-width: 768px) and (max-width: 900px) {
-    /* PRVA SEKCIJA: Početna */
-    .navigation-bar {
-      margin-top: 3.8%;
-      margin-left: 53%;
-    }
-    .navigation-bar li a {
-      padding: 0 12px;
-      font-size: 1.4vw;
-    }
-    /* DRUGA SEKCIJA: Biografija */
-    .biografija {
-      height: 110vw;
-    }
-    .biografija-text pre {
-      font-size: 2.3vw;
-      line-height: 2.7vw;
-    }
-    .biografija img {
-      width: 70%;
-      top: -11%;
-    }
-    #wingdings-a {
-      margin-top: 2.9%;
-    }
+  .biografija-text {
+    position: absolute;
+    width: 100%;
+    top: 0%;
   }
-  /* Prelazak sa Flex-Row na Flex-Column u sedmoj sekciji (max-width 900px) */
+  .biografija-text pre {
+    position: relative;
+    width: 95%;
+    left: -5%;
+    font-size: 2.1vw;
+    line-height: 2.4vw;
+    align-items: center;
+  }
+  .biografija img {
+    position: relative;
+    width: 70%;
+    top: -10%;
+    left: -2%;
+  }
+  #wingdings-a {
+    position:absolute;
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: 47%;
+    margin-top: 3.5%;
+    font-family: "Wingdings 2";
+  }
+  #wingdings-b {
+    position: absolute;
+    margin-top: -4%;
+    font-size: 1.3em;
+    margin-left: 47%;
+    text-align: center;
+    font-family: "Wingdings 2";
+  }
+  /* ASIDE: slika-planina (text) */
+  .slika-text p {
+    font-size: 2vw;
+    width: 46%;
+  }
+  /* FOOTER */
+  #vrh-strane a {
+    font-size: 1.2em;
+  }
+  /* TREĆA SEKCIJA, ČETVRTA SEKCIJA, PETA SEKCIJA */
+  .umetnički-blok, .umetnički-blok2, .slika-planina div p {
+    font-size: 1.1em;
+  }
+}
+
+/* Laptop  (min-width: 1024px) */
+
+@media screen and (min-width: 1024px) {
+  /* PRVA SEKCIJA: Početna */
+  .navigation-bar {
+    margin-left: 55%;
+    margin-top: 4.6%;
+  }
+  .navigation-bar li a {
+    padding: 0 20px;
+  }
+} 
+
+/* Laptop Large (min-width: 1200px) */
   
-  @media screen and (max-width: 900px) {
-    /* DRUGA SEKCIJA: Biografija */
-    .biografija {
-      background-position: 102% 18px;
-    }
-    /* ASIDE: slika-planina (text) */
-    .slika-text {
-      font-size: 1.1em;
-    }
-    /* KNJIGE */
-    .knjige > p {
-      margin-left: 8%;
-      font-size: 3.8vw;
-    }
-    .knjige-izdanja {
-      margin-left: 3%;
-      font-size: 3.3vw;
-    }
-    /* ASIDE: Mima-lično */
-    .mima-lično {
-      display: flex;
-      flex-direction: column-reverse;
-      height: 65vw;
-    }
-    .mima-text {
-      top: -0.5%;
-      left: 7.5%;
-      width: 74%;
-    }
-    .mima-text p{
-      font-size: 2.7vw;
-    }
-    .mima-lično img:first-of-type {
-      width: 40%;
-      margin-left: 8%;
-    }
-    .mima-lično img:last-of-type {
-      width: 44%;
-      margin-left: 48%;
-      margin-bottom: -33%;
-    }
-    #mima-potpis {
-      font-size: 8vw;
-      margin-top: 14%;
-      margin-left: 8%;
-    }
-    /* ASIDE: About */
+@media screen and (min-width: 1200px) {
+  /* PRVA SEKCIJA: Početna */
+  .navigation-bar {
+    margin-left: 58%;
+    margin-top: 4.6%;
+  }
+  .navigation-bar li a {
+    padding: 0 20px;
+  }
+  /* FOOTER */
+  #vrh-strane {
+    right: 3px;
+    top: -52px;
+  }
+} 
+
+/* Laptop Extra Large (min-width 1400px) */
+  
+@media screen and (min-width: 1400px) {
+  /* PRVA SEKCIJA: Početna */
+  .navigation-bar {
+    margin-left: 60%;
+  }
+  .navigation-bar li a {
+    padding: 0 22px;
+  }
+}
+
+/* Large Screen (min-width: 1900px) */
+  
+@media screen and (min-width: 1900px) {
+  /* PRVA SEKCIJA: Početna */
+  .navigation-bar {
+    margin-left: 61%;
+  }
+  .navigation-bar li a {
+    padding: 0 30px;
+    font-size: 1.4vw;
+  }
+  /* FOOTER */
+  #vrh-strane {
+    top: -70px;
+  }
+}
+
+/* iPad Air & iPad Mini (min-width: 768px) and (max-width: 900px) */
+  
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  /* PRVA SEKCIJA: Početna */
+  .navigation-bar {
+    margin-top: 3.8%;
+    margin-left: 53%;
+  }
+  .navigation-bar li a {
+    padding: 0 12px;
+    font-size: 1.4vw;
+  }
+  /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 110vw;
+  }
+  .biografija-text pre {
+    font-size: 2.3vw;
+    line-height: 2.7vw;
+  }
+  .biografija img {
+    width: 70%;
+    top: -11%;
+  }
+  #wingdings-a {
+    margin-top: 2.9%;
+  }
+}
+
+/* Prelazak sa Flex-Row na Flex-Column u sedmoj sekciji (max-width 900px) */
+  
+@media screen and (max-width: 900px) {
+  /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    background-position: 102% 18px;
+  }
+  /* ASIDE: slika-planina (text) */
+  .slika-text p {
+    font-size: 2.3vw;
+    width: 53%;
+  }
+  /* KNJIGE */
+  .knjige > p {
+    font-size: 3.6vw;
+    margin-left: 9%;
+  }
+  .knjige-izdanja {
+    margin-left: 2%;
+    font-size: 2.8vw;
+  }
+  /* ASIDE: Mima-lično */
+  .mima-lično {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 65vw;
+  }
+  .mima-text {
+    top: -0.5%;
+    left: 7.5%;
+    width: 74%;
+  }
+  .mima-text p{
+    font-size: 2.7vw;
+  }
+  .mima-lično img:first-of-type {
+    width: 40%;
+    margin-left: 8%;
+  }
+  .mima-lično img:last-of-type {
+    width: 44%;
+    margin-left: 48%;
+    margin-bottom: -33%;
+  }
+  #mima-potpis {
+    font-size: 8vw;
+    margin-top: 14%;
+    margin-left: 8%;
+  }
+  /* ASIDE: About */
   .mimaarbid header {
     font-size: 2.6vw;
     letter-spacing: 2px;
@@ -204,270 +214,278 @@
     font-size: 2.3vw;
     line-height: 2.7vw;
   }
-    /* FOOTER */
-    footer {
-      height: 16vw;
-    }
-    #mimaarbid-text {
-      bottom: -3.2%;
-      font-size: 3em;
-    }
-    #pismo {
-      font-size: 9vw;
-      top: -5%;
-      margin-left: 5%;
-    }
-    .kontakt-imejl {
-       margin-left: -6.3%;
-       font-size: 2.7vw;
-       margin-bottom: 0%;
-    }
-    .kontakt-imejl p:first-of-type {
-      margin-left: 3px;
-      margin-bottom: -6%;
-    }
-    #facebook {
-      font-size: 3em;
-    }
+  /* FOOTER */
+  footer {
+    height: 16vw;
   }
-  /* VEĆI MOBILNI (max-width: 767px) */
+  #mimaarbid-text {
+    bottom: -3.2%;
+    font-size: 3em;
+  }
+  #pismo {
+    font-size: 9vw;
+    top: -5%;
+    margin-left: 5%;
+  }
+  .kontakt-imejl {
+    margin-left: -6.3%;
+    font-size: 2.7vw;
+    margin-bottom: 0%;
+  }
+  .kontakt-imejl p:first-of-type {
+    margin-left: 3px;
+    margin-bottom: -6%;
+  }
+  #facebook {
+    font-size: 3em;
+  }
+}
+
+/* VEĆI MOBILNI (max-width: 767px) */
   
-  @media screen and (max-width: 767px) {
-  
-    /* PRVA SEKCIJA */
-    .mimaarbid-naslovna {
-      background-image: url('slike/mobilni.png');
-      background-size: cover;
-      height: 92.6vw;
-      display: flex;
-    }
-     .navigation-bar {
-      position: relative;
-      left: -5%;
-      margin-left: auto;
-      margin-right: auto;
-      height: auto;
-    }
-    .navigation-bar li a {
-      font-size: 1.25em;
-      color:   #F7F3D6;
-      font-weight: bolder;
-      padding: 0 17px;
-      letter-spacing: 2.3px;
-    }
-    /* DRUGA SEKCIJA: Biografija */
-    .biografija {
-      height: 125vw;
-      background-position: 102% 34px;
-    }
-    .biografija img {
-      position: relative;
-      width: 98%;
-      top: -18%;
-      margin-left: 4%;
-      margin-bottom: -25%;
-    }
-    .biografija-text pre {
-      font-size: 2.7vw;
-      line-height: 3.2vw;
-    }
-    #wingdings-a {
-      margin-top: 2%;
-    }
-    /* TREĆA SEKCIJA: Umetnički-Blok*/
-    .slika-palme {
+@media screen and (max-width: 767px) {
+  /* PRVA SEKCIJA */
+  .mimaarbid-naslovna {
+    background-image: url('slike/mobilni.png');
+    background-size: cover;
+    height: 92.6vw;
+    display: flex;
+  }
+  .navigation-bar {
+    position: relative;
+    left: -5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  .navigation-bar li a {
+      
+    font-size: 1.25em;
+    color:   #F7F3D6;
+    font-weight: bolder;
+    padding: 0 17px;
+    letter-spacing: 2.3px;
+  }
+  /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 125vw;
+    background-position: 102% 34px;
+  }
+  .biografija img {
+    position: relative;
+    width: 98%;
+    top: -18%;
+    margin-left: 4%;
+    margin-bottom: -25%;
+  }
+  .biografija-text pre {
+    font-size: 2.7vw;
+    line-height: 3.2vw;
+  }
+  #wingdings-a {
+    margin-top: 2%;
+  }
+  /* TREĆA SEKCIJA: Umetnički-Blok*/
+  .slika-palme {
       width: 110%;
       margin-top: -1%;
-    }
-    .slika-palme p {
-      text-align: center;
-      margin-left: -10%;
-    }
-    .slika-četkice-text {
-      display: block;
-      width: 68%;
-      font-family: "Marion", serif;
-      position: absolute;
-      margin-left: 30%;
-    }
-    .slika-četkice-text h2 {
-     font-size: 1.2em;
-     color:#222059;
-    }
-    .slika-četkice-text p {
-      font-size: 1.17em;
-      line-height: 1.2em;
-      color: #3d6877;
-     }
-    /* ČETVRTA SEKCIJA: Umetnički-Blok 2 */  
-    .umetnički-blok2 {
-      width: 100%;
-      text-align: center;
-      align-items: center;
-      background-color: transparent;
-    }
-    .slika-palme2 {
-      width: 80%;
-      margin-top: 10px;
-    }
-    .slika-palme3 {
-      width: 100%;
-      margin-top: 10px;
-    }
-    /* ASIDE: slika-planina (text) */
-    .slika-text {
-      background-color: transparent;
-    }
-     /* ASIDE: Mima-lično */
-    .mima-text {
-      top: -0.5%;
-      left: 7.5%;
-      width: 80%;
-    }
-    .mima-text p{
-      font-size: 3vw;
-    }
-    .mima-lično img:last-of-type {
-      width: 48%;
-      margin-left: 48%;
-      margin-bottom: -35%;
-    }
-    #mima-potpis {
-      font-size: 9vw;
-      margin-top: 9.5%;
-      margin-left: 6%;
-    }
-    /* ASIDE: About */
-    .mimaarbid header {
-      font-size: 3.25vw;
-      letter-spacing: 0.3vw;
-      margin-left: 8%;
-    }
-    .mimaarbid pre {
-      font-size: 3.2vw;
-      margin-left: 3.5%;
-      line-height: 3.7vw;
-      margin-top: -0.7%;
-    }
-    /* FOOTER */
-    #mimaarbid-text {
-      font-size: 6.2vw;
-    }
   }
-  /* SREDNJI MOBILNI (max-width: 670px) */
+  .slika-palme p {
+    text-align: center;
+    margin-left: -10%;
+  }
+  .slika-četkice-text {
+    display: block;
+    width: 68%;
+    font-family: "Marion", serif;
+    position: absolute;
+    margin-left: 30%;
+  }
+  .slika-četkice-text h2 {
+    font-size: 1.2em;
+    color:#222059;
+  }
+  .slika-četkice-text p {
+    font-size: 1.17em;
+    line-height: 1.2em;
+    color: #3d6877;
+  }
+  /* ČETVRTA SEKCIJA: Umetnički-Blok 2 */  
+  .umetnički-blok2 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  .slika-palme2 {
+    width: 80%;
+    margin-top: 10px;
+  }
+  .slika-palme3 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  /* ASIDE: slika-planina (text) */
+  .slika-text {
+    background-color: transparent;
+    font-size: 2.3vw;
+  }
+  .slika-text p {
+    font-size: 1.2em;
+    width: 65%;
+  }
+  /* ASIDE: Mima-lično */
+  .mima-text {
+    top: -0.5%;
+    left: 7.5%;
+    width: 80%;
+  }
+  .mima-text p{
+    font-size: 3vw;
+  }
+  .mima-lično img:last-of-type {
+    width: 48%;
+    margin-left: 48%;
+    margin-bottom: -35%;
+  }
+  #mima-potpis {
+    font-size: 9vw;
+    margin-top: 9.5%;
+    margin-left: 6%;
+  }
+  /* ASIDE: About */
+  .mimaarbid header {
+    font-size: 3.25vw;
+    letter-spacing: 0.3vw;
+    margin-left: 8%;
+  }
+  .mimaarbid pre {
+    font-size: 3.2vw;
+    margin-left: 3.5%;
+    line-height: 3.7vw;
+    margin-top: -0.7%;
+  }
+  /* FOOTER */
+  #mimaarbid-text {
+    font-size: 6.2vw;
+  }
+}
+
+/* SREDNJI MOBILNI (max-width: 670px) */
   
-  @media screen and (max-width: 670px) {
-    /* PRVA SEKCIJA Naslovna*/
-    .navigation-bar li a {
-      font-size: 1.2em;
-      padding: 0 17px;
-    }
-    /* DRUGA SEKCIJA: Biografija */
-    .biografija {
-      height: 128vw;
-      background-position: 102% 40px;
-    }
-    .biografija img {
-      margin-bottom: -25%;
-    }
-    .biografija-text pre {
-      font-size: 3vw;
-      line-height: 3.4vw;
-      margin-left: 5%;
-    }
-    #wingdings-b {
-      margin-top: -5%;
-    }
-     /* ASIDE: slika-planina (text) */
-    .slika-text {
-      width: 100%;
-      font-size: 1em;
-    }
-    .slika-text  p {
-      width: 80%;
-    }
-    /*PETA SEKCIJA: Umetnički-Blok 3 */
-    .slika-planina div {
-      text-align: center;
-    }
-    .slika-planina div p{
-    margin-bottom: 0%;
-    }
-    /* KNJIGE */
-    .knjige > p {
-      margin-left: 10%;
-      font-size: 2em;
-      margin-bottom: 2.3%;
-    }
-    .knjige-izdanja {
-      font-size: 1.4em;
-      margin-left: 8%;
-    }
-    .knjige-izdanja p {
-      font-size: 1.3em;
-    }
-    .knjige-izdanja p:last-of-type {
-      margin-top: -2%;
-    }
-    /* ASIDE: Mima-lično */
-    .mima-text {
-      top: -3%;
-      left: 7.5%;
-      width: 90%;
-    }
-    .mima-text p{
-      font-size: 3.4vw;
-    }
-    .mima-lično img:last-of-type {
-      width: 46%;
-      margin-left: 48%;
-      margin-bottom: -35%;
-    }
-    #mima-potpis {
-      font-size: 8.5vw;
-      margin-top: 8%;
-      margin-left: -7%;
-    }
-    /*FOOTER MOBILNI*/
-    footer {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content:center;
-      align-items: flex-start;
-      height: 57vw;
-    }
-    #mimaarbid-text {
-      order: 1;
-      flex-basis: 55%;
-      font-size: 8.7vw;
-    }
-    #pismo {
-      flex-basis: 45%;
-      order: 3;
-      font-size: 17vw;
-      margin-top: -62px;
-    }
-    .kontakt-imejl {
-      flex-basis: 30%;
-      order: 4;
-      font-size: 4.5vw;
-      margin-left: -22%;
-      margin-top: -12%;
-    }
-    .kontakt-imejl p:first-of-type {
-      font-size: 0.74em;
-    }
-    .kontakt-imejl p:last-of-type a {
-      font-size: 4.2vw;
-    }
-    #facebook {
-      flex-basis: 15%;
-      order: 2;
-      font-size: 10vw;
-      margin-top: 10%;
-      margin-left: 4%;
-    }
+@media screen and (max-width: 670px) {
+  /* PRVA SEKCIJA Naslovna*/
+  .navigation-bar li a {
+    font-size: 1.2em;
+    padding: 0 17px;
   }
+  /* DRUGA SEKCIJA: Biografija */
+  .biografija {
+    height: 128vw;
+    background-position: 102% 40px;
+  }
+  .biografija img {
+    margin-bottom: -25%;
+  }
+  .biografija-text pre {
+    font-size: 3vw;
+    line-height: 3.4vw;
+    margin-left: 5%;
+  }
+  #wingdings-b {
+    margin-top: -5%;
+  }
+  /* ASIDE: slika-planina (text) */
+  .slika-text {
+    font-size: 2.4vw;
+  }
+  .slika-text p {
+    font-size: 1.3em;
+    width: 72%;
+  }
+  /*PETA SEKCIJA: Umetnički-Blok 3 */
+  .slika-planina div {
+    text-align: center;
+  }
+  .slika-planina div p{
+    margin-bottom: 0%;
+  }
+  /* KNJIGE */
+  .knjige > p {
+    margin-left: 11%;
+    font-size: 2.2em;
+    margin-bottom: 2.3%;
+  }
+  .knjige-izdanja {
+    font-size: 1.3em;
+    margin-left: 8%;
+  }
+  .knjige-izdanja p {
+    font-size: 1.3em;
+  }
+  .knjige-izdanja p:last-of-type {
+    margin-top: -2%;
+  }
+  /* ASIDE: Mima-lično */
+  .mima-text {
+    top: -3%;
+    left: 7.5%;
+    width: 90%;
+  }
+  .mima-text p{
+    font-size: 3.4vw;
+  }
+  .mima-lično img:last-of-type {
+    width: 46%;
+    margin-left: 48%;
+    margin-bottom: -35%;
+  }
+  #mima-potpis {
+    font-size: 8.5vw;
+    margin-top: 8%;
+    margin-left: -7%;
+  }
+  /*FOOTER MOBILNI*/
+  footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: flex-start;
+    height: 57vw;
+  }
+  #mimaarbid-text {
+    order: 1;
+    flex-basis: 55%;
+    font-size: 8.7vw;
+  }
+  #pismo {
+    flex-basis: 45%;
+    order: 3;
+    font-size: 17vw;
+    margin-top: -62px;
+  }
+  .kontakt-imejl {
+    flex-basis: 30%;
+    order: 4;
+    font-size: 4.5vw;
+    margin-left: -22%;
+    margin-top: -12%;
+  }
+  .kontakt-imejl p:first-of-type {
+    font-size: 0.74em;
+  }
+  .kontakt-imejl p:last-of-type a {
+    font-size: 4.2vw;
+  }
+  #facebook {
+    flex-basis: 15%;
+    order: 2;
+    font-size: 10vw;
+    margin-top: 10%;
+    margin-left: 4%;
+  }
+}
+
   @media screen and (max-width: 590px) {
     /* DRUGA SEKCIJA: Biografija */
     .biografija {
@@ -496,6 +514,15 @@
     .slika-četkice-text p {
       font-size: 1.1em;
       line-height: 1.2em;
+    }
+    /* ASIDE: slika-planina (text) */
+    .slika-text {
+      font-size: 2.6vw;
+    }
+     .slika-text p {
+      font-size: 1.35em;
+      width: 83%;
+      margin-top: -2%;
     }
     /* FOOTER */
     .kontakt-imejl {
@@ -611,22 +638,25 @@
       margin-top: -3%;
     }
     /* ASIDE: slika-planina (text) */
-    .slika-text  p {
-      width: 90%;
-      margin-bottom: 0;
+    .slika-text {
+      font-size: 1em;
+      margin-bottom: -2%
     }
-    /* KNJIGE */
-    .knjige > p {
-      margin-left: 5%;
-      font-size: 2.1em;
+   .slika-text p {
+    font-size: 1.1em;
+    width: 88%;
+    margin-top: -5%;
     }
-    .knjige-izdanja {
-      font-size: 1.3em;
-      margin-left: 5%;
-    }
-    .knjige-izdanja p {
-      font-size: 1.12em;
-    }
+   /* KNJIGE */
+   .knjige > p {
+    font-size: 1.9em;
+  }
+  .knjige-izdanja {
+    font-size: 1.2em;
+  }
+  .knjige-izdanja p {
+    font-size: 1.2em;
+  }
   /*FOOTER MOBILNI*/
   footer {
     height: 63vw;
@@ -675,6 +705,11 @@
       font-size: 4.5vw;
       line-height: 5.3vw;
     }
+    /* ASIDE: slika-planina (text) */
+    .slika-text p {
+      width: 95%;
+    }
+
     /* ASIDE: Mima-lično */
     .mima-text {
       width: 87%;
@@ -748,23 +783,20 @@
     }
     /* ASIDE: slika-planina (text) */
      .slika-text  p {
-      width: 95%;
+      width: 94%;
     }
     /* PETA SEKCIJA: Umetnički-Blok 3 */
     .slika-planina div {
      margin-bottom: -2%;
     }
-    /* KNJIGE */
-    .knjige > p {
-      font-size: 8.1vw;
-    }
-    .knjige-izdanja {
-      font-size: 1.3em;
-      margin-left: 2%;
-    }
-    .knjige-izdanja p {
-      font-size: 6.2vw;
-    }
+   /* KNJIGE */
+   .knjige > p {
+    font-size: 7vw;
+  }
+  .knjige-izdanja {
+    font-size: 4.9vw;
+  }
+  
     /* FOOTER*/
      #mimaarbid-text {
       margin-left: 0%;
