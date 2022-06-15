@@ -167,4 +167,7 @@ e.target.style.backgroundColor = "#ced4da";
 vrhStrane.addEventListener("mouseup", (e) => {
   e.target.style.backgroundColor = "#f2f2f2";
 });
+vrhStrane.addEventListener("mouseout", (e) => {
+  e.target.style.backgroundColor = "#f2f2f2";
+});
 
