@@ -770,6 +770,9 @@
      font-size: 5.5vw;
      margin-top: 8%;
     }
+    #facebook {
+      margin-left: 2%;
+    }
   }
   @media screen and (max-width: 340px) {
     /* PRVA SEKCIJA Naslovna*/
