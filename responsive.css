@@ -500,7 +500,7 @@
     /* FOOTER */
     .kontakt-imejl {
       font-size: 4vw;
-      margin-left: -22%;
+      margin-left: -26%;
       margin-top: -13%;
     }
     .kontakt-imejl p:last-of-type a {
@@ -508,6 +508,13 @@
     }
     .kontakt-imejl p:first-of-type {
       font-size: 0.9em;
+    }
+    #facebook {
+      flex-basis: 19%;
+      order: 2;
+      font-size: 12vw;
+      margin-top: 9%;
+      margin-left: 2%;
     }
   }
   @media screen and (max-width: 540px) {
@@ -622,28 +629,31 @@
     }
   /*FOOTER MOBILNI*/
   footer {
-    height: 58vw;
+    height: 63vw;
   }
     #mimaarbid-text {
-      font-size: 9.7vw;
+      font-size: 10vw;
+      margin-left: 5%;
+
     }
     #pismo {
-      flex-basis: 45%;
-      font-size: 20vw;
-      margin-left: 4%;
+      flex-basis: 43%;
+      font-size: 19vw;
+      margin-left: 6%;
+      margin-top: -16%;
     }
     .kontakt-imejl {
       font-size: 5vw;
       margin-left: -20%;
-      margin-top: -16%;
+      margin-top: -19%;
     }
     .kontakt-imejl p:last-of-type a {
       font-size: 5.2vw;
     }
     #facebook {
-      font-size: 11vw;
+      font-size: 13vw;
       margin-top: 10%;
-      margin-left: 12%;
+      margin-left: 11%;
     }
   }
   /*MANJI MOBILNI */
@@ -803,16 +813,17 @@
     /*FOOTER MOBILNI*/
     footer {
       margin-top: 32.5%;
-      height: 62vw;
+      height: 61vw;
     }
     #pismo {
-      margin-top: -12%;
+      margin-top: -17%;
     }
     .kontakt-imejl {
-      margin-top: -15%;
+      margin-top: -20%;
     }
     #facebook {
-      font-size: 12vw;
+      font-size: 14vw;
+      margin-left: 6%;
     }
   }
   @media screen and (max-width: 306px) {
