@@ -243,7 +243,7 @@ ASIDE: Mima-lično
   margin-bottom: -3%;
 }
 #mima-potpis {
-  font-family: "Satisfy", "Sacramento", cursive;
+  font-family: "Sacramento", "Satisfy", cursive;
   font-size: 3.2vw;
   text-align: right;
   margin-left: -3.9%;
@@ -290,7 +290,7 @@ footer {
 #mimaarbid-text {
   position: relative;
   bottom: -3.2%;
-  font-family: "Satisfy", "Sacramento", cursive;
+  font-family:  "Sacramento", "Satisfy", cursive;
   font-size: 4.5vw;
   font-style: italic;
   font-weight: lighter;
