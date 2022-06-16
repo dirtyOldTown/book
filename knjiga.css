@@ -2,14 +2,11 @@
   box-sizing: border-box;
 }
 body {
-  margin:0;
+  margin: auto;
 }
 /* 
 PRVA SEKCIJA: Početna
 ------------------------------------------------------------ */
-.mimaarbid-naslovna header {
-  display: none;
-}
 .mimaarbid-naslovna {
   background-image: url('slike/pozadina.png');
   background-size: cover;
@@ -196,7 +193,7 @@ KNJIGE
 }
 .knjige > p {
   font-size: 3.2vw;
-  margin-top: -5%;;
+  margin-top: -5%;
   margin-left: 11%;
   letter-spacing: 2px;
   margin-top: 0;

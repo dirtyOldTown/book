@@ -1,4 +1,3 @@
-
 /* Prelazak sa Flex-Row na Flex-Column u drugoj sekciji (max-width 1023px) */
 
 @media screen and (max-width: 1023px) {
@@ -128,8 +127,8 @@
 }
 
 /* iPad Air & iPad Mini (min-width: 768px) and (max-width: 900px) */
-  
-@media screen and (min-width: 768px) and (max-width: 900px) {
+
+  @media screen and (min-width: 768px) and (max-width: 900px) {
   /* PRVA SEKCIJA: Početna */
   .navigation-bar {
     margin-top: 3.8%;
@@ -154,7 +153,7 @@
   #wingdings-a {
     margin-top: 2.9%;
   }
-}
+} 
 
 /* Prelazak sa Flex-Row na Flex-Column u sedmoj sekciji (max-width 900px) */
   
@@ -211,7 +210,7 @@
     letter-spacing: 2px;
   }
   .mimaarbid pre {
-    font-size: 2.3vw;
+    font-size: 2.2vw;
     line-height: 2.7vw;
   }
   /* FOOTER */
@@ -242,7 +241,7 @@
 }
 
 /* VEĆI MOBILNI (max-width: 767px) */
-  
+
 @media screen and (max-width: 767px) {
   /* PRVA SEKCIJA */
   .mimaarbid-naslovna {
@@ -259,7 +258,6 @@
     height: auto;
   }
   .navigation-bar li a {
-      
     font-size: 1.25em;
     color:   #F7F3D6;
     font-weight: bolder;
@@ -287,8 +285,13 @@
   }
   /* TREĆA SEKCIJA: Umetnički-Blok*/
   .slika-palme {
-      width: 110%;
-      margin-top: -1%;
+    width:100%; 
+    height: auto;
+  }
+  .slika-palme img {
+    width: 100%; 
+    height: auto;
+    margin-top: -1%;
   }
   .slika-palme p {
     text-align: center;
@@ -430,7 +433,7 @@
   .mima-text {
     top: -3%;
     left: 7.5%;
-    width: 96%;
+    width: 92%;
   }
   .mima-text p{
     font-size: 3.3vw;
@@ -442,8 +445,8 @@
   }
   #mima-potpis {
     font-size: 8.5vw;
-    margin-top: 8%;
-    margin-left: -5%;
+    margin-top: 10%;
+    margin-left: -1%;
   }
   /*FOOTER MOBILNI*/
   footer {
@@ -524,6 +527,26 @@
     width: 83%;
     margin-top: -2%;
   }
+  /* ASIDE: Mima-lično */
+  .mima-lično {
+   height: 73vw
+  }
+  .mima-text p {
+    font-size: 3.8vw;
+  }
+  .mima-lično img:first-of-type {
+    margin-bottom: 0%;
+  }
+  .mima-lično img:last-of-type {
+    width: 45%;
+    margin-left: 50%;
+    margin-bottom: -33%;
+  }
+  #mima-potpis {
+    font-size: 9.5vw;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
   /* FOOTER */
   .kontakt-imejl {
     font-size: 4vw;
@@ -559,29 +582,9 @@
   .slika-planina div p {
     font-size: 0.9em;
   }
-  /* ASIDE: Mima-lično */
-  .mima-text {
-    width: 95%;
-  }
-  .mima-text p{
-    font-size: 3.9vw;
-  }
-  .mima-lično img:first-of-type {
-    margin-bottom: -10%;
-  }
-  .mima-lično img:last-of-type {
-    width: 44%;
-    margin-left: 48%;
-    margin-bottom: -35%;
-  }
-  #mima-potpis {
-    font-size: 10vw;
-    margin-left: -6%;
-  }
   /* ASIDE: About */
   #mimaabout {
-    top: 13vw;
-    margin-bottom: -5%;
+    padding:0
   }
   .mimaarbid header {
     font-size: 4.3vw;
@@ -597,7 +600,7 @@
   }
   /* FOOTER*/
   footer {
-    margin-top: 18%;
+    margin-top: 2%;
   }
   .kontakt-imejl {
     margin-top: -14%;
@@ -713,9 +716,9 @@
     width: 95%;
   }
   /* ASIDE: Mima-lično */
-  .mima-text {
-    width: 84%;
-  }
+  .mima-lično {
+    height: 64.5vw;
+   }
   .mima-text p {
     font-size: 4.4vw;
   }
@@ -723,7 +726,7 @@
     margin-bottom: -20%;
   }
   #mima-potpis {
-    margin-left: 4%;
+    margin-left: -1%;
   }
   /* ASIDE: About */
   #mimaabout {
@@ -740,7 +743,7 @@
   }
   /* FOOTER*/
   footer {
-    margin-top: 28%;
+    margin-top: 24%;
   }
   #pismo {
     margin-top: -14%;
@@ -804,7 +807,7 @@
   }
   /* ASIDE: Mima-lično */
   #mima-potpis {
-    margin-left: 2%;
+    margin-left: -4%;
   }
   /* FOOTER*/
   #mimaarbid-text {
@@ -844,12 +847,12 @@
   .mima-text p{
     font-size: 4.8vw;
   }
+   /* ASIDE: Mima-lično */
   .mima-lično img:first-of-type {
     margin-bottom: -24%;
   }
   #mima-potpis {
-    margin-left: 0%;
-   
+    margin-left: -5%;
   }
   /* ASIDE: About */
   #mimaabout {
@@ -860,13 +863,13 @@
   }
   .mimaarbid pre {
     font-size: 4.6vw;
-    margin-left: 2.5%;
+    margin-left: 2%;
     line-height: 5.3vw;
     margin-bottom: 10%;
   }
   /*FOOTER MOBILNI*/
   footer {
-    margin-top: 32.5%;
+    margin-top: 28%;
     height: 61vw;
   }
   #pismo {
