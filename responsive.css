@@ -215,6 +215,7 @@
   .mimaarbid pre {
     font-size: 2.2vw;
     line-height: 2.7vw;
+    margin-left: 4.5%;
   }
   /* FOOTER */
   footer {
@@ -298,7 +299,6 @@
   }
   .slika-palme p {
     text-align: center;
-    margin-left: -10%;
   }
   .slika-četkice-text {
     display: block;
