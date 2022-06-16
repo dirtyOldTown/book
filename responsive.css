@@ -183,7 +183,7 @@
     height: 65vw;
   }
   .mima-text {
-    top: -0.5%;
+    top: 0%;
     left: 7.5%;
     width: 79%;
   }
@@ -197,14 +197,17 @@
   .mima-lično img:last-of-type {
     width: 40%;
     margin-left: 49%;
-    margin-bottom: -31%;
+    margin-bottom: -30%;
   }
   #mima-potpis {
     font-size: 7.6vw;
     margin-top: 12%;
-    margin-left: 10%;
+    margin-left: 9%;
   }
   /* ASIDE: About */
+  #mimaabout {
+    top: 2vw;
+  }
   .mimaarbid header {
     font-size: 2.6vw;
     letter-spacing: 2px;

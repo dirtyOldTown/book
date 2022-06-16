@@ -212,7 +212,7 @@ ASIDE: Mima-lično
   position: relative;
   width: 100%;
   float: left;
-  margin-top: 0%;
+  margin-top: 1.7%;
 }
 .mima-lično img:first-of-type {
   width: 27%;
@@ -252,7 +252,7 @@ ASIDE: Mima-lično
 /* ASIDE: About */
 #mimaabout {
   position: relative;
-  top: 17px;
+  top: 1.17vw;
   clear: both;
   border-top: 3px ridge #f2f2f2; 
 }
