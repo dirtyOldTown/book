@@ -791,7 +791,7 @@
   }
   /* ASIDE: Mima-lično */
   #mima-potpis {
-    margin-left: -4%;
+    margin-left: -1%;
   }
   /* FOOTER*/
   #mimaarbid-text {
@@ -841,20 +841,19 @@
   .mima-lično img:first-of-type {
     margin-bottom: -24%;
   }
-  #mima-potpis {
-    margin-left: -5%;
-  }
   /* ASIDE: About */
   #mimaabout {
     top: 27vw;
   }
   .mimaarbid header {
     font-size: 4.7vw;
+    margin-left:1%;
   }
   .mimaarbid pre {
     font-size: 4.6vw;
     line-height: 5.3vw;
     margin-bottom: 10%;
+    margin-left:1%;
   }
   /*FOOTER MOBILNI*/
   footer {
