@@ -807,7 +807,7 @@
   }
    /* ASIDE: Mima-lično */
    .mima-text p {
-    width: 97%;
+    text-align: left;
   }
 }
 @media screen and (max-width: 340px) {
