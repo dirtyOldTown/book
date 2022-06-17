@@ -220,10 +220,10 @@
   #pismo {
     font-size: 9vw;
     top: -5%;
-    margin-left: 5%;
+    margin-left: 3%;
   }
   .kontakt-imejl {
-    margin-left: -6.3%;
+    margin-left: -6%;
     font-size: 2.7vw;
     margin-bottom: 0%;
   }
@@ -456,7 +456,7 @@
     font-size: 8.7vw;
   }
   #pismo {
-    flex-basis: 45%;
+    flex-basis: 40%;
     order: 3;
     font-size: 17vw;
     margin-top: -62px;
@@ -541,7 +541,7 @@
   /* FOOTER */
   .kontakt-imejl {
     font-size: 4vw;
-    margin-left: -26%;
+    margin-left: -20%;
     margin-top: -13%;
   }
   .kontakt-imejl p:last-of-type a {
