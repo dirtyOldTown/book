@@ -22,7 +22,7 @@ PRVA SEKCIJA: Početna
 }
 .navigation-bar li a {
   color:white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat",  Helvetica, sans-serif;
   font-size: 1.2vw;
   padding: 0 16px;
   text-decoration: none;
@@ -117,6 +117,7 @@ TREĆA SEKCIJA: Umetnički blok
   display:flex;
   background-color: #f2f2f2;
   margin-top: -5px;
+  padding-bottom: 5%;
 }
 .slika-palme2 {
   flex:1.19;
@@ -141,21 +142,21 @@ TREĆA SEKCIJA: Umetnički blok
 ASIDE: slika-planina (text)
 ------------------------------------------------------------ */
 .slika-text {
+  width:100%;
   background-color: #f2f2f2;
   text-align: center;
-  font-size: 1.7vw;
+  font-size: 2vw;
   padding-bottom: 10px;
+  line-height: 0.5vw;
+  margin-top: -3%;
 }
 .slika-text p {
-  width: 39%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Marion", serif;
+  font-family: "Marion", "Georgia", serif;
   color: #3d6877;
-  margin-top: -2px;
-  padding-top: 35px;
   font-style: italic;
-  
 }
 /* 
 PETA SEKCIJA: Umetnički-Blok 3 
@@ -237,7 +238,7 @@ ASIDE: Mima-lično
   font-size: 1.85vw;
   color: #3d6877;
   line-height: 120%;
-  font-family: "Marion", serif;
+  font-family: "Marion", "Georgia", serif;
 }
 .mima-text p:first-of-type {
   margin-bottom: -3%;
@@ -257,7 +258,7 @@ ASIDE: Mima-lično
   border-top: 3px ridge #f2f2f2; 
 }
 .mimaarbid {
-  font-family: "Marion", serif;
+  font-family: "Marion", "Georgia", serif;
   background-color: #f2f2f2;
   color: #3d6877;
   padding: 15px 0 7px;
@@ -268,7 +269,7 @@ ASIDE: Mima-lično
   margin-left: 7.7%;
 }
 .mimaarbid pre {
-  font-family: "Marion", serif;
+  font-family: "Marion", "Georgia", serif;
   font-size: 1.9vw;
   margin-left: 5%;
   line-height: 2.3vw;

@@ -53,8 +53,7 @@
   }
   /* ASIDE: slika-planina (text) */
   .slika-text p {
-    font-size: 2vw;
-    width: 46%;
+    font-size: 2.2vw;
   }
   /* FOOTER */
   #vrh-strane a {
@@ -95,10 +94,7 @@
     right: 3px;
     top: -52px;
   }
-} 
-
-/* Laptop Extra Large (min-width 1400px) */
-  
+}
 @media screen and (min-width: 1400px) {
   /* PRVA SEKCIJA: Početna */
   .navigation-bar {
@@ -108,9 +104,6 @@
     padding: 0 22px;
   }
 }
-
-/* Large Screen (min-width: 1900px) */
-  
 @media screen and (min-width: 1900px) {
   /* PRVA SEKCIJA: Početna */
   .navigation-bar {
@@ -164,8 +157,7 @@
   }
   /* ASIDE: slika-planina (text) */
   .slika-text p {
-    font-size: 2.3vw;
-    width: 53%;
+    font-size: 1.3em;
   }
   /* KNJIGE */
   .knjige > p {
@@ -334,11 +326,10 @@
   /* ASIDE: slika-planina (text) */
   .slika-text {
     background-color: transparent;
-    font-size: 2.3vw;
+    font-size: 2.2vw;
   }
   .slika-text p {
-    font-size: 1.2em;
-    width: 65%;
+    font-size: 1.3em;
   }
   /* ASIDE: Mima-lično */
   .mima-text {
@@ -407,7 +398,7 @@
   }
   .slika-text p {
     font-size: 1.3em;
-    width: 72%;
+    width: 100%
   }
   /*PETA SEKCIJA: Umetnički-Blok 3 */
   .slika-planina div {
@@ -491,7 +482,6 @@
     margin-left: 4%;
   }
 }
-
 @media screen and (max-width: 590px) {
   /* DRUGA SEKCIJA: Biografija */
   .biografija {
@@ -527,8 +517,6 @@
   }
   .slika-text p {
     font-size: 1.35em;
-    width: 83%;
-    margin-top: -2%;
   }
   /* ASIDE: Mima-lično */
   .mima-lično {
@@ -570,7 +558,6 @@
     margin-left: 2%;
   }
 }
- 
 @media screen and (max-width: 540px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
@@ -608,7 +595,6 @@
     margin-top: -14%;
   }
 }
- 
 @media screen and (max-width: 491px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
@@ -647,12 +633,9 @@
   /* ASIDE: slika-planina (text) */
   .slika-text {
     font-size: 1em;
-    margin-bottom: -2%
   }
   .slika-text p {
     font-size: 1.1em;
-    width: 88%;
-    margin-top: -5%;
   }
   /* KNJIGE */
   .knjige > p {
@@ -758,7 +741,6 @@
     font-size: 5.2vw;
   }
 }
- 
 @media screen and (max-width: 383px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
@@ -828,7 +810,6 @@
     width: 97%;
   }
 }
-  
 @media screen and (max-width: 340px) {
 /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
@@ -848,6 +829,13 @@
   }
   .mima-text p{
     font-size: 4.8vw;
+  }
+  /* ASIDE: slika-planina (text) */
+  .slika-text {
+    font-size: 4vw;
+  }
+  .slika-text p {
+    font-size: 5.3vw;
   }
    /* ASIDE: Mima-lično */
   .mima-lično img:first-of-type {
@@ -884,11 +872,10 @@
     margin-top: 8%;
   }
 }
-
-  @media screen and (max-width: 306px) {
-    /* PRVA SEKCIJA Naslovna*/
-    .navigation-bar li a {
-      font-size: 0.6em;
-      padding: 0 8px;
-    }
+@media screen and (max-width: 306px) {
+  /* PRVA SEKCIJA Naslovna*/
+  .navigation-bar li a {
+    font-size: 0.6em;
+    padding: 0 8px;
   }
+}

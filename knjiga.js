@@ -64,6 +64,7 @@ promenaTexta(mediaHandler);
 mediaHandler.addEventListener("change", promenaTexta)
 
 // Prelazak na flex-direction: column za 'knjige-izdanja'
+//----------------------------------------------------------------------
 const mediaHandler2 = window.matchMedia('(max-width: 670px)');
 const knjigeIzdanja = document.querySelector(".knjige-izdanja");
 // funkcija za mediaHandler2 (max-width: 670px)
@@ -79,6 +80,7 @@ column(mediaHandler2);
 mediaHandler2.addEventListener("change", column);
 
 // Promena strukture teksta (matchMedia: max-width: 767px) za 'mima-arbid'
+//---------------------------------------------------------------------------
 const mimaarbidPre = document.querySelector(".mimaarbid pre");
 //  Funkcija za mediaHandler (max-width: 767px)
 function mimaarbidPromena(x) {
@@ -106,9 +108,10 @@ mimaarbidPromena(mediaHandler);
 mediaHandler.addEventListener("change", mimaarbidPromena);
 
 // Promena strukture teksta (max-width: 590px) za 'biografija-text'
+//--------------------------------------------------------------------------
+const mediaHandler3 = window.matchMedia('(max-width: 590px)');
 const biografijaText = document.querySelector(".biografija-text");
 const biografijaTextPre = document.querySelector(".biografija-text pre");
-const mediaHandler3 = window.matchMedia('(max-width: 590px)');
 // Funkcija za mediaHandeler (max-width: 590px)
 function biografijaPromena(x) {
   if (x.matches) {
@@ -170,4 +173,29 @@ vrhStrane.addEventListener("mouseup", (e) => {
 vrhStrane.addEventListener("mouseout", (e) => {
   e.target.style.backgroundColor = "#f2f2f2";
 });
+
+// Promena strukture teksta (max-width: 491px) za mobilni
+//----------------------------------------------------------
+const slikaText = document.querySelector(".slika-text");
+const mediaHandler4 = window.matchMedia('(max-width: 491px)');
+//Funkcija za mediaHandler4 (max-width: 491px)
+function slikaTextPromena(x, y) {
+  if (x.matches) {
+    slikaText.innerHTML = `
+    <p>"There's no other trees that I</p>
+    <p>like more than palm trees. Palm trees,</p>
+    <p> beaches and perpetual sunshine..."</p>
+    `
+  } else {
+    slikaText.innerHTML = `
+      <p>"There's no other trees that I like more than palm trees.</p>
+      <p>They are what I see when I close my eyes.</p>
+      <p>Palm trees, beaches and perpetual sunshine..."</p>
+      <p></p>
+      `
+  }
+}
+// Realizovanje funkcije (addEventListener)
+slikaTextPromena(mediaHandler4);
+mediaHandler4.addEventListener("change", slikaTextPromena);
 
