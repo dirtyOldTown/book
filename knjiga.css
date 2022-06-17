@@ -4,30 +4,7 @@
 body {
   margin: auto;
 }
-/* 
-PRVA SEKCIJA: Početna
------------------------------------------------------------- */
-.mimaarbid-naslovna {
-  background-image: url('slike/pozadina.png');
-  background-size: cover;
-  height: 49.2vw;
-  display: flex;
-}
-.navigation-bar {
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
-  margin-top: 4.2%;
-  margin-left: 58%;
-}
-.navigation-bar li a {
-  color:white;
-  font-family: "Montserrat",  Helvetica, sans-serif;
-  font-size: 1.2vw;
-  padding: 0 16px;
-  text-decoration: none;
-  letter-spacing: 2.4px;
-}
+
 /* 
 DRUGA SEKCIJA: Biografija
 ------------------------------------------------------------ */
