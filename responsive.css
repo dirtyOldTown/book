@@ -798,16 +798,12 @@
     margin-left: 0%;
   }
   .kontakt-imejl p:last-of-type {
-    font-size: 5.5vw;
+    font-size: 5.3vw;
     margin-top: 8%;
   }
   #facebook {
     margin-left: 6%;
     margin-top: 9%;
-  }
-   /* ASIDE: Mima-lično */
-   .mima-text p {
-    text-align: left;
   }
 }
 @media screen and (max-width: 340px) {
