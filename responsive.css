@@ -241,7 +241,7 @@
 @media screen and (max-width: 767px) {
   /* PRVA SEKCIJA */
   .mimaarbid-naslovna {
-    background-image: url('slike/mobilni.png');
+    background-image: url('slike/mobilni.jpg');
     background-size: cover;
     height: 92.6vw;
     display: flex;
