@@ -199,3 +199,4 @@ function slikaTextPromena(x) {
 slikaTextPromena(mediaHandler4);
 mediaHandler4.addEventListener("change", slikaTextPromena);
 
+console.log(23)

@@ -303,14 +303,13 @@ footer {
 }
 .kontakt-imejl {
  display: block;
- margin-left: -14.5%;
+ margin-left: -17.5%;
  font-size: 1.9vw;
  margin-bottom: 0%;
 }
 .kontakt-imejl p:first-of-type {
   margin-left: 3px;
-  margin-bottom: -7%;
-  font-size: 0.88em;
+  font-size: 1.5em;
 }
 .kontakt-imejl p:last-of-type a {
   color: white;
