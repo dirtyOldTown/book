@@ -46,7 +46,7 @@ for (let i = 0; i < navBar.length; i++) {
 // Prelazak na flex-direction: column (matchMedia: max-width: 767px)
 // za 'umetnički blok', 'umetnički blok 2':
 //----------------------------------------------------------------------
-const mediaHandler = window.matchMedia('(max-width: 767px)');
+const mediaHandler = window.matchMedia('screen and (max-width: 767px)');
 const umetničkiBlok = document.querySelector(".umetnički-blok");
 const umetničkiBlok2 = document.querySelector(".umetnički-blok2");
 // Funkcija za mediaHandler (max-width: 767px)
@@ -65,7 +65,7 @@ mediaHandler.addEventListener("change", promenaTexta)
 
 // Prelazak na flex-direction: column za 'knjige-izdanja'
 //----------------------------------------------------------------------
-const mediaHandler2 = window.matchMedia('(max-width: 670px)');
+const mediaHandler2 = window.matchMedia('screen and (max-width: 670px)');
 const knjigeIzdanja = document.querySelector(".knjige-izdanja");
 // funkcija za mediaHandler2 (max-width: 670px)
 function column(x) {
@@ -109,7 +109,7 @@ mediaHandler.addEventListener("change", mimaarbidPromena);
 
 // Promena strukture teksta (max-width: 590px) za 'biografija-text'
 //--------------------------------------------------------------------------
-const mediaHandler3 = window.matchMedia('(max-width: 590px)');
+const mediaHandler3 = window.matchMedia('screen and (max-width: 590px)');
 const biografijaText = document.querySelector(".biografija-text");
 const biografijaTextPre = document.querySelector(".biografija-text pre");
 // Funkcija za mediaHandeler (max-width: 590px)
@@ -177,7 +177,7 @@ vrhStrane.addEventListener("mouseout", (e) => {
 // Promena strukture teksta (max-width: 491px) za mobilni
 //----------------------------------------------------------
 const slikaText = document.querySelector(".slika-text");
-const mediaHandler4 = window.matchMedia('(max-width: 491px)');
+const mediaHandler4 = window.matchMedia('screen and (max-width: 491px)');
 //Funkcija za mediaHandler4 (max-width: 491px)
 function slikaTextPromena(x, y) {
   if (x.matches) {
