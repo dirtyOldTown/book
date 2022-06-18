@@ -179,7 +179,7 @@ vrhStrane.addEventListener("mouseout", (e) => {
 const slikaText = document.querySelector(".slika-text");
 const mediaHandler4 = window.matchMedia('screen and (max-width: 491px)');
 //Funkcija za mediaHandler4 (max-width: 491px)
-function slikaTextPromena(x, y) {
+function slikaTextPromena(x) {
   if (x.matches) {
     slikaText.innerHTML = `
     <p>"There's no other trees that I</p>
