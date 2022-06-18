@@ -240,7 +240,7 @@
 
 @media screen and (max-width: 767px) {
   /* PRVA SEKCIJA */
-  .mimaarbid-naslovna {
+ /* .mimaarbid-naslovna {
     background-image: url('slike/mobilni.jpg');
     background-size: cover;
     height: 92.6vw;
@@ -259,7 +259,7 @@
     font-weight: bolder;
     padding: 0 17px;
     letter-spacing: 2.3px;
-  }
+  }*/
   /* DRUGA SEKCIJA: Biografija */
   .biografija {
     height: 125vw;
