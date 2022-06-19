@@ -191,9 +191,9 @@ KNJIGE
   margin-top: -6%;
   font-family: "Monsterrat", sans-serif;
   border-bottom: 3px ridge #f2f2f2;
+  font-size: 3.2vw;
 }
 .knjige > p {
-  font-size: 3.2vw;
   margin-top: -5%;
   margin-left: 11%;
   letter-spacing: 2px;
@@ -205,6 +205,19 @@ KNJIGE
   margin-top: -3.5%;
   margin-left: 2%;
   font-size: 2.3vw;
+}
+.amazon {
+  background-color: white;
+  width: 30vw;
+  border-radius: 5px; 
+  font-size: 1.8vw; 
+  position: absolute; 
+  margin-top: 0%; 
+  left:20%; 
+  padding: 10px;
+  border: 1px solid #3d6877;
+ border-bottom-left-radius: -10px;
+  z-index: 1;
 }
 /* 
 ASIDE: Mima-lično 

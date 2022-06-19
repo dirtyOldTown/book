@@ -17,15 +17,19 @@ facebook.addEventListener("mouseover", () => {
 email.addEventListener("mouseover", () => {
   email.style.color = "purple";
 });
-// addEventListener (mouseout)
+// addEventListener (mouseout i mouseup)
 facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
+});
+facebook.addEventListener("mouseup", () => {
+  belaBoja(facebook)
+});
+email.addEventListener("mouseout", () => {
+  email.style.color = "blue";
 });
 email.addEventListener("mouseup", () => {
   email.style.color = "blue";
 });
-
-
 
 //  Animacija (Promena boje: mouseover/mouseout) za 'navigation-bar'
 //----------------------------------------------------------------------
@@ -199,4 +203,13 @@ function slikaTextPromena(x) {
 slikaTextPromena(mediaHandler4);
 mediaHandler4.addEventListener("change", slikaTextPromena);
 
-console.log(23)
+/* Text-blok za link za amazon (Da se kupi knjiga "I Do Not Belong")
+const knjige = document.querySelector(".knjige");
+const element = document.createElement("p");
+element.classList.add("amazon")
+element.innerHTML = "By Mima's book on Amazon!";
+knjige.insertAdjacentElement ("afterbegin", element);*/
+
+
+
+
