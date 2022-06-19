@@ -1,7 +1,7 @@
 
 // Animacija (Promena boje: mouseover/mouseout) za #facebook, "email"
 //----------------------------------------------------------------------
-const email = document.querySelector(".kontakt-imejl p");
+const email = document.querySelector(".kontakt-imejl p > a");
 const facebook = document.querySelector("#facebook a");
 // Funkcije za animaciju
 function plavaBoja(x) {
@@ -12,12 +12,19 @@ function belaBoja(x) {
   }
 // addEventListener (mouseover)
 facebook.addEventListener("mouseover", () => {
-  plavaBoja(facebook)
+  plavaBoja(facebook);
+});
+email.addEventListener("mouseover", () => {
+  email.style.color = "purple";
 });
 // addEventListener (mouseout)
 facebook.addEventListener("mouseout", () => {
   belaBoja(facebook)
 });
+email.addEventListener("mouseout", () => {
+  email.style.color = "blue";
+});
+
 
 //  Animacija (Promena boje: mouseover/mouseout) za 'navigation-bar'
 //----------------------------------------------------------------------

@@ -315,11 +315,8 @@ footer {
   color: blue;
   text-decoration: underline;
 }
-.kontakt-imejl p a:link {
+.kontakt-imejl p a {
   color: blue;
-}
-.kontakt-imejl p a:hover {
-  color: purple;
 }
 #facebook {
   font-family: "Arial", sans-serif;
