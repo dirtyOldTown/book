@@ -147,7 +147,7 @@ ASIDE: slika-planina (text)
   text-align: center;
   font-size: 2vw;
   padding-bottom: 10px;
-  line-height: 0.5vw;
+  line-height: 0.3vw;
   margin-top: -3%;
 }
 .slika-text p {
@@ -297,26 +297,29 @@ footer {
 }
 #pismo {
   position: relative;
-  font-size: 6.7vw;
+  font-size: 5.7vw;
   top: -4%;
   left: -2%;
+  color: blue
 }
 .kontakt-imejl {
  display: block;
- margin-left: -17.5%;
- font-size: 1.9vw;
- margin-bottom: 0%;
+ margin-left: -20.5%;
+ font-size: 2vw;
+ margin-bottom: -1%;
+ text-decoration: underline;
 }
-.kontakt-imejl p:first-of-type {
-  margin-left: 3px;
-  font-size: 1.5em;
+.kontakt-imejl p a {
+  margin-left: -2%;
+  font-size: 1.2em;
+  color: blue;
+  text-decoration: underline;
 }
-.kontakt-imejl p:last-of-type a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.1em;
-  padding: 4px;
-  border-radius: 2px;
+.kontakt-imejl p a:link {
+  color: blue;
+}
+.kontakt-imejl p a:hover {
+  color: purple;
 }
 #facebook {
   font-family: "Arial", sans-serif;

@@ -220,16 +220,12 @@
   #pismo {
     font-size: 9vw;
     top: -5%;
-    margin-left: 3%;
+    margin-left: 2.5%;
   }
   .kontakt-imejl {
-    margin-left: -6%;
+    margin-left: -13.4%;
     font-size: 2.7vw;
-    margin-bottom: 0%;
-  }
-  .kontakt-imejl p:first-of-type {
-    margin-left: 3px;
-    margin-bottom: -6%;
+    margin-bottom: -2%;
   }
   #facebook {
     font-size: 3em;
@@ -366,6 +362,9 @@
   #mimaarbid-text {
     font-size: 6.2vw;
   }
+  .kontakt-imejl {
+    margin-left: -12%;
+  }
 }
 
 /* SREDNJI MOBILNI (max-width: 670px) */
@@ -453,26 +452,24 @@
   #mimaarbid-text {
     order: 1;
     flex-basis: 55%;
-    font-size: 8.7vw;
+    font-size: 9vw;
   }
   #pismo {
-    flex-basis: 40%;
+    flex-basis: 30%;
     order: 3;
     font-size: 17vw;
-    margin-top: -62px;
+    margin-top: -11%;
+    margin-left:14%
   }
   .kontakt-imejl {
-    flex-basis: 30%;
+    flex-basis: 34%;
     order: 4;
-    font-size: 4.5vw;
-    margin-left: -22%;
-    margin-top: -12%;
+    font-size: 4.4vw;
+    margin-left: -5%;
+    margin-top: -14%;
   }
-  .kontakt-imejl p:first-of-type {
-    font-size: 0.74em;
-  }
-  .kontakt-imejl p:last-of-type a {
-    font-size: 4.2vw;
+  .kontakt-imejl p {
+    font-size: 1.15em;
   }
   #facebook {
     flex-basis: 15%;
@@ -539,17 +536,6 @@
     margin-top: 0%;
   }
   /* FOOTER */
-  .kontakt-imejl {
-    font-size: 4vw;
-    margin-left: -20%;
-    margin-top: -13%;
-  }
-  .kontakt-imejl p:last-of-type a {
-    font-size: 4.4vw;
-  }
-  .kontakt-imejl p:first-of-type {
-    font-size: 0.9em;
-  }
   #facebook {
     flex-basis: 19%;
     order: 2;
@@ -591,10 +577,7 @@
   footer {
     margin-top: 2%;
   }
-  .kontakt-imejl {
-    margin-top: -14%;
-  }
-}
+} 
 @media screen and (max-width: 491px) {
   /* PRVA SEKCIJA Naslovna*/
   .navigation-bar li a {
@@ -656,18 +639,20 @@
     margin-left: 5%;
   }
   #pismo {
-    flex-basis: 43%;
+    flex-basis: 30%;
     font-size: 19vw;
-    margin-left: 6%;
+    margin-left: 12%;
     margin-top: -16%;
   }
   .kontakt-imejl {
-    font-size: 5vw;
-    margin-left: -20%;
+    flex-basis: 34%;
+    order: 4;
+    font-size: 4.9vw;
+    margin-left: -5%;
     margin-top: -19%;
   }
-  .kontakt-imejl p:last-of-type a {
-    font-size: 5.2vw;
+  .kontakt-imejl p {
+    font-size: 1.18em;
   }
   #facebook {
     font-size: 13vw;
@@ -730,16 +715,6 @@
   footer {
     margin-top: 24%;
   }
-  #pismo {
-    margin-top: -14%;
-  }
-  .kontakt-imejl {
-    font-size: 4.5vw;
-    margin-top: -17%;
-  }
-  .kontakt-imejl p:last-of-type {
-    font-size: 5.2vw;
-  }
 }
 @media screen and (max-width: 383px) {
   /* PRVA SEKCIJA Naslovna*/
@@ -797,9 +772,8 @@
   #mimaarbid-text {
     margin-left: 0%;
   }
-  .kontakt-imejl p:last-of-type {
+  .kontakt-imejl {
     font-size: 5.3vw;
-    margin-top: 8%;
   }
   #facebook {
     margin-left: 6%;
