@@ -308,15 +308,13 @@ footer {
  font-size: 2vw;
  margin-bottom: -1%;
  text-decoration: underline;
+ color: blue;
 }
 .kontakt-imejl p a {
   margin-left: -2%;
   font-size: 1.2em;
   color: blue;
   text-decoration: underline;
-}
-.kontakt-imejl p a {
-  color: blue;
 }
 #facebook {
   font-family: "Arial", sans-serif;
