@@ -216,7 +216,9 @@ KNJIGE
   top: 15%; 
   left:20%; 
   padding: 10px;
-  border: 1px solid #3d6877;
+  border: 1px solid;
+  border-color: transparent transparent black transparent;
+  border-bottom: 50% solid;
   z-index: 1;
 }
 /* 

@@ -203,12 +203,12 @@ function slikaTextPromena(x) {
 slikaTextPromena(mediaHandler4);
 mediaHandler4.addEventListener("change", slikaTextPromena);
 
-/* Text-blok za link za amazon (Da se kupi knjiga "I Do Not Belong")
+// Text-blok za link za amazon (Da se kupi knjiga "I Do Not Belong")
 const knjige = document.querySelector(".knjige");
 const element = document.createElement("p");
 element.classList.add("amazon")
 element.innerHTML = "By Mima's book on Amazon!";
-knjige.insertAdjacentElement ("afterbegin", element);*/
+knjige.insertAdjacentElement ("afterbegin", element);
 
 
 
