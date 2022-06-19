@@ -218,7 +218,8 @@ KNJIGE
   padding: 10px;
   border: 1px solid;
   border-color: transparent transparent black transparent;
-  border-bottom: 50% solid;
+  border-bottom-width: 10px;
+  border-bottom-left-radius: 100%;
   z-index: 1;
 }
 /* 
