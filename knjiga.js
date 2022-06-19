@@ -5,7 +5,7 @@ const email = document.querySelector(".kontakt-imejl p > a");
 const facebook = document.querySelector("#facebook a");
 // Funkcije za animaciju
 function plavaBoja(x) {
-  x.setAttribute("style", "color: blue")
+  x.setAttribute("style", "color:#8ecae6")
 }
 function belaBoja(x) {
     x.setAttribute("style", "color: white; background-color: transparent")
@@ -15,7 +15,7 @@ facebook.addEventListener("mouseover", () => {
   plavaBoja(facebook);
 });
 email.addEventListener("mouseover", () => {
-  email.style.color = "purple";
+  email.style.color = "blue";
 });
 // addEventListener (mouseout i mouseup)
 facebook.addEventListener("mouseout", () => {
@@ -25,10 +25,10 @@ facebook.addEventListener("mouseup", () => {
   belaBoja(facebook)
 });
 email.addEventListener("mouseout", () => {
-  email.style.color = "blue";
+  email.style.color = "#8ecae6";
 });
 email.addEventListener("mouseup", () => {
-  email.style.color = "blue";
+  email.style.color = "#8ecae6";
 });
 
 //  Animacija (Promena boje: mouseover/mouseout) za 'navigation-bar'
@@ -203,12 +203,12 @@ function slikaTextPromena(x) {
 slikaTextPromena(mediaHandler4);
 mediaHandler4.addEventListener("change", slikaTextPromena);
 
-/* Text-blok za link za amazon (Da se kupi knjiga "I Do Not Belong")
+// Text-blok za link za amazon (Da se kupi knjiga "I Do Not Belong")
 const knjige = document.querySelector(".knjige");
 const element = document.createElement("p");
 element.classList.add("amazon")
 element.innerHTML = "By Mima's book on Amazon!";
-knjige.insertAdjacentElement ("afterbegin", element);*/
+knjige.insertAdjacentElement ("afterbegin", element);
 
 
 

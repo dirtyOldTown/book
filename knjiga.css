@@ -3,7 +3,7 @@
 }
 body {
   margin: auto;
-  font-display: optional;
+  font-display: swap;
 }
     /*PRVA SEKCIJA: Početna
 ------------------------------------------------------------ */
@@ -192,6 +192,7 @@ KNJIGE
   font-family: "Monsterrat", sans-serif;
   border-bottom: 3px ridge #f2f2f2;
   font-size: 3.2vw;
+  position: relative;
 }
 .knjige > p {
   margin-top: -5%;
@@ -212,11 +213,10 @@ KNJIGE
   border-radius: 5px; 
   font-size: 1.8vw; 
   position: absolute; 
-  margin-top: 0%; 
+  top: 15%; 
   left:20%; 
   padding: 10px;
   border: 1px solid #3d6877;
- border-bottom-left-radius: -10px;
   z-index: 1;
 }
 /* 
@@ -313,7 +313,7 @@ footer {
   font-size: 5.7vw;
   top: -4%;
   left: -2%;
-  color: blue
+  color: #8ecae6;
 }
 .kontakt-imejl {
  display: block;
@@ -321,12 +321,12 @@ footer {
  font-size: 2vw;
  margin-bottom: -1%;
  text-decoration: underline;
- color: blue;
+ color: #8ecae6;
 }
 .kontakt-imejl p a {
   margin-left: -2%;
   font-size: 1.2em;
-  color: blue;
+  color: #8ecae6;;
   text-decoration: underline;
 }
 #facebook {
