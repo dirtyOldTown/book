@@ -24,6 +24,10 @@ facebook.addEventListener("mouseout", () => {
 email.addEventListener("mouseout", () => {
   email.style.color = "blue";
 });
+// addEventListener (mouseoup)
+email.addEventListener("mouseoup", () => {
+  email.style.color = "blue";
+});
 
 
 //  Animacija (Promena boje: mouseover/mouseout) za 'navigation-bar'
