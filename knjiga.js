@@ -208,8 +208,20 @@ const knjige = document.querySelector(".knjige");
 const element = document.createElement("p");
 element.classList.add("amazon")
 element.innerHTML = "By Mima's book on Amazon!";
-knjige.insertAdjacentElement ("afterbegin", element);*/
+knjige.insertAdjacentElement ("afterbegin", element);
 
+// Tooltip za BOOKS
+const amazon = document.querySelector(".amazon");
+const tooltip = document.getElementById("tooltip");
+// addEventListener(mouseover)
+tooltip.addEventListener("mouseover", () => {
+  amazon.style.visibility = "visible";
+});
+// addEventListener (mouseout)
+tooltip.addEventListener("mouseout", () => {
+  amazon.style.visibility = "hidden";
+  });
+*/
 
 
 

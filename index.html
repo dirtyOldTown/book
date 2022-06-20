@@ -9,7 +9,8 @@
   <meta name="description" content="Introduction of Mima Arbid's writing and artistic opus" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="knjiga.css" />
-  <link rel="preload" href="slike/pozadina.jpg" as="image" />
+  <link rel="preload" href="slike/pozadina.jpg" as="image" media="(min-width: 768px)" />
+  <link rel="preload" href="slike/mobilni.jpg" as="image" media="(max-width: 767px)" />
   <link rel="stylesheet" href="responsive.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento" />
@@ -84,9 +85,9 @@
   </div>
 </article>
 <article id="books" class="knjige">
-  <p>BOOKS</p>
+  <p id="belong">BOOKS</p>
   <div class="knjige-izdanja">
-    <p><em>- First book : <a href="https://www.amazon.com/Mima-Arbid/e/B09TTP9TL4%3Fref=dbs_a_mng_rwt_scns_share">I DO NOT BELONG</a></em></p>
+    <p id="tooltip"><em>- First book : <a href="https://www.amazon.com/Mima-Arbid/e/B09TTP9TL4%3Fref=dbs_a_mng_rwt_scns_share">I DO NOT BELONG</a></em></p>
     <p><em>- Working on the second book</em></p>
   </div>
  </article>

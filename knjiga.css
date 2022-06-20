@@ -191,12 +191,12 @@ KNJIGE
   margin-top: -6%;
   font-family: "Monsterrat", sans-serif;
   border-bottom: 3px ridge #f2f2f2;
-  font-size: 3.2vw;
+  font-size: 3.3vw;
   position: relative;
 }
 .knjige > p {
   margin-top: -5%;
-  margin-left: 11%;
+  margin-left: 9%;
   letter-spacing: 2px;
   margin-top: 0;
 }
@@ -204,23 +204,31 @@ KNJIGE
   display: flex;
   justify-content: space-around;
   margin-top: -3.5%;
-  margin-left: 2%;
-  font-size: 2.3vw;
+  margin-left: 1%;
+  font-size: 2.5vw;
 }
 .amazon {
-  background-color: white;
-  width: 30vw;
-  border-radius: 5px; 
-  font-size: 1.8vw; 
+  width: 18%;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 8px; 
+  font-size: 1.6vw; 
   position: absolute; 
-  top: 15%; 
-  left:20%; 
+  top: 19%; 
+  left:21.3%; 
   padding: 10px;
-  border: 1px solid;
-  border-color: transparent transparent black transparent;
-  border-bottom-width: 10px;
-  border-bottom-left-radius: 100%;
   z-index: 1;
+  visibility: visible;
+  text-align: center;
+}
+.amazon::after {
+  content: "";
+  border-style: solid;
+  border-width: 7px;
+  border-color: #6c757d transparent  transparent transparent;
+  position: absolute;
+  top: 99%;
+  left: 20%;
 }
 /* 
 ASIDE: Mima-lično 
