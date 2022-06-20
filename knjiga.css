@@ -194,6 +194,9 @@ KNJIGE
   font-size: 3.3vw;
   position: relative;
 }
+#belong {
+width: max-content;
+}
 .knjige > p {
   margin-top: -5%;
   margin-left: 9%;
@@ -209,7 +212,7 @@ KNJIGE
 }
 .amazon {
   width: 18%;
-  background-color: #6c757d;
+  background-color: #9375b3;
   color: white;
   border-radius: 8px; 
   font-size: 1.6vw; 
@@ -218,14 +221,14 @@ KNJIGE
   left:21.3%; 
   padding: 10px;
   z-index: 1;
-  visibility: visible;
+  visibility: hidden;
   text-align: center;
 }
 .amazon::after {
   content: "";
   border-style: solid;
   border-width: 7px;
-  border-color: #6c757d transparent  transparent transparent;
+  border-color: #9375b3 transparent  transparent transparent;
   position: absolute;
   top: 99%;
   left: 20%;

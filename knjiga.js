@@ -203,7 +203,7 @@ function slikaTextPromena(x) {
 slikaTextPromena(mediaHandler4);
 mediaHandler4.addEventListener("change", slikaTextPromena);
 
-/* Text-blok za link za amazon (Da se kupi knjiga "I Do Not Belong")
+// Text-blok za link za amazon (Da se kupi knjiga "I Do Not Belong")
 const knjige = document.querySelector(".knjige");
 const element = document.createElement("p");
 element.classList.add("amazon")
@@ -212,16 +212,16 @@ knjige.insertAdjacentElement ("afterbegin", element);
 
 // Tooltip za BOOKS
 const amazon = document.querySelector(".amazon");
-const tooltip = document.getElementById("tooltip");
+const tooltip = document.getElementById("belong");
 // addEventListener(mouseover)
-tooltip.addEventListener("mouseover", () => {
+tooltip.addEventListener("mousemove", () => {
   amazon.style.visibility = "visible";
 });
 // addEventListener (mouseout)
 tooltip.addEventListener("mouseout", () => {
   amazon.style.visibility = "hidden";
   });
-*/
+
 
 
 
