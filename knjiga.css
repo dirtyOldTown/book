@@ -196,6 +196,7 @@ KNJIGE
 }
 #belong {
 width: max-content;
+cursor:default
 }
 .knjige > p {
   margin-top: -5%;
