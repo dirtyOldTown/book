@@ -13,7 +13,7 @@ body {
   height: 49.2vw;
   display: flex;
 }
-.mimaarbid-naslovna header {
+#glava {
   display: none;
 }
 .navigation-bar {
