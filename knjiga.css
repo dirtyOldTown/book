@@ -201,7 +201,7 @@ KNJIGE
 width: max-content;
 cursor: default;
 }
-.knjige > p {
+.knjige > p, #belong {
   margin-top: -5%;
   margin-left: 9%;
   letter-spacing: 2px;
