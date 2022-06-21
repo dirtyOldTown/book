@@ -214,6 +214,7 @@
     font-size: 2.2vw;
     line-height: 2.7vw;
     margin-left: 4.5%;
+    margin-top: -4%;
   }
   /* FOOTER */
   footer {
@@ -358,12 +359,13 @@
     font-size: 3.25vw;
     letter-spacing: 0.3vw;
     margin-left: 8%;
+    margin-top: -3%;
   }
   .mimaarbid pre {
     font-size: 3.2vw;
     margin-left: 3.5%;
     line-height: 3.7vw;
-    margin-top: -1%;
+    margin-top: -5%;
   }
   /* FOOTER */
   #mimaarbid-text {
@@ -584,12 +586,14 @@
     font-size: 4.3vw;
     letter-spacing: 0.3vw;
     margin-left: 8%;
+    margin-top: -4%;
   }
   .mimaarbid pre {
     font-size: 3.9vw;
     margin-left: 2.5%;
     line-height: 4.5vw;
     margin-bottom: 8%;
+    margin-top: -6%;
   }
   /* FOOTER*/
   footer {
@@ -734,12 +738,13 @@
   }
   .mimaarbid header {
     font-size: 4.6vw;
+    margin-top: -6%;
   }
   .mimaarbid pre {
     font-size: 4.4vw;
     margin-left: 1.7%;
     line-height: 5.3vw;
-    margin-top: -1.5%;
+    margin-top: -7%;
   }
   /* FOOTER*/
   footer {

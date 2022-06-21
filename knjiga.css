@@ -13,7 +13,7 @@ body {
   height: 49.2vw;
   display: flex;
 }
-header {
+.mimaarbid-naslovna header {
   display: none;
 }
 .navigation-bar {
@@ -298,13 +298,14 @@ ASIDE: Mima-lično
   font-size: 2.2vw;
   letter-spacing: 2px;
   margin-left: 7.7%;
+  margin-top: -2%;
 }
 .mimaarbid pre {
   font-family: "Marion", "Georgia", serif;
   font-size: 1.9vw;
   margin-left: 5%;
   line-height: 2.3vw;
-  margin-top: -1%;
+  margin-top: -3.6%;
 }
 /* 
 FOOTER 
