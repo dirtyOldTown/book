@@ -160,6 +160,9 @@
     font-size: 1.3em;
   }
   /* KNJIGE */
+  .knjige {
+    padding: 25px 0 5px;
+  }
   #belong {
     font-size: 3.9vw;
     margin-left: 7%;
@@ -167,6 +170,7 @@
   .knjige-izdanja  {
     margin-left: 2%;
     font-size: 3vw;
+    margin-top: -4.5%;
   }
   .amazon {
     width: 20.3%;
@@ -425,6 +429,7 @@
   .knjige-izdanja {
     font-size: 1.2em;
     margin-left: 8%;
+    margin-top: -3%;
   }
   .knjige-izdanja p {
     font-size: 1em;
@@ -794,11 +799,15 @@
     margin-bottom: -2%;
   }
   /* KNJIGE */
+  .knjige {
+    padding: 20px 0 5px;
+  }
   #belong {
     font-size: 7vw;
   }
   .knjige-izdanja {
     font-size: 4.5vw;
+    margin-top: -4%;
   }
   .amazon {
     width: 44%;
