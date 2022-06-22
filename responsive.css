@@ -811,7 +811,7 @@
   }
   .amazon {
     width: 44%;
-    top: 4%;
+    top: 3%;
     font-size: 3.9vw;
   }
   /* ASIDE: Mima-lično */
@@ -860,10 +860,7 @@
   .slika-text p {
     font-size: 5.3vw;
   }
-  /* KNJIGE */
-  .amazon {
-    width: 43%;
-  }
+ 
    /* ASIDE: Mima-lično */
   .mima-lično img:first-of-type {
     margin-bottom: -24%;
