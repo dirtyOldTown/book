@@ -217,7 +217,7 @@ cursor: default;
 }
 .amazon {
   width: 18%;
-  background-color: #9375b3;
+  background-color: #497c8f;
   color: white;
   border-radius: 8px; 
   font-size: 1.6vw; 
@@ -233,7 +233,7 @@ cursor: default;
   content: "";
   border-style: solid;
   border-width: 7px;
-  border-color: #9375b3 transparent  transparent transparent;
+  border-color: #497c8f transparent  transparent transparent;
   position: absolute;
   top: 99%;
   left: 20%;
