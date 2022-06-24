@@ -7,7 +7,7 @@ body {
     /*PRVA SEKCIJA: Početna
 ------------------------------------------------------------ */
 .mimaarbid-naslovna {
-  background-image: url('slike/pozadinaW.webp');
+  background-image: url('slike/pozadina.jpg');
   background-size: cover;
   height: 49.2vw;
   display: flex;
