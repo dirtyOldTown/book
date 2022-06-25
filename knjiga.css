@@ -8,7 +8,7 @@ body {
   font-family: 'Sacramento';
   src: url('Sacramento.ttf');
   font-display: swap;
-}         
+} 
     /*PRVA SEKCIJA: Početna
 ------------------------------------------------------------ */
 .mimaarbid-naslovna {
@@ -338,7 +338,6 @@ footer {
   top: -4%;
   left: -2%;
   color: #8ecae6;
-  font-family: 'pismo';
 }
 .kontakt-imejl {
  display: block;
