@@ -4,6 +4,10 @@
 body {
   margin: auto;
 }
+@font-face {
+  font-family: 'Sacramento';
+  src: url('Sacramento.ttf');
+}
     /*PRVA SEKCIJA: Početna
 ------------------------------------------------------------ */
 .mimaarbid-naslovna {
