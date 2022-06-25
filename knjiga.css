@@ -7,6 +7,7 @@ body {
 @font-face {
   font-family: 'Sacramento';
   src: url('Sacramento.ttf');
+  font-display: swap;
 }
     /*PRVA SEKCIJA: Početna
 ------------------------------------------------------------ */
@@ -280,7 +281,6 @@ ASIDE: Mima-lično
 }
 #mima-potpis {
   font-family: "Sacramento", cursive;
-  font-display: swap;
   font-size: 3.2vw;
   text-align: right;
   margin-left: -3.9%;
@@ -331,11 +331,9 @@ footer {
   font-family: "Sacramento", cursive;
   font-size: 4.5vw;
   font-weight: lighter;
-  font-display: swap;
 }
 #pismo {
   position: relative;
-  font-display: swap;
   font-size: 5.7vw;
   top: -4%;
   left: -2%;
