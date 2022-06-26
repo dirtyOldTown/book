@@ -65,6 +65,19 @@ tooltip.addEventListener("mouseout", () => {
   amazon.style.visibility = "hidden";
   });
 
+  // Animacija (promena boje) za "#vrh-strane"
+//----------------------------------------------------------------------
+const vrhStrane = document.querySelector("#vrh-strane a");
+vrhStrane.addEventListener("mouseover", (e) => {
+e.target.style.backgroundColor = "#ced4da";
+});
+vrhStrane.addEventListener("mouseup", (e) => {
+  e.target.style.backgroundColor = "#f2f2f2";
+});
+vrhStrane.addEventListener("mouseout", (e) => {
+  e.target.style.backgroundColor = "#f2f2f2";
+});
+
 
 
 

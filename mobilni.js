@@ -116,19 +116,6 @@ function biografijaPromena(x) {
 biografijaPromena(mediaHandler3);
 mediaHandler3.addEventListener("change", biografijaPromena);
 
-// Animacija (promena boje) za "#vrh-strane"
-//----------------------------------------------------------------------
-const vrhStrane = document.querySelector("#vrh-strane a");
-vrhStrane.addEventListener("mouseover", (e) => {
-e.target.style.backgroundColor = "#ced4da";
-});
-vrhStrane.addEventListener("mouseup", (e) => {
-  e.target.style.backgroundColor = "#f2f2f2";
-});
-vrhStrane.addEventListener("mouseout", (e) => {
-  e.target.style.backgroundColor = "#f2f2f2";
-});
-
 // Promena strukture teksta (max-width: 491px) za mobilni
 //----------------------------------------------------------
 const slikaText = document.querySelector(".slika-text");
