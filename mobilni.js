@@ -8,11 +8,9 @@ const mimaNaslovna = document.querySelector(".mimaarbid-naslovna");
 // Funkcija za mediaHandler (max-width: 767px)
 function promenaTexta(x) {
   if (x.matches) {
-    mimaNaslovna.setAttribute("style", "background-image: url('slike/mobilniW.webp'); background-size: cover;height: 92.6vw; display: flex;")
     umetničkiBlok.setAttribute("style", "flex-direction: column; align-items: flex-start");
     umetničkiBlok2.setAttribute("style", "flex-direction: column-reverse; align-items: flex-start");
   } else {
-    mimaNaslovna.setAttribute("style", "background-image: url('slike/pozadinaW.webp'); background-size: cover; height: 49.2vw; display: flex;")
     umetničkiBlok.setAttribute("style", "flex-direction: row; align-items: flex-end");
     umetničkiBlok2.setAttribute("style", "flex-direction: row; align-items: flex-end");
   }

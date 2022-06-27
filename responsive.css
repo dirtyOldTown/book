@@ -249,12 +249,12 @@
 
 @media screen and (max-width: 767px) {
   /* PRVA SEKCIJA */
-  /*.mimaarbid-naslovna {
+  .mimaarbid-naslovna {
     background-image: url('slike/mobilniW.webp');
     background-size: cover;
     height: 92.6vw;
     display: flex;
-  }*/
+  }
   .navigation-bar {
     position: relative;
     left: -5%;
