@@ -338,6 +338,7 @@ footer {
   top: -3%;
   left: -2%;
   color: #8ecae6;
+  font-display: swap;
 }
 .kontakt-imejl {
  display: block;
