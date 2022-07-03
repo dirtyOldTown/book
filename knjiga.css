@@ -126,6 +126,9 @@ TREĆA SEKCIJA: Umetnički blok
   margin-top: -5px;
   padding-bottom: 5%;
 }
+.umetnički-blok2 h3 {
+  display: none;
+}
 .slika-palme2 {
   flex:1.19;
   margin-top: 60px;
@@ -172,6 +175,9 @@ PETA SEKCIJA: Umetnički-Blok 3
   background-color: #3d6877;
   padding: 8.5% 9%;
   color: white;
+}
+.slika-planina h3 {
+  display: none;
 }
 .slika-planina div {
   width: 100%;
@@ -269,22 +275,21 @@ ASIDE: Mima-lično
   color: #3d6877;
   line-height: 126%;
 } 
-.mima-text p {
+.mima-text div {
   width: 92%;
   font-size: 1.85vw;
   color: #3d6877;
   line-height: 120%;
   font-family: "Marion", "Georgia", serif;
 }
-.mima-text p:first-of-type {
-  margin-bottom: -3%;
+.mima-text div p {
+  margin-top: 1%;;
 }
 #mima-potpis {
   font-family: "Sacramento", cursive;
   font-size: 3.2vw;
-  text-align: right;
-  margin-left: -3.9%;
-  margin-top: 12%;
+  margin-top: 10%;
+  margin-left: 78%;
 }
 /* ASIDE: About */
 #mimaabout {
@@ -307,7 +312,7 @@ ASIDE: Mima-lično
 }
 .mimaarbid pre {
   font-family: "Marion", "Georgia", serif;
-  font-size: 1.9vw;
+  font-size: 2vw;
   margin-left: 5%;
   line-height: 2.3vw;
   margin-top: -4%;

@@ -185,12 +185,15 @@
     height: 65vw;
   }
   .mima-text {
-    top: 0%;
+    top: 4%;
     left: 7.5%;
     width: 79%;
   }
-  .mima-text p{
+  .mima-text div {
     font-size: 2.7vw;
+  }
+  .mima-text div p {
+    margin-top: 1%;;
   }
   .mima-lično img:first-of-type {
     width: 40%;
@@ -203,8 +206,8 @@
   }
   #mima-potpis {
     font-size: 7.6vw;
-    margin-top: 12%;
-    margin-left: 9%;
+    margin-top: 16%;
+    margin-left: 84%;
   }
   /* ASIDE: About */
   #mimaabout {
@@ -216,7 +219,7 @@
     margin-top: -3%;
   }
   .mimaarbid pre {
-    font-size: 2.2vw;
+    font-size: 2.3vw;
     line-height: 2.7vw;
     margin-left: 4.5%;
     margin-top: -4.5%;
@@ -342,12 +345,15 @@
   }
   /* ASIDE: Mima-lično */
   .mima-text {
-    top: -0.5%;
+    top: 2.5%;
     left: 7.5%;
     width: 88%;
   }
-  .mima-text p{
+  .mima-text div {
     font-size: 3vw;
+  }
+  .mima-text div p {
+    margin-top: 2%;
   }
   .mima-lično img:last-of-type {
     width: 46%;
@@ -356,8 +362,8 @@
   }
   #mima-potpis {
     font-size: 8.5vw;
-    margin-top: 8%;
-    margin-left: 5%;
+    margin-top: 14%;
+    margin-left: 78%;
   }
   /* ASIDE: About */
   .mimaarbid header {
@@ -445,12 +451,15 @@
   }
   /* ASIDE: Mima-lično */
   .mima-text {
-    top: -3%;
+    top: 2%;
     left: 7.5%;
     width: 92%;
   }
-  .mima-text p{
-    font-size: 3.3vw;
+  .mima-text div {
+    font-size: 3.2vw;
+  }
+  .mima-text div p {
+    margin-top: 1%;
   }
   .mima-lično img:last-of-type {
     width: 45%;
@@ -460,7 +469,7 @@
   #mima-potpis {
     font-size: 8.5vw;
     margin-top: 10%;
-    margin-left: -1%;
+    margin-left: 72%;
   }
   /*FOOTER MOBILNI*/
   footer {
@@ -544,7 +553,7 @@
   .mima-lično {
    height: 73vw
   }
-  .mima-text p {
+  .mima-text div {
     font-size: 3.8vw;
   }
   .mima-lično img:first-of-type {
@@ -557,7 +566,7 @@
   }
   #mima-potpis {
     font-size: 9.5vw;
-    margin-left: 0%;
+    margin-left: 70%;
     margin-top: 0%;
   }
   /* FOOTER */
@@ -728,15 +737,13 @@
   .mima-lično {
     height: 64.5vw;
    }
-  .mima-text p {
+  .mima-text div {
     font-size: 4.4vw;
   }
   .mima-lično img:first-of-type {
     margin-bottom: -20%;
   }
-  #mima-potpis {
-    margin-left: -1%;
-  }
+ 
   /* ASIDE: About */
   #mimaabout {
     top: 23vw;
@@ -813,10 +820,6 @@
     top: 3%;
     font-size: 3.9vw;
   }
-  /* ASIDE: Mima-lično */
-  #mima-potpis {
-    margin-left: -1%;
-  }
   /* FOOTER*/
   #mimaarbid-text {
     margin-left: 0%;
@@ -849,7 +852,7 @@
     font-size: 4.87vw;
     line-height: 5.8vw;
   }
-  .mima-text p{
+  .mima-text  div {
     font-size: 4.8vw;
   }
   /* ASIDE: slika-planina (text) */
